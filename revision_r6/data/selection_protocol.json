@@ -1,0 +1,10 @@
+{
+  "registered_on": "2026-10-30",
+  "status": "BEFORE_NEW_SCHEDULING_OUTCOMES",
+  "source_revision": "249866063b3bd7d6a36a5a55d4202c1f683099c0",
+  "families": ["1000genome", "cycles", "seismology", "soykb"],
+  "selection": "In each family, traverse JSON files in ascending (Git blob size, path); validate the original schema and source bytes; retain the first three eligible directed graph structures with 20..400 tasks, positive communication and no isomorphism to any prior v1/v2 graph or previously retained R6 graph. Inspect no scheduling outcome. Stop once three are retained per family; if insufficient, report incomplete rather than change the rule.",
+  "raw_size_limit_bytes": 2000000,
+  "comparison_scope": "Twelve new measured workflow instances from four previously unused families, structural holdout conditional on source corpus and eligibility; not a random sample of all workflows.",
+  "scheduling_runs_before_selection": 0
+}

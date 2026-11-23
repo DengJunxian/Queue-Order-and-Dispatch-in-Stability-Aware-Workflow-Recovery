@@ -1,0 +1,192 @@
+{
+  "status": "SELECTED",
+  "source_fingerprint": {
+    "sha256": "dc9e2adb2bbe837ab5030be20002b768e40fa7d6db2612905f0f578166cb606d",
+    "files": {
+      "sail/model.py": "2c81aef0da00d06b50d390b9fee7d5a9037a24c2e52727aa2cb743f7c0019348",
+      "sail/data.py": "2ee7c76fc0eddedaf6d3b81b64d677742725d7086522c27ab1efca9997712591",
+      "sail/simulator.py": "2e9048b184ef3eee90dc9c34706d48f869f11197222d8b0845acf44011b8f922",
+      "sail/forecast.py": "97016554367ef1183b8ea978eefa77cdf324ae6b6055b979a8b994d8029595e7",
+      "sail/scheduling.py": "4559a5a72ce865db56a124174292194bbb47b0577b39106268ebf05f8cacdd99",
+      "sail/policy.py": "214db46fc662be8121bf034bcb217c38899db9ea35b18f49a72ba25bf082be91",
+      "sail/metrics.py": "f6e1bd356b4f3df6ced8c84189400a4a3c712bd2fc7a2b5f92a63504e5e8ef5e",
+      "sail/audit.py": "90c49307c6daf677de96f6635cde0d5f42da2c25ff46a8b7f80c51cb18965d65",
+      "sail/development.py": "7cc4cc9d35fb6bfbba0a08ea5c17a9c622aea4dbfcdcdb578490b68e80939633",
+      "configs/p3_execution_spec.json": "79bf977343fc812e4b15dc1fb9ca496220c51e40e926440c9535ea6626cf7050",
+      "docs/protocol_v1.md": "124e0b6b56580daa2d102eb4f5c0073a4c593a5f30a6caa58265ab499f921f06"
+    },
+    "dependencies": {
+      "numpy": "2.3.5",
+      "networkx": "3.6.1",
+      "pytest": "9.0.3"
+    }
+  },
+  "development_scenarios": 480,
+  "validation_scenarios": 240,
+  "shortlist": [
+    {
+      "lambda": 1,
+      "mu": 0,
+      "scenario_count": 480,
+      "cdi_defined_scenarios": 468,
+      "cdi": 2.4079247020276364,
+      "awct": 62.549936376561966,
+      "churn": 0.005185523742588817,
+      "relative_awct_vs_B2": 0.024021480418592867,
+      "feasible": true,
+      "selected_hops": {
+        "0": 416,
+        "1": 37,
+        "2": 27
+      }
+    },
+    {
+      "lambda": 3,
+      "mu": 0,
+      "scenario_count": 480,
+      "cdi_defined_scenarios": 468,
+      "cdi": 2.4079247020276364,
+      "awct": 62.549936376561966,
+      "churn": 0.005185523742588817,
+      "relative_awct_vs_B2": 0.024021480418592867,
+      "feasible": true,
+      "selected_hops": {
+        "0": 416,
+        "1": 37,
+        "2": 27
+      }
+    },
+    {
+      "lambda": 1,
+      "mu": 0.01,
+      "scenario_count": 480,
+      "cdi_defined_scenarios": 468,
+      "cdi": 2.4079247020276364,
+      "awct": 62.5499526419137,
+      "churn": 0.005113684662129047,
+      "relative_awct_vs_B2": 0.02402175520475055,
+      "feasible": true,
+      "selected_hops": {
+        "0": 417,
+        "1": 36,
+        "2": 27
+      }
+    }
+  ],
+  "validation_table": [
+    {
+      "lambda": 1,
+      "mu": 0,
+      "scenario_count": 240,
+      "cdi_defined_scenarios": 237,
+      "cdi": 1.9236932552772128,
+      "awct": 62.01980891668625,
+      "churn": 0.005426657935680272,
+      "relative_awct_vs_B2": 0.020981892908126513,
+      "feasible": true,
+      "selected_hops": {
+        "1": 18,
+        "0": 210,
+        "2": 12
+      }
+    },
+    {
+      "lambda": 3,
+      "mu": 0,
+      "scenario_count": 240,
+      "cdi_defined_scenarios": 237,
+      "cdi": 1.9236644870724684,
+      "awct": 62.02273592658815,
+      "churn": 0.0050599912690136055,
+      "relative_awct_vs_B2": 0.021033014138888497,
+      "feasible": true,
+      "selected_hops": {
+        "1": 18,
+        "0": 211,
+        "2": 11
+      }
+    },
+    {
+      "lambda": 1,
+      "mu": 0.01,
+      "scenario_count": 240,
+      "cdi_defined_scenarios": 237,
+      "cdi": 1.9236932552772128,
+      "awct": 62.019826424700746,
+      "churn": 0.0051157126620484305,
+      "relative_awct_vs_B2": 0.02098218235265523,
+      "feasible": true,
+      "selected_hops": {
+        "1": 17,
+        "0": 211,
+        "2": 12
+      }
+    }
+  ],
+  "selected": {
+    "lambda": 3,
+    "mu": 0,
+    "scenario_count": 240,
+    "cdi_defined_scenarios": 237,
+    "cdi": 1.9236644870724684,
+    "awct": 62.02273592658815,
+    "churn": 0.0050599912690136055,
+    "relative_awct_vs_B2": 0.021033014138888497,
+    "feasible": true,
+    "selected_hops": {
+      "1": 18,
+      "0": 211,
+      "2": 11
+    }
+  },
+  "development_coverage": {
+    "A": {
+      "scenarios": 160,
+      "F_nonempty": 104,
+      "P_nonempty": 154,
+      "nondegenerate_plans": 37,
+      "effective_protected_nondegenerate": 37
+    },
+    "B": {
+      "scenarios": 160,
+      "F_nonempty": 112,
+      "P_nonempty": 159,
+      "nondegenerate_plans": 52,
+      "effective_protected_nondegenerate": 51
+    },
+    "C": {
+      "scenarios": 160,
+      "F_nonempty": 100,
+      "P_nonempty": 155,
+      "nondegenerate_plans": 37,
+      "effective_protected_nondegenerate": 37
+    },
+    "single_plan_fraction": 0.7375
+  },
+  "validation_coverage": {
+    "A": {
+      "scenarios": 80,
+      "F_nonempty": 53,
+      "P_nonempty": 77,
+      "nondegenerate_plans": 14,
+      "effective_protected_nondegenerate": 14
+    },
+    "B": {
+      "scenarios": 80,
+      "F_nonempty": 62,
+      "P_nonempty": 80,
+      "nondegenerate_plans": 29,
+      "effective_protected_nondegenerate": 29
+    },
+    "C": {
+      "scenarios": 80,
+      "F_nonempty": 48,
+      "P_nonempty": 80,
+      "nondegenerate_plans": 11,
+      "effective_protected_nondegenerate": 11
+    },
+    "single_plan_fraction": 0.775
+  },
+  "formal_test_outcomes_used": false,
+  "rule": "development top three feasible, then independent validation CDI/AWCT/Churn/lambda/mu order"
+}

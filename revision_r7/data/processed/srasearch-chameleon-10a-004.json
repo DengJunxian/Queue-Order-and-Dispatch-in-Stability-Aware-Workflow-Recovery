@@ -1,0 +1,991 @@
+{
+  "tasks": [
+    {
+      "id": "bowtie2-build_ID0000001",
+      "name": "bowtie2-build_ID0000001",
+      "runtime_seconds": 15.985
+    },
+    {
+      "id": "bowtie2_ID0000003",
+      "name": "bowtie2_ID0000003",
+      "runtime_seconds": 61.705
+    },
+    {
+      "id": "bowtie2_ID0000005",
+      "name": "bowtie2_ID0000005",
+      "runtime_seconds": 40.062
+    },
+    {
+      "id": "bowtie2_ID0000007",
+      "name": "bowtie2_ID0000007",
+      "runtime_seconds": 77.388
+    },
+    {
+      "id": "bowtie2_ID0000009",
+      "name": "bowtie2_ID0000009",
+      "runtime_seconds": 37.697
+    },
+    {
+      "id": "bowtie2_ID0000011",
+      "name": "bowtie2_ID0000011",
+      "runtime_seconds": 55.14
+    },
+    {
+      "id": "bowtie2_ID0000013",
+      "name": "bowtie2_ID0000013",
+      "runtime_seconds": 9.366
+    },
+    {
+      "id": "bowtie2_ID0000015",
+      "name": "bowtie2_ID0000015",
+      "runtime_seconds": 56.898
+    },
+    {
+      "id": "bowtie2_ID0000017",
+      "name": "bowtie2_ID0000017",
+      "runtime_seconds": 61.598
+    },
+    {
+      "id": "bowtie2_ID0000019",
+      "name": "bowtie2_ID0000019",
+      "runtime_seconds": 67.856
+    },
+    {
+      "id": "bowtie2_ID0000021",
+      "name": "bowtie2_ID0000021",
+      "runtime_seconds": 58.225
+    },
+    {
+      "id": "fasterq-dump_ID0000002",
+      "name": "fasterq-dump_ID0000002",
+      "runtime_seconds": 986.529
+    },
+    {
+      "id": "fasterq-dump_ID0000004",
+      "name": "fasterq-dump_ID0000004",
+      "runtime_seconds": 752.463
+    },
+    {
+      "id": "fasterq-dump_ID0000006",
+      "name": "fasterq-dump_ID0000006",
+      "runtime_seconds": 1626.361
+    },
+    {
+      "id": "fasterq-dump_ID0000008",
+      "name": "fasterq-dump_ID0000008",
+      "runtime_seconds": 1118.694
+    },
+    {
+      "id": "fasterq-dump_ID0000010",
+      "name": "fasterq-dump_ID0000010",
+      "runtime_seconds": 1431.237
+    },
+    {
+      "id": "fasterq-dump_ID0000012",
+      "name": "fasterq-dump_ID0000012",
+      "runtime_seconds": 5.701
+    },
+    {
+      "id": "fasterq-dump_ID0000014",
+      "name": "fasterq-dump_ID0000014",
+      "runtime_seconds": 1267.669
+    },
+    {
+      "id": "fasterq-dump_ID0000016",
+      "name": "fasterq-dump_ID0000016",
+      "runtime_seconds": 1463.248
+    },
+    {
+      "id": "fasterq-dump_ID0000018",
+      "name": "fasterq-dump_ID0000018",
+      "runtime_seconds": 1680.421
+    },
+    {
+      "id": "fasterq-dump_ID0000020",
+      "name": "fasterq-dump_ID0000020",
+      "runtime_seconds": 1305.96
+    },
+    {
+      "id": "merge_ID0000022",
+      "name": "merge_ID0000022",
+      "runtime_seconds": 0.132
+    }
+  ],
+  "edges": [
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000003",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000005",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000007",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000009",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000011",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000013",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000015",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000017",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000019",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2-build_ID0000001",
+      "target": "bowtie2_ID0000021",
+      "file_ids": [
+        "reference.1.bt2",
+        "reference.2.bt2",
+        "reference.3.bt2",
+        "reference.4.bt2",
+        "reference.rev.1.bt2",
+        "reference.rev.2.bt2"
+      ],
+      "bytes": 8526566,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000003",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3177999.bam",
+        "SRR3177999.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000005",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR2089244.bam",
+        "SRR2089244.bam.bai"
+      ],
+      "bytes": 341,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000007",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3150357.bam",
+        "SRR3150357.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000009",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3177918.bam",
+        "SRR3177918.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000011",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3152146.bam",
+        "SRR3152146.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000013",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR1103622.bam",
+        "SRR1103622.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000015",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3150802.bam",
+        "SRR3150802.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000017",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3177957.bam",
+        "SRR3177957.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000019",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR1918774.bam",
+        "SRR1918774.bam.bai"
+      ],
+      "bytes": 340,
+      "original_dependency": true
+    },
+    {
+      "source": "bowtie2_ID0000021",
+      "target": "merge_ID0000022",
+      "file_ids": [
+        "SRR3177772.bam",
+        "SRR3177772.bam.bai"
+      ],
+      "bytes": 338,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000002",
+      "target": "bowtie2_ID0000003",
+      "file_ids": [
+        "SRR3177999_1.fastq",
+        "SRR3177999_2.fastq"
+      ],
+      "bytes": 1522908848,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000004",
+      "target": "bowtie2_ID0000005",
+      "file_ids": [
+        "SRR2089244_1.fastq",
+        "SRR2089244_2.fastq"
+      ],
+      "bytes": 1039917404,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000006",
+      "target": "bowtie2_ID0000007",
+      "file_ids": [
+        "SRR3150357_1.fastq",
+        "SRR3150357_2.fastq"
+      ],
+      "bytes": 2072503488,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000008",
+      "target": "bowtie2_ID0000009",
+      "file_ids": [
+        "SRR3177918_1.fastq",
+        "SRR3177918_2.fastq"
+      ],
+      "bytes": 1010141488,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000010",
+      "target": "bowtie2_ID0000011",
+      "file_ids": [
+        "SRR3152146_1.fastq",
+        "SRR3152146_2.fastq"
+      ],
+      "bytes": 1573220368,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000012",
+      "target": "bowtie2_ID0000013",
+      "file_ids": [
+        "SRR1103622_1.fastq",
+        "SRR1103622_2.fastq"
+      ],
+      "bytes": 2148984,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000014",
+      "target": "bowtie2_ID0000015",
+      "file_ids": [
+        "SRR3150802_1.fastq",
+        "SRR3150802_2.fastq"
+      ],
+      "bytes": 1216127408,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000016",
+      "target": "bowtie2_ID0000017",
+      "file_ids": [
+        "SRR3177957_1.fastq",
+        "SRR3177957_2.fastq"
+      ],
+      "bytes": 1645500128,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000018",
+      "target": "bowtie2_ID0000019",
+      "file_ids": [
+        "SRR1918774_1.fastq",
+        "SRR1918774_2.fastq"
+      ],
+      "bytes": 2179255888,
+      "original_dependency": true
+    },
+    {
+      "source": "fasterq-dump_ID0000020",
+      "target": "bowtie2_ID0000021",
+      "file_ids": [
+        "SRR3177772_1.fastq",
+        "SRR3177772_2.fastq"
+      ],
+      "bytes": 1309411088,
+      "original_dependency": true
+    }
+  ],
+  "files": [
+    {
+      "id": "SRR1103622.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000013"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR1103622.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000013"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR1103622_1.fastq",
+      "bytes": 1074492,
+      "producers": [
+        "fasterq-dump_ID0000012"
+      ],
+      "consumers": [
+        "bowtie2_ID0000013"
+      ]
+    },
+    {
+      "id": "SRR1103622_2.fastq",
+      "bytes": 1074492,
+      "producers": [
+        "fasterq-dump_ID0000012"
+      ],
+      "consumers": [
+        "bowtie2_ID0000013"
+      ]
+    },
+    {
+      "id": "SRR1918774.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000019"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR1918774.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000019"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR1918774_1.fastq",
+      "bytes": 1089627944,
+      "producers": [
+        "fasterq-dump_ID0000018"
+      ],
+      "consumers": [
+        "bowtie2_ID0000019"
+      ]
+    },
+    {
+      "id": "SRR1918774_2.fastq",
+      "bytes": 1089627944,
+      "producers": [
+        "fasterq-dump_ID0000018"
+      ],
+      "consumers": [
+        "bowtie2_ID0000019"
+      ]
+    },
+    {
+      "id": "SRR2089244.bam",
+      "bytes": 317,
+      "producers": [
+        "bowtie2_ID0000005"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR2089244.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000005"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR2089244_1.fastq",
+      "bytes": 519958702,
+      "producers": [
+        "fasterq-dump_ID0000004"
+      ],
+      "consumers": [
+        "bowtie2_ID0000005"
+      ]
+    },
+    {
+      "id": "SRR2089244_2.fastq",
+      "bytes": 519958702,
+      "producers": [
+        "fasterq-dump_ID0000004"
+      ],
+      "consumers": [
+        "bowtie2_ID0000005"
+      ]
+    },
+    {
+      "id": "SRR3150357.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000007"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3150357.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000007"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3150357_1.fastq",
+      "bytes": 1036251744,
+      "producers": [
+        "fasterq-dump_ID0000006"
+      ],
+      "consumers": [
+        "bowtie2_ID0000007"
+      ]
+    },
+    {
+      "id": "SRR3150357_2.fastq",
+      "bytes": 1036251744,
+      "producers": [
+        "fasterq-dump_ID0000006"
+      ],
+      "consumers": [
+        "bowtie2_ID0000007"
+      ]
+    },
+    {
+      "id": "SRR3150802.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000015"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3150802.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000015"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3150802_1.fastq",
+      "bytes": 608063704,
+      "producers": [
+        "fasterq-dump_ID0000014"
+      ],
+      "consumers": [
+        "bowtie2_ID0000015"
+      ]
+    },
+    {
+      "id": "SRR3150802_2.fastq",
+      "bytes": 608063704,
+      "producers": [
+        "fasterq-dump_ID0000014"
+      ],
+      "consumers": [
+        "bowtie2_ID0000015"
+      ]
+    },
+    {
+      "id": "SRR3152146.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000011"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3152146.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000011"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3152146_1.fastq",
+      "bytes": 786610184,
+      "producers": [
+        "fasterq-dump_ID0000010"
+      ],
+      "consumers": [
+        "bowtie2_ID0000011"
+      ]
+    },
+    {
+      "id": "SRR3152146_2.fastq",
+      "bytes": 786610184,
+      "producers": [
+        "fasterq-dump_ID0000010"
+      ],
+      "consumers": [
+        "bowtie2_ID0000011"
+      ]
+    },
+    {
+      "id": "SRR3177772.bam",
+      "bytes": 314,
+      "producers": [
+        "bowtie2_ID0000021"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177772.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000021"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177772_1.fastq",
+      "bytes": 654705544,
+      "producers": [
+        "fasterq-dump_ID0000020"
+      ],
+      "consumers": [
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "SRR3177772_2.fastq",
+      "bytes": 654705544,
+      "producers": [
+        "fasterq-dump_ID0000020"
+      ],
+      "consumers": [
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "SRR3177918.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000009"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177918.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000009"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177918_1.fastq",
+      "bytes": 505070744,
+      "producers": [
+        "fasterq-dump_ID0000008"
+      ],
+      "consumers": [
+        "bowtie2_ID0000009"
+      ]
+    },
+    {
+      "id": "SRR3177918_2.fastq",
+      "bytes": 505070744,
+      "producers": [
+        "fasterq-dump_ID0000008"
+      ],
+      "consumers": [
+        "bowtie2_ID0000009"
+      ]
+    },
+    {
+      "id": "SRR3177957.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000017"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177957.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000017"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177957_1.fastq",
+      "bytes": 822750064,
+      "producers": [
+        "fasterq-dump_ID0000016"
+      ],
+      "consumers": [
+        "bowtie2_ID0000017"
+      ]
+    },
+    {
+      "id": "SRR3177957_2.fastq",
+      "bytes": 822750064,
+      "producers": [
+        "fasterq-dump_ID0000016"
+      ],
+      "consumers": [
+        "bowtie2_ID0000017"
+      ]
+    },
+    {
+      "id": "SRR3177999.bam",
+      "bytes": 316,
+      "producers": [
+        "bowtie2_ID0000003"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177999.bam.bai",
+      "bytes": 24,
+      "producers": [
+        "bowtie2_ID0000003"
+      ],
+      "consumers": [
+        "merge_ID0000022"
+      ]
+    },
+    {
+      "id": "SRR3177999_1.fastq",
+      "bytes": 761454424,
+      "producers": [
+        "fasterq-dump_ID0000002"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003"
+      ]
+    },
+    {
+      "id": "SRR3177999_2.fastq",
+      "bytes": 761454424,
+      "producers": [
+        "fasterq-dump_ID0000002"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003"
+      ]
+    },
+    {
+      "id": "reference.1.bt2",
+      "bytes": 4226858,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "reference.2.bt2",
+      "bytes": 24280,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "reference.3.bt2",
+      "bytes": 17,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "reference.4.bt2",
+      "bytes": 24273,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "reference.fna",
+      "bytes": 98721,
+      "producers": [],
+      "consumers": [
+        "bowtie2-build_ID0000001"
+      ]
+    },
+    {
+      "id": "reference.rev.1.bt2",
+      "bytes": 4226858,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "reference.rev.2.bt2",
+      "bytes": 24280,
+      "producers": [
+        "bowtie2-build_ID0000001"
+      ],
+      "consumers": [
+        "bowtie2_ID0000003",
+        "bowtie2_ID0000005",
+        "bowtie2_ID0000007",
+        "bowtie2_ID0000009",
+        "bowtie2_ID0000011",
+        "bowtie2_ID0000013",
+        "bowtie2_ID0000015",
+        "bowtie2_ID0000017",
+        "bowtie2_ID0000019",
+        "bowtie2_ID0000021"
+      ]
+    },
+    {
+      "id": "results.tar.gz",
+      "bytes": 2901,
+      "producers": [
+        "merge_ID0000022"
+      ],
+      "consumers": []
+    }
+  ],
+  "source_sha256": "4ef3fc235fbe700810eb77a84b6169c8c6abebd2c71e7d6d3af52f0ef7db6958",
+  "source_revision": "249866063b3bd7d6a36a5a55d4202c1f683099c0",
+  "source_path": "pegasus/srasearch/srasearch-chameleon-10a-004.json"
+}

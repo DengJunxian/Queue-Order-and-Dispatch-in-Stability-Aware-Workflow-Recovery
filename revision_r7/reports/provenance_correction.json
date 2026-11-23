@@ -1,0 +1,32 @@
+{
+  "status": "PROVENANCE_LABEL_CORRECTION",
+  "stage": "post-analysis editorial audit",
+  "discovery_date": "2026-10-31",
+  "incorrect_frozen_description": "six previously unused measured series",
+  "corrected_description": "Four newly studied series (three BLAST and one BWA), plus two SRA series whose repeat001 was already in the original v2 benchmark. Repeats002–005 of those two SRA series are new to this study. All five repeats of SRA20a/30a/40a were seen in the earlier measured study.",
+  "newly_fetched_records": 30,
+  "new_to_workspace_records": 28,
+  "previously_used_records_refetched": [
+    {
+      "id": "srasearch-chameleon-10a-001",
+      "prior_path": "v2_preparation/data/raw/pegasus/srasearch/srasearch-chameleon-10a-001.json",
+      "current_path": "revision_r7/data/raw/pegasus/srasearch/srasearch-chameleon-10a-001.json",
+      "raw_sha256": "3c6b71c7ffb24ed4a49f33387b115232a674790722e54ef64f154b452643e65e"
+    },
+    {
+      "id": "srasearch-chameleon-50a-001",
+      "prior_path": "v2_preparation/data/raw/pegasus/srasearch/srasearch-chameleon-50a-001.json",
+      "current_path": "revision_r7/data/raw/pegasus/srasearch/srasearch-chameleon-50a-001.json",
+      "raw_sha256": "adda0a22753805f23be9ebb15911fd8835fce7f9a709b442b98ebfd80c312953"
+    }
+  ],
+  "previously_seen_records_reused": 15,
+  "series_new_to_study": 4,
+  "series_with_new_repeat_coverage": 2,
+  "existing_series_comparison": 3,
+  "affected_internal_label": "BWA_SRA_new is retained as an immutable case identifier; figures and narrative call it BWA + SRA (mixed history).",
+  "interpretation": "The BWA–SRA evaluation is new repeat coverage on a mixed-history composition, not an entirely unseen-topology validation. BLAST is new but all evaluation candidate pools are singleton.",
+  "protocol_or_selector_changed": false,
+  "scientific_outcomes_changed": false,
+  "original_frozen_records_preserved": true
+}

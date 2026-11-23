@@ -1,0 +1,11 @@
+{
+  "written_before_profiling": true,
+  "profiles": "20 synthetic development cases: seed71000+i, MixABC cyclic, nodes8 if even otherwise4, CCR2, failure0.3 if even otherwise0.6, CV0/0.1/0.3 cyclic, delay0.1 pbar when i mod4=3 otherwise0",
+  "methods": ["B0","B1","B2","LegacySAIL","QueueRepair0","BudgetHEFT10","BudgetSelect10","PoolMinAWCT10","B0AssignmentReorder"],
+  "end_to_end_profile_boundary": "Simulator.run, independent audit, paired metrics and saving full event JSON; initial scheduling/reference measured separately",
+  "timing_cases": "same20 already-seen main cases in reports/p4/timing_cases.json",
+  "timing_methods": ["B0","B2","QueueRepair0","BudgetHEFT10","BudgetSelect10","PoolMinAWCT10","B0AssignmentReorder"],
+  "timing_repeats": 3,
+  "timing_boundary": "entire Simulator._apply snapshot, policy candidate generation, validation, input invalidation and plan application",
+  "budget_gate_hours": 12
+}

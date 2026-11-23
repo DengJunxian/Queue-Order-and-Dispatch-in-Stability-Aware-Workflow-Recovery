@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "fault_labels": 2160,
+  "reference_executions_this_invocation": 360,
+  "development_scenarios": 480,
+  "validation_scenarios": 240,
+  "independent_synthetic_root_namespaces": [
+    71000,
+    72000
+  ],
+  "tests_on_new_real_inputs": 0,
+  "events_audited": 1706442,
+  "precision": {
+    "PoolMinAWCT10": {
+      "development_root_mean_differences": [
+        -0.0018161869054623494,
+        -0.026623157551205038,
+        -0.01358297956235846,
+        -0.049998500832966385,
+        -0.0025161297394282545,
+        -0.01873278309637835,
+        -0.02585720546220404,
+        -0.007757955527281683,
+        -0.0028067506919511134,
+        -0.00814805948936291,
+        -0.010215657328378695,
+        -0.02247419022882353,
+        -0.03708689556400432,
+        -0.022730585692319588,
+        -0.007768687645605858,
+        -0.19601402738008838,
+        -0.01539629217475494,
+        -0.027009997668116594,
+        -0.005486703530680662,
+        -0.15170734066496344
+      ],
+      "sample_SD": 0.05035861368889117,
+      "required_rounded_roots": 30,
+      "precision_target_halfwidth": 0.05
+    },
+    "BudgetHEFT10": {
+      "development_root_mean_differences": [
+        -0.044436076219255126,
+        -0.012868079167001884,
+        0.4920503214904588,
+        -0.03241501912409307,
+        -0.0053039620119796314,
+        -0.03274568043115903,
+        -0.01886174086019096,
+        -0.024524357095543337,
+        -0.002434991636955227,
+        -0.021608726823948984,
+        0.24558591876181887,
+        0.2885061145824797,
+        -0.018517591829752954,
+        0.1776242855002084,
+        -0.014855403240267228,
+        0.005517386443879423,
+        0.07863840201022858,
+        -0.017742657842956186,
+        -0.0685161247433824,
+        -0.06632410339017489
+      ],
+      "sample_SD": 0.14473356097829837,
+      "required_rounded_roots": 40,
+      "precision_target_halfwidth": 0.05
+    }
+  },
+  "precision_selected_root_count": 60,
+  "precision_supported_by_design_rule": true,
+  "precision_note": "Normal-approximation planning heuristic on synthetic development blocks, not a guarantee on unseen real benchmarks; no test outcome used.",
+  "wall_seconds": 174.89215358300135
+}

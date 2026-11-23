@@ -1,0 +1,4525 @@
+{
+  "tasks": [
+    {
+      "id": "w00::chr21_chr21_ID0000001",
+      "workflow": "w00",
+      "work": 0.12413408845322631,
+      "parents": [
+        "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_ID0000037"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_10_ID0000003",
+      "workflow": "w00",
+      "work": 0.1354616908510857,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_10_ID0000058"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_11_ID0000004",
+      "workflow": "w00",
+      "work": 0.03644788129052176,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_11_ID0000059"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_12_ID0000005",
+      "workflow": "w00",
+      "work": 0.1424460674590923,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_12_ID0000060"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_13_ID0000006",
+      "workflow": "w00",
+      "work": 0.13317269347535246,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_13_ID0000061"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_14_ID0000007",
+      "workflow": "w00",
+      "work": 0.017666364361428422,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_14_ID0000062"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_15_ID0000008",
+      "workflow": "w00",
+      "work": 0.19755808119790058,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_15_ID0000063"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_16_ID0000009",
+      "workflow": "w00",
+      "work": 0.01784244108263867,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_16_ID0000064"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_17_ID0000010",
+      "workflow": "w00",
+      "work": 0.09555096737676236,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_17_ID0000065"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_1_ID0000002",
+      "workflow": "w00",
+      "work": 0.02940481244211176,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_1_ID0000057"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_2_ID0000011",
+      "workflow": "w00",
+      "work": 0.19016285890707008,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_2_ID0000066"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_3_ID0000012",
+      "workflow": "w00",
+      "work": 0.04941886641967685,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_3_ID0000067"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_4_ID0000013",
+      "workflow": "w00",
+      "work": 0.022420435834105173,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_4_ID0000068"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_5_ID0000014",
+      "workflow": "w00",
+      "work": 0.1527172095296902,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_5_ID0000069"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_6_ID0000015",
+      "workflow": "w00",
+      "work": 0.03791518730060718,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_6_ID0000070"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_7_ID0000016",
+      "workflow": "w00",
+      "work": 0.08874266748996602,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_7_ID0000071"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_8_ID0000017",
+      "workflow": "w00",
+      "work": 0.019720592775548006,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_8_ID0000072"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_9_ID0000018",
+      "workflow": "w00",
+      "work": 0.05288170860347843,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_9_ID0000073"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019",
+      "workflow": "w00",
+      "work": 0.07888237110219203,
+      "parents": [],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_10_ID0000021",
+      "workflow": "w00",
+      "work": 1.0002918531954306,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.10.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_11_ID0000022",
+      "workflow": "w00",
+      "work": 0.021716128949264172,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.11.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_12_ID0000023",
+      "workflow": "w00",
+      "work": 0.02212697463208809,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.12.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_13_ID0000024",
+      "workflow": "w00",
+      "work": 0.04137802948440876,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.13.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_14_ID0000025",
+      "workflow": "w00",
+      "work": 0.5976630840279921,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.14.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_15_ID0000026",
+      "workflow": "w00",
+      "work": 0.5978978529896057,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.15.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_16_ID0000027",
+      "workflow": "w00",
+      "work": 0.679480067150355,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.16.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_17_ID0000028",
+      "workflow": "w00",
+      "work": 0.3683525007718431,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.17.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_1_ID0000020",
+      "workflow": "w00",
+      "work": 0.8156460648862817,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.1.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_2_ID0000029",
+      "workflow": "w00",
+      "work": 0.9884947128743438,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.2.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_3_ID0000030",
+      "workflow": "w00",
+      "work": 0.8953501273541216,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.3.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_4_ID0000031",
+      "workflow": "w00",
+      "work": 0.899928122105588,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.4.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_5_ID0000032",
+      "workflow": "w00",
+      "work": 0.8156460648862817,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.5.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_6_ID0000033",
+      "workflow": "w00",
+      "work": 0.9003389677884119,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.6.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_7_ID0000034",
+      "workflow": "w00",
+      "work": 0.9141903365236184,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.7.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_8_ID0000035",
+      "workflow": "w00",
+      "work": 0.9752889587835751,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.8.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_9_ID0000036",
+      "workflow": "w00",
+      "work": 0.9485839894000204,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.9.sfq"
+      ]
+    },
+    {
+      "id": "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_ID0000037",
+      "workflow": "w00",
+      "work": 0.09472927601111454,
+      "parents": [
+        "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_s_1_sequence_ID0000038"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_s_1_sequence_ID0000038",
+      "workflow": "w00",
+      "work": 0.09449450704950087,
+      "parents": [
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_10_ID0000040",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_11_ID0000041",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_12_ID0000042",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_13_ID0000043",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_14_ID0000044",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_15_ID0000045",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_16_ID0000046",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_17_ID0000047",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_1_ID0000039",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_2_ID0000048",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_3_ID0000049",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_4_ID0000050",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_5_ID0000051",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_6_ID0000052",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_7_ID0000053",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_8_ID0000054",
+        "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_9_ID0000055"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.map",
+        "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_10_ID0000040",
+      "workflow": "w00",
+      "work": 2.799561175002572,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_10_ID0000003"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_11_ID0000041",
+      "workflow": "w00",
+      "work": 3.4515732736441285,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_11_ID0000004"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_12_ID0000042",
+      "workflow": "w00",
+      "work": 3.5841003524750437,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_12_ID0000005"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_13_ID0000043",
+      "workflow": "w00",
+      "work": 2.909902586960996,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_13_ID0000006"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_14_ID0000044",
+      "workflow": "w00",
+      "work": 2.383315806061541,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_14_ID0000007"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_15_ID0000045",
+      "workflow": "w00",
+      "work": 3.3993371796850878,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_15_ID0000008"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_16_ID0000046",
+      "workflow": "w00",
+      "work": 2.7996785594833793,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_16_ID0000009"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_17_ID0000047",
+      "workflow": "w00",
+      "work": 2.2979185962745703,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_17_ID0000010"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_1_ID0000039",
+      "workflow": "w00",
+      "work": 3.2685708680662753,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_1_ID0000002"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_2_ID0000048",
+      "workflow": "w00",
+      "work": 3.5223561155706493,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_2_ID0000011"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_3_ID0000049",
+      "workflow": "w00",
+      "work": 3.5298100301018827,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_3_ID0000012"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_4_ID0000050",
+      "workflow": "w00",
+      "work": 3.2311252186888955,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_4_ID0000013"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_5_ID0000051",
+      "workflow": "w00",
+      "work": 3.34234701425337,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_5_ID0000014"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_6_ID0000052",
+      "workflow": "w00",
+      "work": 3.1862256547802814,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_6_ID0000015"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_7_ID0000053",
+      "workflow": "w00",
+      "work": 2.4186485347843982,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_7_ID0000016"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_8_ID0000054",
+      "workflow": "w00",
+      "work": 2.9366075563445504,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_8_ID0000017"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_9_ID0000055",
+      "workflow": "w00",
+      "work": 3.0244698402284653,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_9_ID0000018"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::pileup_pileup_ID0000056",
+      "workflow": "w00",
+      "work": 1.435025277863538,
+      "parents": [
+        "w00::chr21_chr21_ID0000001"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests.nocontam.chr21.map",
+        "w00::chr21.BSnull.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_10_ID0000058",
+      "workflow": "w00",
+      "work": 0.7416351497375732,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_10_ID0000021"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_11_ID0000059",
+      "workflow": "w00",
+      "work": 0.4157171387774004,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_11_ID0000022"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_12_ID0000060",
+      "workflow": "w00",
+      "work": 0.41020006817947924,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_12_ID0000023"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_13_ID0000061",
+      "workflow": "w00",
+      "work": 0.3969943140887105,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_13_ID0000024"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_14_ID0000062",
+      "workflow": "w00",
+      "work": 0.07512606771637335,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_14_ID0000025"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_15_ID0000063",
+      "workflow": "w00",
+      "work": 0.005986608521148502,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_15_ID0000026"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_16_ID0000064",
+      "workflow": "w00",
+      "work": 0.04084979932077801,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_16_ID0000027"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_17_ID0000065",
+      "workflow": "w00",
+      "work": 0.014966521302871256,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_17_ID0000028"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_1_ID0000057",
+      "workflow": "w00",
+      "work": 0.7861825602037665,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_1_ID0000020"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_2_ID0000066",
+      "workflow": "w00",
+      "work": 0.14080268472779664,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_2_ID0000029"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_3_ID0000067",
+      "workflow": "w00",
+      "work": 0.5177829448389419,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_3_ID0000030"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_4_ID0000068",
+      "workflow": "w00",
+      "work": 0.7966884712359781,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_4_ID0000031"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_5_ID0000069",
+      "workflow": "w00",
+      "work": 0.7796090292785838,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_5_ID0000032"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_6_ID0000070",
+      "workflow": "w00",
+      "work": 0.07078284192652053,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_6_ID0000033"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_7_ID0000071",
+      "workflow": "w00",
+      "work": 0.8590783227848101,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_7_ID0000034"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_8_ID0000072",
+      "workflow": "w00",
+      "work": 0.05898570160543376,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_8_ID0000035"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_9_ID0000073",
+      "workflow": "w00",
+      "work": 0.07389353066790161,
+      "parents": [
+        "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_9_ID0000036"
+      ],
+      "inputs": [
+        "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w01::bowtie2-build_ID0000001",
+      "workflow": "w01",
+      "work": 0.010460865991854041,
+      "parents": [],
+      "inputs": [
+        "w01::reference.fna"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000003",
+      "workflow": "w01",
+      "work": 0.0887909056085,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000002"
+      ],
+      "inputs": [
+        "w01::SRR3151981_1.fastq",
+        "w01::SRR3151981_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000005",
+      "workflow": "w01",
+      "work": 0.09855807383253135,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000004"
+      ],
+      "inputs": [
+        "w01::SRR3150808_1.fastq",
+        "w01::SRR3150808_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000007",
+      "workflow": "w01",
+      "work": 0.0711690553675596,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000006"
+      ],
+      "inputs": [
+        "w01::SRR2088878_1.fastq",
+        "w01::SRR2088878_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000009",
+      "workflow": "w01",
+      "work": 0.06580494103095841,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000008"
+      ],
+      "inputs": [
+        "w01::SRR1518543_1.fastq",
+        "w01::SRR1518543_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000011",
+      "workflow": "w01",
+      "work": 0.12424656929721552,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000010"
+      ],
+      "inputs": [
+        "w01::SRR3178006_1.fastq",
+        "w01::SRR3178006_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000013",
+      "workflow": "w01",
+      "work": 0.1517825168032886,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000012"
+      ],
+      "inputs": [
+        "w01::SRR3177989_1.fastq",
+        "w01::SRR3177989_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000015",
+      "workflow": "w01",
+      "work": 0.04934166240919411,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000014"
+      ],
+      "inputs": [
+        "w01::SRR3177882_1.fastq",
+        "w01::SRR3177882_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000017",
+      "workflow": "w01",
+      "work": 0.27995281409975126,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000016"
+      ],
+      "inputs": [
+        "w01::SRR1518573_1.fastq",
+        "w01::SRR1518573_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000019",
+      "workflow": "w01",
+      "work": 0.1511080884179054,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000018"
+      ],
+      "inputs": [
+        "w01::SRR1518654_1.fastq",
+        "w01::SRR1518654_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000021",
+      "workflow": "w01",
+      "work": 0.13023452989029616,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000020"
+      ],
+      "inputs": [
+        "w01::SRR3177980_1.fastq",
+        "w01::SRR3177980_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000023",
+      "workflow": "w01",
+      "work": 0.18005792686047825,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000022"
+      ],
+      "inputs": [
+        "w01::SRR1518451_1.fastq",
+        "w01::SRR1518451_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000025",
+      "workflow": "w01",
+      "work": 0.10898521840511623,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000024"
+      ],
+      "inputs": [
+        "w01::SRR3150843_1.fastq",
+        "w01::SRR3150843_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000027",
+      "workflow": "w01",
+      "work": 0.06697796468696415,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000026"
+      ],
+      "inputs": [
+        "w01::SRR2089331_1.fastq",
+        "w01::SRR2089331_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000029",
+      "workflow": "w01",
+      "work": 0.1546488374411671,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000028"
+      ],
+      "inputs": [
+        "w01::SRR1919983_1.fastq",
+        "w01::SRR1919983_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000031",
+      "workflow": "w01",
+      "work": 0.16458461276154424,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000030"
+      ],
+      "inputs": [
+        "w01::SRR3170548_1.fastq",
+        "w01::SRR3170548_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000033",
+      "workflow": "w01",
+      "work": 0.13424978745613098,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000032"
+      ],
+      "inputs": [
+        "w01::SRR3177822_1.fastq",
+        "w01::SRR3177822_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000035",
+      "workflow": "w01",
+      "work": 0.25132814648584534,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000034"
+      ],
+      "inputs": [
+        "w01::SRR1518961_1.fastq",
+        "w01::SRR1518961_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000037",
+      "workflow": "w01",
+      "work": 0.1488270752716273,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000036"
+      ],
+      "inputs": [
+        "w01::SRR2223155_1.fastq",
+        "w01::SRR2223155_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000039",
+      "workflow": "w01",
+      "work": 0.07626580702281245,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000038"
+      ],
+      "inputs": [
+        "w01::SRR3152116_1.fastq",
+        "w01::SRR3152116_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000041",
+      "workflow": "w01",
+      "work": 0.21627232248274983,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000040"
+      ],
+      "inputs": [
+        "w01::SRR1518421_1.fastq",
+        "w01::SRR1518421_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000043",
+      "workflow": "w01",
+      "work": 0.056100398299855504,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000042"
+      ],
+      "inputs": [
+        "w01::SRR3152152_1.fastq",
+        "w01::SRR3152152_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000045",
+      "workflow": "w01",
+      "work": 0.08006187536339775,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000044"
+      ],
+      "inputs": [
+        "w01::SRR3177813_1.fastq",
+        "w01::SRR3177813_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000047",
+      "workflow": "w01",
+      "work": 0.10347899237302359,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000046"
+      ],
+      "inputs": [
+        "w01::SRR3150524_1.fastq",
+        "w01::SRR3150524_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000049",
+      "workflow": "w01",
+      "work": 0.13125098981398078,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000048"
+      ],
+      "inputs": [
+        "w01::SRR1918774_1.fastq",
+        "w01::SRR1918774_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000051",
+      "workflow": "w01",
+      "work": 0.11778169148875679,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000050"
+      ],
+      "inputs": [
+        "w01::SRR3145112_1.fastq",
+        "w01::SRR3145112_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000053",
+      "workflow": "w01",
+      "work": 0.12723091490253607,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000052"
+      ],
+      "inputs": [
+        "w01::SRR3152139_1.fastq",
+        "w01::SRR3152139_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000055",
+      "workflow": "w01",
+      "work": 0.1351145009931044,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000054"
+      ],
+      "inputs": [
+        "w01::SRR1923044_1.fastq",
+        "w01::SRR1923044_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000057",
+      "workflow": "w01",
+      "work": 0.14017993990189304,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000056"
+      ],
+      "inputs": [
+        "w01::SRR3151987_1.fastq",
+        "w01::SRR3151987_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000059",
+      "workflow": "w01",
+      "work": 0.08186356262149282,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000058"
+      ],
+      "inputs": [
+        "w01::SRR3152058_1.fastq",
+        "w01::SRR3152058_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000061",
+      "workflow": "w01",
+      "work": 0.06607230371230674,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000060"
+      ],
+      "inputs": [
+        "w01::SRR2093840_1.fastq",
+        "w01::SRR2093840_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000063",
+      "workflow": "w01",
+      "work": 0.1437736797268634,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000062"
+      ],
+      "inputs": [
+        "w01::SRR3177953_1.fastq",
+        "w01::SRR3177953_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000065",
+      "workflow": "w01",
+      "work": 0.07297796864406947,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000064"
+      ],
+      "inputs": [
+        "w01::SRR1103366_1.fastq",
+        "w01::SRR1103366_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000067",
+      "workflow": "w01",
+      "work": 0.08038704619206465,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000066"
+      ],
+      "inputs": [
+        "w01::SRR2143520_1.fastq",
+        "w01::SRR2143520_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000069",
+      "workflow": "w01",
+      "work": 0.13739792281218743,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000068"
+      ],
+      "inputs": [
+        "w01::SRR2095974_1.fastq",
+        "w01::SRR2095974_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000071",
+      "workflow": "w01",
+      "work": 0.11520441158747108,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000070"
+      ],
+      "inputs": [
+        "w01::SRR1917732_1.fastq",
+        "w01::SRR1917732_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000073",
+      "workflow": "w01",
+      "work": 0.06525335495862718,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000072"
+      ],
+      "inputs": [
+        "w01::SRR3150813_1.fastq",
+        "w01::SRR3150813_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000075",
+      "workflow": "w01",
+      "work": 0.14029555619653017,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000074"
+      ],
+      "inputs": [
+        "w01::SRR3150456_1.fastq",
+        "w01::SRR3150456_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000077",
+      "workflow": "w01",
+      "work": 0.07351269400676613,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000076"
+      ],
+      "inputs": [
+        "w01::SRR2143571_1.fastq",
+        "w01::SRR2143571_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000079",
+      "workflow": "w01",
+      "work": 0.11870180450024383,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000078"
+      ],
+      "inputs": [
+        "w01::SRR3152103_1.fastq",
+        "w01::SRR3152103_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000081",
+      "workflow": "w01",
+      "work": 0.13368615801977504,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000080"
+      ],
+      "inputs": [
+        "w01::SRR3177818_1.fastq",
+        "w01::SRR3177818_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000002",
+      "workflow": "w01",
+      "work": 0.6785279464971833,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000004",
+      "workflow": "w01",
+      "work": 0.6756808952417442,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000006",
+      "workflow": "w01",
+      "work": 0.6107671631486137,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000008",
+      "workflow": "w01",
+      "work": 0.20459507672440114,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000010",
+      "workflow": "w01",
+      "work": 0.3088063056301264,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000012",
+      "workflow": "w01",
+      "work": 3.355107792839343,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000014",
+      "workflow": "w01",
+      "work": 1.2998330531674092,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000016",
+      "workflow": "w01",
+      "work": 6.217699805215792,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000018",
+      "workflow": "w01",
+      "work": 4.014111037579683,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000020",
+      "workflow": "w01",
+      "work": 3.3681820688245567,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000022",
+      "workflow": "w01",
+      "work": 4.950333252786168,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000024",
+      "workflow": "w01",
+      "work": 2.981127618453152,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000026",
+      "workflow": "w01",
+      "work": 2.0778464125270255,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000028",
+      "workflow": "w01",
+      "work": 4.353897692826947,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000030",
+      "workflow": "w01",
+      "work": 0.328665812906856,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000032",
+      "workflow": "w01",
+      "work": 1.7405671856697045,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000034",
+      "workflow": "w01",
+      "work": 5.73569306420085,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000036",
+      "workflow": "w01",
+      "work": 1.6365510592611794,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000038",
+      "workflow": "w01",
+      "work": 1.0341588514553417,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000040",
+      "workflow": "w01",
+      "work": 1.6020853600952938,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000042",
+      "workflow": "w01",
+      "work": 0.30169108616433393,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000044",
+      "workflow": "w01",
+      "work": 0.43695251619853964,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000046",
+      "workflow": "w01",
+      "work": 0.5707952379506358,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000048",
+      "workflow": "w01",
+      "work": 1.283511886241136,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000050",
+      "workflow": "w01",
+      "work": 3.08021560030277,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000052",
+      "workflow": "w01",
+      "work": 2.9057530203681674,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000054",
+      "workflow": "w01",
+      "work": 0.3212350573036164,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000056",
+      "workflow": "w01",
+      "work": 2.9127237194656637,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000058",
+      "workflow": "w01",
+      "work": 2.032447747499518,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000060",
+      "workflow": "w01",
+      "work": 2.036585847378405,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000062",
+      "workflow": "w01",
+      "work": 3.751040611169756,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000064",
+      "workflow": "w01",
+      "work": 0.01208672013518848,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000066",
+      "workflow": "w01",
+      "work": 2.198207792589873,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000068",
+      "workflow": "w01",
+      "work": 1.5999729540453618,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000070",
+      "workflow": "w01",
+      "work": 3.2443401565585708,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000072",
+      "workflow": "w01",
+      "work": 0.7970876393019356,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000074",
+      "workflow": "w01",
+      "work": 0.2712286012002589,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000076",
+      "workflow": "w01",
+      "work": 0.9779717409345083,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000078",
+      "workflow": "w01",
+      "work": 3.1270594690132416,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000080",
+      "workflow": "w01",
+      "work": 0.11966045627660993,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::merge_ID0000082",
+      "workflow": "w01",
+      "work": 0.0006696110397732957,
+      "parents": [
+        "w01::bowtie2_ID0000003",
+        "w01::bowtie2_ID0000005",
+        "w01::bowtie2_ID0000007",
+        "w01::bowtie2_ID0000009",
+        "w01::bowtie2_ID0000011",
+        "w01::bowtie2_ID0000013",
+        "w01::bowtie2_ID0000015",
+        "w01::bowtie2_ID0000017",
+        "w01::bowtie2_ID0000019",
+        "w01::bowtie2_ID0000021",
+        "w01::bowtie2_ID0000023",
+        "w01::bowtie2_ID0000025",
+        "w01::bowtie2_ID0000027",
+        "w01::bowtie2_ID0000029",
+        "w01::bowtie2_ID0000031",
+        "w01::bowtie2_ID0000033",
+        "w01::bowtie2_ID0000035",
+        "w01::bowtie2_ID0000037",
+        "w01::bowtie2_ID0000039",
+        "w01::bowtie2_ID0000041",
+        "w01::bowtie2_ID0000043",
+        "w01::bowtie2_ID0000045",
+        "w01::bowtie2_ID0000047",
+        "w01::bowtie2_ID0000049",
+        "w01::bowtie2_ID0000051"
+      ],
+      "inputs": [
+        "w01::SRR1518421.bam",
+        "w01::SRR1518421.bam.bai",
+        "w01::SRR1518451.bam",
+        "w01::SRR1518451.bam.bai",
+        "w01::SRR1518543.bam",
+        "w01::SRR1518543.bam.bai",
+        "w01::SRR1518573.bam",
+        "w01::SRR1518573.bam.bai",
+        "w01::SRR1518654.bam",
+        "w01::SRR1518654.bam.bai",
+        "w01::SRR1518961.bam",
+        "w01::SRR1518961.bam.bai",
+        "w01::SRR1918774.bam",
+        "w01::SRR1918774.bam.bai",
+        "w01::SRR1919983.bam",
+        "w01::SRR1919983.bam.bai",
+        "w01::SRR2088878.bam",
+        "w01::SRR2088878.bam.bai",
+        "w01::SRR2089331.bam",
+        "w01::SRR2089331.bam.bai",
+        "w01::SRR2223155.bam",
+        "w01::SRR2223155.bam.bai",
+        "w01::SRR3145112.bam",
+        "w01::SRR3145112.bam.bai",
+        "w01::SRR3150524.bam",
+        "w01::SRR3150524.bam.bai",
+        "w01::SRR3150808.bam",
+        "w01::SRR3150808.bam.bai",
+        "w01::SRR3150843.bam",
+        "w01::SRR3150843.bam.bai",
+        "w01::SRR3151981.bam",
+        "w01::SRR3151981.bam.bai",
+        "w01::SRR3152116.bam",
+        "w01::SRR3152116.bam.bai",
+        "w01::SRR3152152.bam",
+        "w01::SRR3152152.bam.bai",
+        "w01::SRR3170548.bam",
+        "w01::SRR3170548.bam.bai",
+        "w01::SRR3177813.bam",
+        "w01::SRR3177813.bam.bai",
+        "w01::SRR3177822.bam",
+        "w01::SRR3177822.bam.bai",
+        "w01::SRR3177882.bam",
+        "w01::SRR3177882.bam.bai",
+        "w01::SRR3177980.bam",
+        "w01::SRR3177980.bam.bai",
+        "w01::SRR3177989.bam",
+        "w01::SRR3177989.bam.bai",
+        "w01::SRR3178006.bam",
+        "w01::SRR3178006.bam.bai"
+      ]
+    },
+    {
+      "id": "w01::merge_ID0000083",
+      "workflow": "w01",
+      "work": 0.00043115243208424433,
+      "parents": [
+        "w01::bowtie2_ID0000053",
+        "w01::bowtie2_ID0000055",
+        "w01::bowtie2_ID0000057",
+        "w01::bowtie2_ID0000059",
+        "w01::bowtie2_ID0000061",
+        "w01::bowtie2_ID0000063",
+        "w01::bowtie2_ID0000065",
+        "w01::bowtie2_ID0000067",
+        "w01::bowtie2_ID0000069",
+        "w01::bowtie2_ID0000071",
+        "w01::bowtie2_ID0000073",
+        "w01::bowtie2_ID0000075",
+        "w01::bowtie2_ID0000077",
+        "w01::bowtie2_ID0000079",
+        "w01::bowtie2_ID0000081"
+      ],
+      "inputs": [
+        "w01::SRR1103366.bam",
+        "w01::SRR1103366.bam.bai",
+        "w01::SRR1917732.bam",
+        "w01::SRR1917732.bam.bai",
+        "w01::SRR1923044.bam",
+        "w01::SRR1923044.bam.bai",
+        "w01::SRR2093840.bam",
+        "w01::SRR2093840.bam.bai",
+        "w01::SRR2095974.bam",
+        "w01::SRR2095974.bam.bai",
+        "w01::SRR2143520.bam",
+        "w01::SRR2143520.bam.bai",
+        "w01::SRR2143571.bam",
+        "w01::SRR2143571.bam.bai",
+        "w01::SRR3150456.bam",
+        "w01::SRR3150456.bam.bai",
+        "w01::SRR3150813.bam",
+        "w01::SRR3150813.bam.bai",
+        "w01::SRR3151987.bam",
+        "w01::SRR3151987.bam.bai",
+        "w01::SRR3152058.bam",
+        "w01::SRR3152058.bam.bai",
+        "w01::SRR3152103.bam",
+        "w01::SRR3152103.bam.bai",
+        "w01::SRR3152139.bam",
+        "w01::SRR3152139.bam.bai",
+        "w01::SRR3177818.bam",
+        "w01::SRR3177818.bam.bai",
+        "w01::SRR3177953.bam",
+        "w01::SRR3177953.bam.bai"
+      ]
+    },
+    {
+      "id": "w01::merge_ID0000084",
+      "workflow": "w01",
+      "work": 0.00012043364024699564,
+      "parents": [
+        "w01::merge_ID0000082",
+        "w01::merge_ID0000083"
+      ],
+      "inputs": [
+        "w01::results-l1-j1.tar.gz",
+        "w01::results-l1-j2.tar.gz"
+      ]
+    },
+    {
+      "id": "w02::bowtie2-build_ID0000001",
+      "workflow": "w02",
+      "work": 0.012161580937744193,
+      "parents": [],
+      "inputs": [
+        "w02::reference.fna"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000003",
+      "workflow": "w02",
+      "work": 0.04133988630853488,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000002"
+      ],
+      "inputs": [
+        "w02::SRR3136938_1.fastq",
+        "w02::SRR3136938_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000005",
+      "workflow": "w02",
+      "work": 0.06869026441874351,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000004"
+      ],
+      "inputs": [
+        "w02::SRR3150505_1.fastq",
+        "w02::SRR3150505_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000007",
+      "workflow": "w02",
+      "work": 0.023035573603254308,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000006"
+      ],
+      "inputs": [
+        "w02::SRR3152100_1.fastq",
+        "w02::SRR3152100_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000009",
+      "workflow": "w02",
+      "work": 0.030898164833703147,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000008"
+      ],
+      "inputs": [
+        "w02::SRR2093830_1.fastq",
+        "w02::SRR2093830_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000011",
+      "workflow": "w02",
+      "work": 0.1194030553251584,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000010"
+      ],
+      "inputs": [
+        "w02::SRR1518646_1.fastq",
+        "w02::SRR1518646_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000013",
+      "workflow": "w02",
+      "work": 0.0761930689569509,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000012"
+      ],
+      "inputs": [
+        "w02::SRR1922824_1.fastq",
+        "w02::SRR1922824_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000015",
+      "workflow": "w02",
+      "work": 0.04536870652165625,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000014"
+      ],
+      "inputs": [
+        "w02::SRR3151991_1.fastq",
+        "w02::SRR3151991_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000017",
+      "workflow": "w02",
+      "work": 0.07845985690806923,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000016"
+      ],
+      "inputs": [
+        "w02::SRR3177976_1.fastq",
+        "w02::SRR3177976_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000019",
+      "workflow": "w02",
+      "work": 0.03666134140942436,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000018"
+      ],
+      "inputs": [
+        "w02::SRR3152054_1.fastq",
+        "w02::SRR3152054_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000021",
+      "workflow": "w02",
+      "work": 0.05593299269384497,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000020"
+      ],
+      "inputs": [
+        "w02::SRR3151997_1.fastq",
+        "w02::SRR3151997_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000023",
+      "workflow": "w02",
+      "work": 0.06585546157987401,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000022"
+      ],
+      "inputs": [
+        "w02::SRR3177956_1.fastq",
+        "w02::SRR3177956_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000025",
+      "workflow": "w02",
+      "work": 0.07389333350654305,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000024"
+      ],
+      "inputs": [
+        "w02::SRR1922799_1.fastq",
+        "w02::SRR1922799_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000027",
+      "workflow": "w02",
+      "work": 0.07158964435622045,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000026"
+      ],
+      "inputs": [
+        "w02::SRR1518581_1.fastq",
+        "w02::SRR1518581_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000029",
+      "workflow": "w02",
+      "work": 0.11896683043456527,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000028"
+      ],
+      "inputs": [
+        "w02::SRR1518412_1.fastq",
+        "w02::SRR1518412_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000031",
+      "workflow": "w02",
+      "work": 0.08214865892852284,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000030"
+      ],
+      "inputs": [
+        "w02::SRR3150455_1.fastq",
+        "w02::SRR3150455_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000033",
+      "workflow": "w02",
+      "work": 0.05776882735425651,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000032"
+      ],
+      "inputs": [
+        "w02::SRR3177922_1.fastq",
+        "w02::SRR3177922_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000035",
+      "workflow": "w02",
+      "work": 0.036082783321900555,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000034"
+      ],
+      "inputs": [
+        "w02::SRR3177813_1.fastq",
+        "w02::SRR3177813_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000037",
+      "workflow": "w02",
+      "work": 0.13587548706994218,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000036"
+      ],
+      "inputs": [
+        "w02::SRR1518963_1.fastq",
+        "w02::SRR1518963_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000039",
+      "workflow": "w02",
+      "work": 0.057057161369603066,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000038"
+      ],
+      "inputs": [
+        "w02::SRR3177796_1.fastq",
+        "w02::SRR3177796_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000041",
+      "workflow": "w02",
+      "work": 0.06799573113372064,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000040"
+      ],
+      "inputs": [
+        "w02::SRR3150701_1.fastq",
+        "w02::SRR3150701_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000002",
+      "workflow": "w02",
+      "work": 0.71031381928259,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000004",
+      "workflow": "w02",
+      "work": 0.11823407805036656,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000006",
+      "workflow": "w02",
+      "work": 0.48043779883970206,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000008",
+      "workflow": "w02",
+      "work": 0.7641869343208546,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000010",
+      "workflow": "w02",
+      "work": 5.087896491383146,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000012",
+      "workflow": "w02",
+      "work": 1.7937778365184622,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000014",
+      "workflow": "w02",
+      "work": 2.3078444889329823,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000016",
+      "workflow": "w02",
+      "work": 3.722989663616387,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000018",
+      "workflow": "w02",
+      "work": 2.3394648629511114,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000020",
+      "workflow": "w02",
+      "work": 1.0542237705664175,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000022",
+      "workflow": "w02",
+      "work": 1.4075685677467893,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000024",
+      "workflow": "w02",
+      "work": 0.13819499101992372,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000026",
+      "workflow": "w02",
+      "work": 1.8835162813833168,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000028",
+      "workflow": "w02",
+      "work": 3.2357633620230746,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000030",
+      "workflow": "w02",
+      "work": 3.83856026582419,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000032",
+      "workflow": "w02",
+      "work": 3.55033554203955,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000034",
+      "workflow": "w02",
+      "work": 0.06654076956509583,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000036",
+      "workflow": "w02",
+      "work": 3.24426513473974,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000038",
+      "workflow": "w02",
+      "work": 3.2057046994712683,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000040",
+      "workflow": "w02",
+      "work": 1.694480663159735,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::merge_ID0000042",
+      "workflow": "w02",
+      "work": 0.00032156759306562453,
+      "parents": [
+        "w02::bowtie2_ID0000003",
+        "w02::bowtie2_ID0000005",
+        "w02::bowtie2_ID0000007",
+        "w02::bowtie2_ID0000009",
+        "w02::bowtie2_ID0000011",
+        "w02::bowtie2_ID0000013",
+        "w02::bowtie2_ID0000015",
+        "w02::bowtie2_ID0000017",
+        "w02::bowtie2_ID0000019",
+        "w02::bowtie2_ID0000021",
+        "w02::bowtie2_ID0000023",
+        "w02::bowtie2_ID0000025",
+        "w02::bowtie2_ID0000027",
+        "w02::bowtie2_ID0000029",
+        "w02::bowtie2_ID0000031",
+        "w02::bowtie2_ID0000033",
+        "w02::bowtie2_ID0000035",
+        "w02::bowtie2_ID0000037",
+        "w02::bowtie2_ID0000039",
+        "w02::bowtie2_ID0000041"
+      ],
+      "inputs": [
+        "w02::SRR1518412.bam",
+        "w02::SRR1518412.bam.bai",
+        "w02::SRR1518581.bam",
+        "w02::SRR1518581.bam.bai",
+        "w02::SRR1518646.bam",
+        "w02::SRR1518646.bam.bai",
+        "w02::SRR1518963.bam",
+        "w02::SRR1518963.bam.bai",
+        "w02::SRR1922799.bam",
+        "w02::SRR1922799.bam.bai",
+        "w02::SRR1922824.bam",
+        "w02::SRR1922824.bam.bai",
+        "w02::SRR2093830.bam",
+        "w02::SRR2093830.bam.bai",
+        "w02::SRR3136938.bam",
+        "w02::SRR3136938.bam.bai",
+        "w02::SRR3150455.bam",
+        "w02::SRR3150455.bam.bai",
+        "w02::SRR3150505.bam",
+        "w02::SRR3150505.bam.bai",
+        "w02::SRR3150701.bam",
+        "w02::SRR3150701.bam.bai",
+        "w02::SRR3151991.bam",
+        "w02::SRR3151991.bam.bai",
+        "w02::SRR3151997.bam",
+        "w02::SRR3151997.bam.bai",
+        "w02::SRR3152054.bam",
+        "w02::SRR3152054.bam.bai",
+        "w02::SRR3152100.bam",
+        "w02::SRR3152100.bam.bai",
+        "w02::SRR3177796.bam",
+        "w02::SRR3177796.bam.bai",
+        "w02::SRR3177813.bam",
+        "w02::SRR3177813.bam.bai",
+        "w02::SRR3177922.bam",
+        "w02::SRR3177922.bam.bai",
+        "w02::SRR3177956.bam",
+        "w02::SRR3177956.bam.bai",
+        "w02::SRR3177976.bam",
+        "w02::SRR3177976.bam.bai"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "w00::HEP2_MSP1_Digests.nocontam.chr21.map",
+      "size": 8978657,
+      "producer": "w00::chr21_chr21_ID0000001"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests.nocontam.map",
+      "size": 8978657,
+      "producer": "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_ID0000037"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests.nocontam.pileup",
+      "size": 6927690,
+      "producer": "w00::pileup_pileup_ID0000056"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.bfq",
+      "size": 1200650,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_1_ID0000002"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.fq",
+      "size": 4835396,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_1_ID0000057"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.map",
+      "size": 647731,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_1_ID0000039"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.1.nocontam.sfq",
+      "size": 6267112,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_1_ID0000020"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.1.sfq",
+      "size": 6444192,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.bfq",
+      "size": 1186725,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_10_ID0000003"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.fq",
+      "size": 4942971,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_10_ID0000058"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.map",
+      "size": 594833,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_10_ID0000040"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.10.nocontam.sfq",
+      "size": 6456082,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_10_ID0000021"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.10.sfq",
+      "size": 6588118,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.bfq",
+      "size": 1204016,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_11_ID0000004"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.fq",
+      "size": 4943485,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_11_ID0000059"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.map",
+      "size": 616110,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_11_ID0000041"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.11.nocontam.sfq",
+      "size": 6456760,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_11_ID0000022"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.11.sfq",
+      "size": 6588126,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.bfq",
+      "size": 1199336,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_12_ID0000005"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.fq",
+      "size": 4935199,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_12_ID0000060"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.map",
+      "size": 632954,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_12_ID0000042"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.12.nocontam.sfq",
+      "size": 6445648,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_12_ID0000023"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.12.sfq",
+      "size": 6587362,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.bfq",
+      "size": 1152898,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_13_ID0000006"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.fq",
+      "size": 4892317,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_13_ID0000061"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.map",
+      "size": 573678,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_13_ID0000043"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.13.nocontam.sfq",
+      "size": 6389424,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_13_ID0000024"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.13.sfq",
+      "size": 6586762,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.bfq",
+      "size": 1132178,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_14_ID0000007"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.fq",
+      "size": 4882532,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_14_ID0000062"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.map",
+      "size": 547713,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_14_ID0000044"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.14.nocontam.sfq",
+      "size": 6376644,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_14_ID0000025"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.14.sfq",
+      "size": 6586790,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.bfq",
+      "size": 1103888,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_15_ID0000008"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.fq",
+      "size": 4886741,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_15_ID0000063"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.map",
+      "size": 522338,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_15_ID0000045"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.15.nocontam.sfq",
+      "size": 6381912,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_15_ID0000026"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.15.sfq",
+      "size": 6586104,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.bfq",
+      "size": 1089512,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_16_ID0000009"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.fq",
+      "size": 4886199,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_16_ID0000064"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.map",
+      "size": 504441,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_16_ID0000046"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.16.nocontam.sfq",
+      "size": 6381178,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_16_ID0000027"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.16.sfq",
+      "size": 6586034,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.bfq",
+      "size": 755757,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_17_ID0000010"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.fq",
+      "size": 3397227,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_17_ID0000065"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.map",
+      "size": 354325,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_17_ID0000047"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.17.nocontam.sfq",
+      "size": 4436434,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_17_ID0000028"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.17.sfq",
+      "size": 4585358,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.bfq",
+      "size": 1177036,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_2_ID0000011"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.fq",
+      "size": 4816837,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_2_ID0000066"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.map",
+      "size": 620288,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_2_ID0000048"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.2.nocontam.sfq",
+      "size": 6260234,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_2_ID0000029"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.2.sfq",
+      "size": 6494996,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.bfq",
+      "size": 1171603,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_3_ID0000012"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.fq",
+      "size": 4857957,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_3_ID0000067"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.map",
+      "size": 608061,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_3_ID0000049"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.3.nocontam.sfq",
+      "size": 6313494,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_3_ID0000030"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.3.sfq",
+      "size": 6494572,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.bfq",
+      "size": 1152596,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_4_ID0000013"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.fq",
+      "size": 4843441,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_4_ID0000068"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.map",
+      "size": 578789,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_4_ID0000050"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.4.nocontam.sfq",
+      "size": 6294542,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_4_ID0000031"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.4.sfq",
+      "size": 6494270,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.bfq",
+      "size": 1146248,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_5_ID0000014"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.fq",
+      "size": 4839047,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_5_ID0000069"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.map",
+      "size": 576422,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_5_ID0000051"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.5.nocontam.sfq",
+      "size": 6288834,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_5_ID0000032"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.5.sfq",
+      "size": 6494088,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.bfq",
+      "size": 1131656,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_6_ID0000015"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.fq",
+      "size": 4896518,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_6_ID0000070"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.map",
+      "size": 556159,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_6_ID0000052"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.6.nocontam.sfq",
+      "size": 6383826,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_6_ID0000033"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.6.sfq",
+      "size": 6553138,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.bfq",
+      "size": 1135321,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_7_ID0000016"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.fq",
+      "size": 4952053,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_7_ID0000071"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.map",
+      "size": 542376,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_7_ID0000053"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.7.nocontam.sfq",
+      "size": 6467526,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_7_ID0000034"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.7.sfq",
+      "size": 6586874,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.bfq",
+      "size": 1151621,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_8_ID0000017"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.fq",
+      "size": 4949148,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_8_ID0000072"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.map",
+      "size": 557266,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_8_ID0000054"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.8.nocontam.sfq",
+      "size": 6463886,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_8_ID0000035"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.8.sfq",
+      "size": 6587358,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.bfq",
+      "size": 1167285,
+      "producer": "w00::fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_9_ID0000018"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.fq",
+      "size": 4944874,
+      "producer": "w00::sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_9_ID0000073"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.map",
+      "size": 577735,
+      "producer": "w00::map_map_HEP2_MSP1_Digests_s_1_sequence_9_ID0000055"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.9.nocontam.sfq",
+      "size": 6458418,
+      "producer": "w00::filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_9_ID0000036"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.9.sfq",
+      "size": 6587682,
+      "producer": "w00::fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.nocontam.map",
+      "size": 8978657,
+      "producer": "w00::mapMerge_mapMerge_HEP2_MSP1_Digests_s_1_sequence_ID0000038"
+    },
+    {
+      "id": "w00::HEP2_MSP1_Digests_s_1_sequence.sfq",
+      "size": 109431824,
+      "producer": null
+    },
+    {
+      "id": "w00::chr21.BS.bfa",
+      "size": 46944392,
+      "producer": null
+    },
+    {
+      "id": "w00::chr21.BSnull.bfa",
+      "size": 46944392,
+      "producer": null
+    },
+    {
+      "id": "w00::maq",
+      "size": 171256,
+      "producer": null
+    },
+    {
+      "id": "w00::maqindex",
+      "size": 118456,
+      "producer": null
+    },
+    {
+      "id": "w01::SRR1103366.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000065"
+    },
+    {
+      "id": "w01::SRR1103366.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000065"
+    },
+    {
+      "id": "w01::SRR1103366_1.fastq",
+      "size": 1048302,
+      "producer": "w01::fasterq-dump_ID0000064"
+    },
+    {
+      "id": "w01::SRR1103366_2.fastq",
+      "size": 1048302,
+      "producer": "w01::fasterq-dump_ID0000064"
+    },
+    {
+      "id": "w01::SRR1518421.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000041"
+    },
+    {
+      "id": "w01::SRR1518421.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000041"
+    },
+    {
+      "id": "w01::SRR1518421_1.fastq",
+      "size": 1469277956,
+      "producer": "w01::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w01::SRR1518421_2.fastq",
+      "size": 1469277956,
+      "producer": "w01::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w01::SRR1518451.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000023"
+    },
+    {
+      "id": "w01::SRR1518451.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000023"
+    },
+    {
+      "id": "w01::SRR1518451_1.fastq",
+      "size": 1300104302,
+      "producer": "w01::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w01::SRR1518451_2.fastq",
+      "size": 1300104302,
+      "producer": "w01::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w01::SRR1518543.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000009"
+    },
+    {
+      "id": "w01::SRR1518543.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000009"
+    },
+    {
+      "id": "w01::SRR1518543_1.fastq",
+      "size": 279645486,
+      "producer": "w01::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w01::SRR1518543_2.fastq",
+      "size": 279645486,
+      "producer": "w01::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w01::SRR1518573.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000017"
+    },
+    {
+      "id": "w01::SRR1518573.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000017"
+    },
+    {
+      "id": "w01::SRR1518573_1.fastq",
+      "size": 1625117400,
+      "producer": "w01::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w01::SRR1518573_2.fastq",
+      "size": 1625117400,
+      "producer": "w01::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w01::SRR1518654.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000019"
+    },
+    {
+      "id": "w01::SRR1518654.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000019"
+    },
+    {
+      "id": "w01::SRR1518654_1.fastq",
+      "size": 1074614874,
+      "producer": "w01::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w01::SRR1518654_2.fastq",
+      "size": 1074614874,
+      "producer": "w01::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w01::SRR1518961.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000035"
+    },
+    {
+      "id": "w01::SRR1518961.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000035"
+    },
+    {
+      "id": "w01::SRR1518961_1.fastq",
+      "size": 1517682732,
+      "producer": "w01::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w01::SRR1518961_2.fastq",
+      "size": 1517682732,
+      "producer": "w01::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w01::SRR1917732.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000071"
+    },
+    {
+      "id": "w01::SRR1917732.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000071"
+    },
+    {
+      "id": "w01::SRR1917732_1.fastq",
+      "size": 910780014,
+      "producer": "w01::fasterq-dump_ID0000070"
+    },
+    {
+      "id": "w01::SRR1917732_2.fastq",
+      "size": 910780014,
+      "producer": "w01::fasterq-dump_ID0000070"
+    },
+    {
+      "id": "w01::SRR1918774.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000049"
+    },
+    {
+      "id": "w01::SRR1918774.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000049"
+    },
+    {
+      "id": "w01::SRR1918774_1.fastq",
+      "size": 1089627944,
+      "producer": "w01::fasterq-dump_ID0000048"
+    },
+    {
+      "id": "w01::SRR1918774_2.fastq",
+      "size": 1089627944,
+      "producer": "w01::fasterq-dump_ID0000048"
+    },
+    {
+      "id": "w01::SRR1919983.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000029"
+    },
+    {
+      "id": "w01::SRR1919983.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000029"
+    },
+    {
+      "id": "w01::SRR1919983_1.fastq",
+      "size": 1125831300,
+      "producer": "w01::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w01::SRR1919983_2.fastq",
+      "size": 1125831300,
+      "producer": "w01::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w01::SRR1923044.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000055"
+    },
+    {
+      "id": "w01::SRR1923044.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000055"
+    },
+    {
+      "id": "w01::SRR1923044_1.fastq",
+      "size": 911103918,
+      "producer": "w01::fasterq-dump_ID0000054"
+    },
+    {
+      "id": "w01::SRR1923044_2.fastq",
+      "size": 911103918,
+      "producer": "w01::fasterq-dump_ID0000054"
+    },
+    {
+      "id": "w01::SRR2088878.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000007"
+    },
+    {
+      "id": "w01::SRR2088878.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000007"
+    },
+    {
+      "id": "w01::SRR2088878_1.fastq",
+      "size": 419920242,
+      "producer": "w01::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w01::SRR2088878_2.fastq",
+      "size": 419920242,
+      "producer": "w01::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w01::SRR2089331.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000027"
+    },
+    {
+      "id": "w01::SRR2089331.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000027"
+    },
+    {
+      "id": "w01::SRR2089331_1.fastq",
+      "size": 422558532,
+      "producer": "w01::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w01::SRR2089331_2.fastq",
+      "size": 422558532,
+      "producer": "w01::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w01::SRR2093840.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000061"
+    },
+    {
+      "id": "w01::SRR2093840.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000061"
+    },
+    {
+      "id": "w01::SRR2093840_1.fastq",
+      "size": 420726176,
+      "producer": "w01::fasterq-dump_ID0000060"
+    },
+    {
+      "id": "w01::SRR2093840_2.fastq",
+      "size": 420726176,
+      "producer": "w01::fasterq-dump_ID0000060"
+    },
+    {
+      "id": "w01::SRR2095974.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000069"
+    },
+    {
+      "id": "w01::SRR2095974.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000069"
+    },
+    {
+      "id": "w01::SRR2095974_1.fastq",
+      "size": 543385282,
+      "producer": "w01::fasterq-dump_ID0000068"
+    },
+    {
+      "id": "w01::SRR2095974_2.fastq",
+      "size": 543385282,
+      "producer": "w01::fasterq-dump_ID0000068"
+    },
+    {
+      "id": "w01::SRR2143520.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000067"
+    },
+    {
+      "id": "w01::SRR2143520.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000067"
+    },
+    {
+      "id": "w01::SRR2143520_1.fastq",
+      "size": 506972938,
+      "producer": "w01::fasterq-dump_ID0000066"
+    },
+    {
+      "id": "w01::SRR2143520_2.fastq",
+      "size": 506972938,
+      "producer": "w01::fasterq-dump_ID0000066"
+    },
+    {
+      "id": "w01::SRR2143571.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000077"
+    },
+    {
+      "id": "w01::SRR2143571.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000077"
+    },
+    {
+      "id": "w01::SRR2143571_1.fastq",
+      "size": 494567370,
+      "producer": "w01::fasterq-dump_ID0000076"
+    },
+    {
+      "id": "w01::SRR2143571_2.fastq",
+      "size": 494567370,
+      "producer": "w01::fasterq-dump_ID0000076"
+    },
+    {
+      "id": "w01::SRR2223155.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000037"
+    },
+    {
+      "id": "w01::SRR2223155.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000037"
+    },
+    {
+      "id": "w01::SRR2223155_1.fastq",
+      "size": 482494140,
+      "producer": "w01::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w01::SRR2223155_2.fastq",
+      "size": 482494140,
+      "producer": "w01::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w01::SRR3145112.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000051"
+    },
+    {
+      "id": "w01::SRR3145112.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000051"
+    },
+    {
+      "id": "w01::SRR3145112_1.fastq",
+      "size": 710522984,
+      "producer": "w01::fasterq-dump_ID0000050"
+    },
+    {
+      "id": "w01::SRR3145112_2.fastq",
+      "size": 710522984,
+      "producer": "w01::fasterq-dump_ID0000050"
+    },
+    {
+      "id": "w01::SRR3150456.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000075"
+    },
+    {
+      "id": "w01::SRR3150456.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000075"
+    },
+    {
+      "id": "w01::SRR3150456_1.fastq",
+      "size": 796598064,
+      "producer": "w01::fasterq-dump_ID0000074"
+    },
+    {
+      "id": "w01::SRR3150456_2.fastq",
+      "size": 796598064,
+      "producer": "w01::fasterq-dump_ID0000074"
+    },
+    {
+      "id": "w01::SRR3150524.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000047"
+    },
+    {
+      "id": "w01::SRR3150524.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000047"
+    },
+    {
+      "id": "w01::SRR3150524_1.fastq",
+      "size": 522988504,
+      "producer": "w01::fasterq-dump_ID0000046"
+    },
+    {
+      "id": "w01::SRR3150524_2.fastq",
+      "size": 522988504,
+      "producer": "w01::fasterq-dump_ID0000046"
+    },
+    {
+      "id": "w01::SRR3150808.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000005"
+    },
+    {
+      "id": "w01::SRR3150808.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000005"
+    },
+    {
+      "id": "w01::SRR3150808_1.fastq",
+      "size": 517071264,
+      "producer": "w01::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w01::SRR3150808_2.fastq",
+      "size": 517071264,
+      "producer": "w01::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w01::SRR3150813.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000073"
+    },
+    {
+      "id": "w01::SRR3150813.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000073"
+    },
+    {
+      "id": "w01::SRR3150813_1.fastq",
+      "size": 340985144,
+      "producer": "w01::fasterq-dump_ID0000072"
+    },
+    {
+      "id": "w01::SRR3150813_2.fastq",
+      "size": 340985144,
+      "producer": "w01::fasterq-dump_ID0000072"
+    },
+    {
+      "id": "w01::SRR3150843.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000025"
+    },
+    {
+      "id": "w01::SRR3150843.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000025"
+    },
+    {
+      "id": "w01::SRR3150843_1.fastq",
+      "size": 674805064,
+      "producer": "w01::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w01::SRR3150843_2.fastq",
+      "size": 674805064,
+      "producer": "w01::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w01::SRR3151981.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000003"
+    },
+    {
+      "id": "w01::SRR3151981.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000003"
+    },
+    {
+      "id": "w01::SRR3151981_1.fastq",
+      "size": 567620784,
+      "producer": "w01::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w01::SRR3151981_2.fastq",
+      "size": 567620784,
+      "producer": "w01::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w01::SRR3151987.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000057"
+    },
+    {
+      "id": "w01::SRR3151987.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000057"
+    },
+    {
+      "id": "w01::SRR3151987_1.fastq",
+      "size": 836084784,
+      "producer": "w01::fasterq-dump_ID0000056"
+    },
+    {
+      "id": "w01::SRR3151987_2.fastq",
+      "size": 836084784,
+      "producer": "w01::fasterq-dump_ID0000056"
+    },
+    {
+      "id": "w01::SRR3152058.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000059"
+    },
+    {
+      "id": "w01::SRR3152058.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000059"
+    },
+    {
+      "id": "w01::SRR3152058_1.fastq",
+      "size": 470034904,
+      "producer": "w01::fasterq-dump_ID0000058"
+    },
+    {
+      "id": "w01::SRR3152058_2.fastq",
+      "size": 470034904,
+      "producer": "w01::fasterq-dump_ID0000058"
+    },
+    {
+      "id": "w01::SRR3152103.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000079"
+    },
+    {
+      "id": "w01::SRR3152103.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000079"
+    },
+    {
+      "id": "w01::SRR3152103_1.fastq",
+      "size": 695164984,
+      "producer": "w01::fasterq-dump_ID0000078"
+    },
+    {
+      "id": "w01::SRR3152103_2.fastq",
+      "size": 695164984,
+      "producer": "w01::fasterq-dump_ID0000078"
+    },
+    {
+      "id": "w01::SRR3152116.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000039"
+    },
+    {
+      "id": "w01::SRR3152116.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000039"
+    },
+    {
+      "id": "w01::SRR3152116_1.fastq",
+      "size": 350095784,
+      "producer": "w01::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w01::SRR3152116_2.fastq",
+      "size": 350095784,
+      "producer": "w01::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w01::SRR3152139.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000053"
+    },
+    {
+      "id": "w01::SRR3152139.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000053"
+    },
+    {
+      "id": "w01::SRR3152139_1.fastq",
+      "size": 676868664,
+      "producer": "w01::fasterq-dump_ID0000052"
+    },
+    {
+      "id": "w01::SRR3152139_2.fastq",
+      "size": 676868664,
+      "producer": "w01::fasterq-dump_ID0000052"
+    },
+    {
+      "id": "w01::SRR3152152.bam",
+      "size": 315,
+      "producer": "w01::bowtie2_ID0000043"
+    },
+    {
+      "id": "w01::SRR3152152.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000043"
+    },
+    {
+      "id": "w01::SRR3152152_1.fastq",
+      "size": 247705800,
+      "producer": "w01::fasterq-dump_ID0000042"
+    },
+    {
+      "id": "w01::SRR3152152_2.fastq",
+      "size": 247705800,
+      "producer": "w01::fasterq-dump_ID0000042"
+    },
+    {
+      "id": "w01::SRR3170548.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000031"
+    },
+    {
+      "id": "w01::SRR3170548.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000031"
+    },
+    {
+      "id": "w01::SRR3170548_1.fastq",
+      "size": 1022826864,
+      "producer": "w01::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w01::SRR3170548_2.fastq",
+      "size": 1022826864,
+      "producer": "w01::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w01::SRR3177813.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000045"
+    },
+    {
+      "id": "w01::SRR3177813.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000045"
+    },
+    {
+      "id": "w01::SRR3177813_1.fastq",
+      "size": 357669504,
+      "producer": "w01::fasterq-dump_ID0000044"
+    },
+    {
+      "id": "w01::SRR3177813_2.fastq",
+      "size": 357669504,
+      "producer": "w01::fasterq-dump_ID0000044"
+    },
+    {
+      "id": "w01::SRR3177818.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000081"
+    },
+    {
+      "id": "w01::SRR3177818.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000081"
+    },
+    {
+      "id": "w01::SRR3177818_1.fastq",
+      "size": 413158504,
+      "producer": "w01::fasterq-dump_ID0000080"
+    },
+    {
+      "id": "w01::SRR3177818_2.fastq",
+      "size": 413158504,
+      "producer": "w01::fasterq-dump_ID0000080"
+    },
+    {
+      "id": "w01::SRR3177822.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000033"
+    },
+    {
+      "id": "w01::SRR3177822.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000033"
+    },
+    {
+      "id": "w01::SRR3177822_1.fastq",
+      "size": 721020744,
+      "producer": "w01::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w01::SRR3177822_2.fastq",
+      "size": 721020744,
+      "producer": "w01::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w01::SRR3177882.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000015"
+    },
+    {
+      "id": "w01::SRR3177882.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000015"
+    },
+    {
+      "id": "w01::SRR3177882_1.fastq",
+      "size": 259483272,
+      "producer": "w01::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w01::SRR3177882_2.fastq",
+      "size": 259483272,
+      "producer": "w01::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w01::SRR3177953.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000063"
+    },
+    {
+      "id": "w01::SRR3177953.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000063"
+    },
+    {
+      "id": "w01::SRR3177953_1.fastq",
+      "size": 850895944,
+      "producer": "w01::fasterq-dump_ID0000062"
+    },
+    {
+      "id": "w01::SRR3177953_2.fastq",
+      "size": 850895944,
+      "producer": "w01::fasterq-dump_ID0000062"
+    },
+    {
+      "id": "w01::SRR3177980.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000021"
+    },
+    {
+      "id": "w01::SRR3177980.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000021"
+    },
+    {
+      "id": "w01::SRR3177980_1.fastq",
+      "size": 738572824,
+      "producer": "w01::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w01::SRR3177980_2.fastq",
+      "size": 738572824,
+      "producer": "w01::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w01::SRR3177989.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000013"
+    },
+    {
+      "id": "w01::SRR3177989.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000013"
+    },
+    {
+      "id": "w01::SRR3177989_1.fastq",
+      "size": 891862744,
+      "producer": "w01::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w01::SRR3177989_2.fastq",
+      "size": 891862744,
+      "producer": "w01::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w01::SRR3178006.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000011"
+    },
+    {
+      "id": "w01::SRR3178006.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000011"
+    },
+    {
+      "id": "w01::SRR3178006_1.fastq",
+      "size": 710627144,
+      "producer": "w01::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w01::SRR3178006_2.fastq",
+      "size": 710627144,
+      "producer": "w01::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w01::reference.1.bt2",
+      "size": 4226858,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.2.bt2",
+      "size": 24280,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.3.bt2",
+      "size": 17,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.4.bt2",
+      "size": 24273,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.fna",
+      "size": 98721,
+      "producer": null
+    },
+    {
+      "id": "w01::reference.rev.1.bt2",
+      "size": 4226858,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.rev.2.bt2",
+      "size": 24280,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::results-l1-j1.tar.gz",
+      "size": 5687,
+      "producer": "w01::merge_ID0000082"
+    },
+    {
+      "id": "w01::results-l1-j2.tar.gz",
+      "size": 3971,
+      "producer": "w01::merge_ID0000083"
+    },
+    {
+      "id": "w01::results.tar.gz",
+      "size": 8474,
+      "producer": "w01::merge_ID0000084"
+    },
+    {
+      "id": "w02::SRR1518412.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000029"
+    },
+    {
+      "id": "w02::SRR1518412.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000029"
+    },
+    {
+      "id": "w02::SRR1518412_1.fastq",
+      "size": 1518899256,
+      "producer": "w02::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w02::SRR1518412_2.fastq",
+      "size": 1518899256,
+      "producer": "w02::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w02::SRR1518581.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000027"
+    },
+    {
+      "id": "w02::SRR1518581.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000027"
+    },
+    {
+      "id": "w02::SRR1518581_1.fastq",
+      "size": 752358984,
+      "producer": "w02::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w02::SRR1518581_2.fastq",
+      "size": 752358984,
+      "producer": "w02::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w02::SRR1518646.bam",
+      "size": 317,
+      "producer": "w02::bowtie2_ID0000011"
+    },
+    {
+      "id": "w02::SRR1518646.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000011"
+    },
+    {
+      "id": "w02::SRR1518646_1.fastq",
+      "size": 1484208462,
+      "producer": "w02::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w02::SRR1518646_2.fastq",
+      "size": 1484208462,
+      "producer": "w02::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w02::SRR1518963.bam",
+      "size": 317,
+      "producer": "w02::bowtie2_ID0000037"
+    },
+    {
+      "id": "w02::SRR1518963.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000037"
+    },
+    {
+      "id": "w02::SRR1518963_1.fastq",
+      "size": 1543385622,
+      "producer": "w02::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w02::SRR1518963_2.fastq",
+      "size": 1543385622,
+      "producer": "w02::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w02::SRR1922799.bam",
+      "size": 315,
+      "producer": "w02::bowtie2_ID0000025"
+    },
+    {
+      "id": "w02::SRR1922799.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000025"
+    },
+    {
+      "id": "w02::SRR1922799_1.fastq",
+      "size": 966400618,
+      "producer": "w02::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w02::SRR1922799_2.fastq",
+      "size": 966400618,
+      "producer": "w02::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w02::SRR1922824.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000013"
+    },
+    {
+      "id": "w02::SRR1922824.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000013"
+    },
+    {
+      "id": "w02::SRR1922824_1.fastq",
+      "size": 933337014,
+      "producer": "w02::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w02::SRR1922824_2.fastq",
+      "size": 933337014,
+      "producer": "w02::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w02::SRR2093830.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000009"
+    },
+    {
+      "id": "w02::SRR2093830.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000009"
+    },
+    {
+      "id": "w02::SRR2093830_1.fastq",
+      "size": 378640026,
+      "producer": "w02::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w02::SRR2093830_2.fastq",
+      "size": 378640026,
+      "producer": "w02::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w02::SRR3136938.bam",
+      "size": 317,
+      "producer": "w02::bowtie2_ID0000003"
+    },
+    {
+      "id": "w02::SRR3136938.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000003"
+    },
+    {
+      "id": "w02::SRR3136938_1.fastq",
+      "size": 319486464,
+      "producer": "w02::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w02::SRR3136938_2.fastq",
+      "size": 319486464,
+      "producer": "w02::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w02::SRR3150455.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000031"
+    },
+    {
+      "id": "w02::SRR3150455.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000031"
+    },
+    {
+      "id": "w02::SRR3150455_1.fastq",
+      "size": 945373264,
+      "producer": "w02::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w02::SRR3150455_2.fastq",
+      "size": 945373264,
+      "producer": "w02::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w02::SRR3150505.bam",
+      "size": 315,
+      "producer": "w02::bowtie2_ID0000005"
+    },
+    {
+      "id": "w02::SRR3150505.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000005"
+    },
+    {
+      "id": "w02::SRR3150505_1.fastq",
+      "size": 725330504,
+      "producer": "w02::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w02::SRR3150505_2.fastq",
+      "size": 725330504,
+      "producer": "w02::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w02::SRR3150701.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000041"
+    },
+    {
+      "id": "w02::SRR3150701.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000041"
+    },
+    {
+      "id": "w02::SRR3150701_1.fastq",
+      "size": 817782304,
+      "producer": "w02::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w02::SRR3150701_2.fastq",
+      "size": 817782304,
+      "producer": "w02::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w02::SRR3151991.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000015"
+    },
+    {
+      "id": "w02::SRR3151991.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000015"
+    },
+    {
+      "id": "w02::SRR3151991_1.fastq",
+      "size": 504543504,
+      "producer": "w02::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w02::SRR3151991_2.fastq",
+      "size": 504543504,
+      "producer": "w02::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w02::SRR3151997.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000021"
+    },
+    {
+      "id": "w02::SRR3151997.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000021"
+    },
+    {
+      "id": "w02::SRR3151997_1.fastq",
+      "size": 566468584,
+      "producer": "w02::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w02::SRR3151997_2.fastq",
+      "size": 566468584,
+      "producer": "w02::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w02::SRR3152054.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000019"
+    },
+    {
+      "id": "w02::SRR3152054.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000019"
+    },
+    {
+      "id": "w02::SRR3152054_1.fastq",
+      "size": 428951904,
+      "producer": "w02::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w02::SRR3152054_2.fastq",
+      "size": 428951904,
+      "producer": "w02::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w02::SRR3152100.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000007"
+    },
+    {
+      "id": "w02::SRR3152100.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000007"
+    },
+    {
+      "id": "w02::SRR3152100_1.fastq",
+      "size": 215859816,
+      "producer": "w02::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w02::SRR3152100_2.fastq",
+      "size": 215859816,
+      "producer": "w02::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w02::SRR3177796.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000039"
+    },
+    {
+      "id": "w02::SRR3177796.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000039"
+    },
+    {
+      "id": "w02::SRR3177796_1.fastq",
+      "size": 624266184,
+      "producer": "w02::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w02::SRR3177796_2.fastq",
+      "size": 624266184,
+      "producer": "w02::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w02::SRR3177813.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000035"
+    },
+    {
+      "id": "w02::SRR3177813.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000035"
+    },
+    {
+      "id": "w02::SRR3177813_1.fastq",
+      "size": 357669504,
+      "producer": "w02::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w02::SRR3177813_2.fastq",
+      "size": 357669504,
+      "producer": "w02::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w02::SRR3177922.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000033"
+    },
+    {
+      "id": "w02::SRR3177922.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000033"
+    },
+    {
+      "id": "w02::SRR3177922_1.fastq",
+      "size": 675986664,
+      "producer": "w02::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w02::SRR3177922_2.fastq",
+      "size": 675986664,
+      "producer": "w02::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w02::SRR3177956.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000023"
+    },
+    {
+      "id": "w02::SRR3177956.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000023"
+    },
+    {
+      "id": "w02::SRR3177956_1.fastq",
+      "size": 715725944,
+      "producer": "w02::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w02::SRR3177956_2.fastq",
+      "size": 715725944,
+      "producer": "w02::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w02::SRR3177976.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000017"
+    },
+    {
+      "id": "w02::SRR3177976.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000017"
+    },
+    {
+      "id": "w02::SRR3177976_1.fastq",
+      "size": 866645104,
+      "producer": "w02::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w02::SRR3177976_2.fastq",
+      "size": 866645104,
+      "producer": "w02::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w02::reference.1.bt2",
+      "size": 4226858,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.2.bt2",
+      "size": 24280,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.3.bt2",
+      "size": 17,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.4.bt2",
+      "size": 24273,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.fna",
+      "size": 98721,
+      "producer": null
+    },
+    {
+      "id": "w02::reference.rev.1.bt2",
+      "size": 4226858,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.rev.2.bt2",
+      "size": 24280,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::results.tar.gz",
+      "size": 4395,
+      "producer": "w02::merge_ID0000042"
+    }
+  ]
+}

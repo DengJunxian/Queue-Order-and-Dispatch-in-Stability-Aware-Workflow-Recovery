@@ -1,0 +1,282 @@
+{
+  "status": "FROZEN_G2_V2",
+  "purpose": "CONFIRMATORY_V2",
+  "version": "g2_v2_20261025",
+  "created_at": "2026-10-25T11:17:06.472271+00:00",
+  "root_seeds": [
+    81000,
+    81001,
+    81002,
+    81003,
+    81004,
+    81005,
+    81006,
+    81007,
+    81008,
+    81009,
+    81010,
+    81011,
+    81012,
+    81013,
+    81014,
+    81015,
+    81016,
+    81017,
+    81018,
+    81019,
+    81020,
+    81021,
+    81022,
+    81023,
+    81024,
+    81025,
+    81026,
+    81027,
+    81028,
+    81029,
+    81030,
+    81031,
+    81032,
+    81033,
+    81034,
+    81035,
+    81036,
+    81037,
+    81038,
+    81039,
+    81040,
+    81041,
+    81042,
+    81043,
+    81044,
+    81045,
+    81046,
+    81047,
+    81048,
+    81049,
+    81050,
+    81051,
+    81052,
+    81053,
+    81054,
+    81055,
+    81056,
+    81057,
+    81058,
+    81059
+  ],
+  "methods": [
+    "B0",
+    "B1",
+    "B2",
+    "LegacySAIL",
+    "QueueRepair0",
+    "BudgetHEFT10",
+    "BudgetSelect10",
+    "PoolMinAWCT10",
+    "B0AssignmentReorder"
+  ],
+  "primary_comparators": [
+    "PoolMinAWCT10",
+    "BudgetHEFT10"
+  ],
+  "primary_budget_theta": 0.1,
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 83000,
+  "nominal_jobs": 15780,
+  "reference_jobs": 840,
+  "failure_scenarios": 1920,
+  "mathematical_alias_records": 120,
+  "expected_physical_executions": 15660,
+  "new_topology_groups": 6,
+  "new_test_scheduling_runs_before_freeze": 0,
+  "formal_runs_completed": 0,
+  "original_v1_G3": "NOT_SUPPORTED",
+  "protocol_sha256": "9f1d8073f68c0c3b49d2f4a59ec956842b7ff47c732c9ff9b9fecf84e204ca4a",
+  "source_data_manifest_sha256": "211b46751845d34ce5d87394614bef05575828f1fa95e948cad58a22b5d33c31",
+  "budget_decision": {
+    "selected_roots": 60,
+    "max_new_mix_tasks": 613,
+    "task_squared_factor": 10.193386501736112,
+    "nominal_cost_seconds_before_scaling": 1834.9462585940494,
+    "conservative_estimated_seconds": 38008.63284752753,
+    "conservative_estimated_hours": 10.557953568757647,
+    "gate_hours": 12,
+    "gate_passed": true,
+    "scope": "planning estimate from synthetic end-to-end p95; not observed new benchmark runtime; aliases counted conservatively at physical cost"
+  },
+  "code_files": [
+    {
+      "path": "data/schema/wfcommons-schema.json",
+      "sha256": "d2b86aaf3b8d97d46c1e5cb7ca6237f4801e9cfe67098833a9c03fb3e9c52f14"
+    },
+    {
+      "path": "requirements-p3.txt",
+      "sha256": "a9f4a4f8e193ade26ca72199f2230f400ec449823934af3e56066e3569900302"
+    },
+    {
+      "path": "research_v2/order_control.py",
+      "sha256": "a7501aa97e5e11f5ddb957fbcda9b98e4a3f5140b7f6774e25334ecadadce8f1"
+    },
+    {
+      "path": "research_v2/policies.py",
+      "sha256": "710b16e890c71ba4c1c9897c24dd506c532a4eddcfa50af7074c18795e6a7e98"
+    },
+    {
+      "path": "sail/__init__.py",
+      "sha256": "8123ce66c6e855b039cf26af2db8589f17865806d528561bc21fcab14b7c84b2"
+    },
+    {
+      "path": "sail/audit.py",
+      "sha256": "90c49307c6daf677de96f6635cde0d5f42da2c25ff46a8b7f80c51cb18965d65"
+    },
+    {
+      "path": "sail/data.py",
+      "sha256": "2ee7c76fc0eddedaf6d3b81b64d677742725d7086522c27ab1efca9997712591"
+    },
+    {
+      "path": "sail/development.py",
+      "sha256": "7cc4cc9d35fb6bfbba0a08ea5c17a9c622aea4dbfcdcdb578490b68e80939633"
+    },
+    {
+      "path": "sail/experiment.py",
+      "sha256": "7a614f12592dd5e4fd7f1fa5a62976c5b57ff4b35e0b2bd0b46722934b46cbc8"
+    },
+    {
+      "path": "sail/forecast.py",
+      "sha256": "97016554367ef1183b8ea978eefa77cdf324ae6b6055b979a8b994d8029595e7"
+    },
+    {
+      "path": "sail/frozen.py",
+      "sha256": "2032388f47725fae13544e5dc2e69703f4626c44a930197a111c22bed10e3946"
+    },
+    {
+      "path": "sail/metrics.py",
+      "sha256": "f6e1bd356b4f3df6ced8c84189400a4a3c712bd2fc7a2b5f92a63504e5e8ef5e"
+    },
+    {
+      "path": "sail/model.py",
+      "sha256": "2c81aef0da00d06b50d390b9fee7d5a9037a24c2e52727aa2cb743f7c0019348"
+    },
+    {
+      "path": "sail/policy.py",
+      "sha256": "214db46fc662be8121bf034bcb217c38899db9ea35b18f49a72ba25bf082be91"
+    },
+    {
+      "path": "sail/scheduling.py",
+      "sha256": "4559a5a72ce865db56a124174292194bbb47b0577b39106268ebf05f8cacdd99"
+    },
+    {
+      "path": "sail/simulator.py",
+      "sha256": "2e9048b184ef3eee90dc9c34706d48f869f11197222d8b0845acf44011b8f922"
+    },
+    {
+      "path": "sail/statistics.py",
+      "sha256": "40f06c332aba9d1a0448d4806823641ecc0a2cfbe34768efe46c5bd794c5f8f7"
+    },
+    {
+      "path": "scripts/validate_p0_data.py",
+      "sha256": "483fbda3ca46580238627698836972dadfad2da6d1a84f31ad259cdeb3ef163f"
+    },
+    {
+      "path": "v2_preparation/__init__.py",
+      "sha256": "bb9da722dfc59fae63329befedf0d71f5f51afe36715532cde880c66f312496a"
+    },
+    {
+      "path": "v2_preparation/adapters.py",
+      "sha256": "2ebd70bf97dad8830193c19672e73a425d2d07228a5831ecae19ffa41969b9de"
+    },
+    {
+      "path": "v2_preparation/analyze_confirmatory.py",
+      "sha256": "778cdfa8ed17d9a217b616739947df2121271170bec44ebbb5a37325f255d767"
+    },
+    {
+      "path": "v2_preparation/analyze_controls.py",
+      "sha256": "2c413e8e32a8caed1d22ea4d5b21afe94a15e071c1d5ea09b1525a866d567135"
+    },
+    {
+      "path": "v2_preparation/build_freeze.py",
+      "sha256": "529087ebd556949b95c6893346cf0f95678caf94c6b402cb00a1fd54886b6b52"
+    },
+    {
+      "path": "v2_preparation/data/manifest_v2.json",
+      "sha256": "211b46751845d34ce5d87394614bef05575828f1fa95e948cad58a22b5d33c31"
+    },
+    {
+      "path": "v2_preparation/data/selection_before_outcomes.json",
+      "sha256": "1f15f07f325fd5492cbbfb241cc7f893265c8c6511f532b1f8f1c467052e7ed2"
+    },
+    {
+      "path": "v2_preparation/development/summary.json",
+      "sha256": "82fdc53efd002ab32b64742484defcc0ccd19d4b949a19a661407b6da87acd44"
+    },
+    {
+      "path": "v2_preparation/experiment.py",
+      "sha256": "b8efe5725d667d0aa0f4c711f9dd7048c1db4422c981fdc799734b3cd0b4dd6a"
+    },
+    {
+      "path": "v2_preparation/frozen.py",
+      "sha256": "bc412e4c1698b37687f27410a54f05e62018ea6fe566eb31b134782427ce0753"
+    },
+    {
+      "path": "v2_preparation/metrics.py",
+      "sha256": "fe7828b68e1c0c0439c715c8705a876b234901fccd4e98fa893c1e50d96315c5"
+    },
+    {
+      "path": "v2_preparation/policies.py",
+      "sha256": "9940617ecc1ab97d9bd83bdf58e5fd8cc6852dee722cbc2a4ac977fd27c1775c"
+    },
+    {
+      "path": "v2_preparation/profile_and_time.py",
+      "sha256": "dd126e6e72edabff13dd0e2877243eea86d9b6ad10eddc6e7d9335c3a6fbe261"
+    },
+    {
+      "path": "v2_preparation/profile_design.json",
+      "sha256": "ab4c5dc3c2caf8f2d15997ffaf5cc0b0abb52c021428a0a95744c145ff704ed2"
+    },
+    {
+      "path": "v2_preparation/protocol_v2.md",
+      "sha256": "9f1d8073f68c0c3b49d2f4a59ec956842b7ff47c732c9ff9b9fecf84e204ca4a"
+    },
+    {
+      "path": "v2_preparation/reports/budget_decision.json",
+      "sha256": "e5dc22be456f3014f3b0ff88cd94ab5d54f488b14c22aed5636d863e5310d2b8"
+    },
+    {
+      "path": "v2_preparation/reports/runtime_profile.json",
+      "sha256": "5766c15e594a69857e47927bd806b0ca5bd9934de23db291019c7d1e7d464034"
+    },
+    {
+      "path": "v2_preparation/reports/test_summary.json",
+      "sha256": "709fdd7bcd4ca625de1bd7b3426d700ced7665252d51fec7a25fe66e41d3e012"
+    },
+    {
+      "path": "v2_preparation/run_ablation.py",
+      "sha256": "0a304ec4738bd612956be1cc09253b0fb898503a265aada534ccc89221653247"
+    },
+    {
+      "path": "v2_preparation/run_confirmatory.py",
+      "sha256": "d15fd309878805b1c0d0e5c66e4d24861a409ac329cfc1072f2f81e17e3e6500"
+    },
+    {
+      "path": "v2_preparation/run_development.py",
+      "sha256": "09043c436fad606ce631f1967ce65f2e87cf6b336caf1f1cf60ec6f035b3ca7d"
+    },
+    {
+      "path": "v2_preparation/spec.json",
+      "sha256": "782510458c5528dbe430ad1389904d83ba945613d951ac012a9b5a9d716309b2"
+    },
+    {
+      "path": "v2_preparation/test_controls.py",
+      "sha256": "95ff31723e732b179f2b88b542953c69d9077040cff1fc2e9b9d66af03ac69ef"
+    },
+    {
+      "path": "v2_preparation/test_freeze_and_adapter.py",
+      "sha256": "283dd171af4ab0fb052cb22b99615e72acba51df97a522e5a2f74086a51af5ef"
+    },
+    {
+      "path": "v2_preparation/validate_new_data.py",
+      "sha256": "227ccba8d238aa2db1499e438a5ea2d68fac531ebc148310dca969a1911b72b3"
+    }
+  ]
+}

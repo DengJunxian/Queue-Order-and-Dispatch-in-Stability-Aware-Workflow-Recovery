@@ -1,0 +1,24 @@
+{
+  "registered_on": "2026-10-31",
+  "classification": "PRE_SCHEDULING_SOURCE_SELECTION",
+  "source_revision": "249866063b3bd7d6a36a5a55d4202c1f683099c0",
+  "new_series": [
+    "makeflow/blast/blast-chameleon-small",
+    "makeflow/blast/blast-chameleon-medium",
+    "makeflow/blast/blast-chameleon-large",
+    "makeflow/bwa/bwa-chameleon-small",
+    "pegasus/srasearch/srasearch-chameleon-10a",
+    "pegasus/srasearch/srasearch-chameleon-50a"
+  ],
+  "repeats": [1, 2, 3, 4, 5],
+  "selection_basis": "All six previously unused measured series in the pinned repository that have five numbered repeats and public task counts between 20 and 400. The two BWA series with 1004 tasks are outside this declared size range. Existing SRA20a/30a/40a remains a separately labelled previously seen comparison.",
+  "prior_inspection": "Pinned repository tree, public family descriptions/task counts and blast-small-001 source format were inspected; no new-series recovery scheduling outcome has been computed.",
+  "validation": "Validate source Git blob identity, schema, finite positive runtimes, acyclic dependencies, referenced files and unique producers. Verify exact task-ID, directed-edge and producer/consumer incidence alignment across all five repeats before the repeated-runtime study. Log mismatches and stop dependent comparisons instead of substituting another series.",
+  "split_roles": "001/002 prediction, 003 calibration, 004/005 evaluation; fixed prediction-mean normalization and repeat001 file byte sizes. No scheduling-outcome selection.",
+  "workload_compositions": {
+    "BLAST_new": ["blast-chameleon-small", "blast-chameleon-medium", "blast-chameleon-large"],
+    "BWA_SRA_new": ["bwa-chameleon-small", "srasearch-chameleon-10a", "srasearch-chameleon-50a"],
+    "SRA_seen": ["srasearch-chameleon-20a", "srasearch-chameleon-30a", "srasearch-chameleon-40a"]
+  },
+  "scope": "These compositions are synthetic shared platforms using measured task runtime repeats. The mixed workflows were not measured co-executing. Shared repeat labels across source series do not establish temporal synchronization or independent population sampling."
+}

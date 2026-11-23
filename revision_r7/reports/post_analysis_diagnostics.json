@@ -1,0 +1,20 @@
+{
+  "classification": "POST_ANALYSIS_DIAGNOSTIC_WITH_NO_METHOD_OR_THRESHOLD_CHANGE",
+  "worst_conditioned_guard_case": {
+    "case_id": "BWA_SRA_new-repeat005-r94001",
+    "composition": "BWA_SRA_new",
+    "repeat": 5,
+    "root": 94001,
+    "network": "shared",
+    "rule": "skip-unready",
+    "method": "ConditionalRatioGuard",
+    "workflow": "w01",
+    "increase_pct": 97.28806365738927,
+    "source_event_file": "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94001.json.gz",
+    "source_event_sha256": "21968d3db2d4530f0ee25eb15824684528716a676da4eadffe77c33078714608"
+  },
+  "nonreference_choices_without_predicted_CDI_improvement": {
+    "ConditionalRatioGuard": 44
+  },
+  "interpretation": "The frozen ratio policies prioritize admitted nonreference candidates and use DPM as fallback. Admission and temporal benefit are distinct; these choices do not have the DMG same-pool CDI-direction guarantee. All selected outcomes remain in the full comparison."
+}

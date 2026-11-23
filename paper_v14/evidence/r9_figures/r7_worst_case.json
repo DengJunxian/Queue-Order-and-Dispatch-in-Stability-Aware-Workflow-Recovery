@@ -1,0 +1,38 @@
+{
+  "figure": "r7_worst_case",
+  "data": {
+    "case": {
+      "case_id": "BWA_SRA_new-repeat005-r94001",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94001,
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "ConditionalRatioGuard",
+      "workflow": "w01",
+      "increase_pct": 97.28806365738927,
+      "source_event_file": "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94001.json.gz",
+      "source_event_sha256": "21968d3db2d4530f0ee25eb15824684528716a676da4eadffe77c33078714608"
+    },
+    "values": [
+      {
+        "method": "DispatchMinAWCT",
+        "workflow": "w01",
+        "predicted_completion": 385.9042342017317,
+        "realized_completion": 194.0677848409256
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "workflow": "w01",
+        "predicted_completion": 386.3989382091788,
+        "realized_completion": 382.87257489545055
+      }
+    ]
+  },
+  "caption": "Largest observed CRG workflow increase, selected over the entire evaluation: BWA\u2013SRA, repeat 005, root 94001, shared link, bypass, workflow w01. Predictions are 385.9 (DPM) and 386.4 (CRG); realized completions are 194.1 and 382.9. The zero-based vertical axis shows the reference finishing far earlier than forecast, breaking error cancellation. Case selection is post-analysis, not independent confirmation.",
+  "alt_text": "Prediction-to-outcome lines show a large favorable forecast error for DPM and a much smaller error for CRG. Direct labels retain the 97.29 percent adverse completion comparison.",
+  "sources": {
+    "revision_r7/reports/post_analysis_diagnostics.json": "8de2ecd7ad1512cb5310ab3db29dbd9a3c37857b48208c2993a76bd099386075",
+    "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94001.json.gz": "21968d3db2d4530f0ee25eb15824684528716a676da4eadffe77c33078714608"
+  }
+}

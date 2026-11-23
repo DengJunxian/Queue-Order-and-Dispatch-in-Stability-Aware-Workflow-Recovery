@@ -1,0 +1,5539 @@
+{
+  "tasks": [
+    {
+      "id": "w00::chr21_chr21_ID0000001",
+      "workflow": "w00",
+      "work": 0.28870263676893515,
+      "parents": [
+        "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_ID0000063"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000003",
+      "workflow": "w00",
+      "work": 0.1140751140751141,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000097"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000004",
+      "workflow": "w00",
+      "work": 0.15198703044006912,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000098"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000005",
+      "workflow": "w00",
+      "work": 0.14757528569683268,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000099"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000006",
+      "workflow": "w00",
+      "work": 0.0887197019793705,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000100"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000007",
+      "workflow": "w00",
+      "work": 0.1484964192146513,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000101"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000008",
+      "workflow": "w00",
+      "work": 0.1656101103614916,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000102"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000009",
+      "workflow": "w00",
+      "work": 0.16163469202143238,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000103"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000010",
+      "workflow": "w00",
+      "work": 0.11131171352165828,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000104"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000011",
+      "workflow": "w00",
+      "work": 0.14742984356244027,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000105"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000012",
+      "workflow": "w00",
+      "work": 0.08304745873806649,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000106"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000002",
+      "workflow": "w00",
+      "work": 0.14568453794973132,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000096"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000014",
+      "workflow": "w00",
+      "work": 0.11950495375909742,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000108"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000015",
+      "workflow": "w00",
+      "work": 0.11494776688146856,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000109"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000016",
+      "workflow": "w00",
+      "work": 0.12634073407554072,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000110"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000017",
+      "workflow": "w00",
+      "work": 0.12415910205965455,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000111"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000018",
+      "workflow": "w00",
+      "work": 0.12144418221766289,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000112"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000019",
+      "workflow": "w00",
+      "work": 0.08406555367881335,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000113"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000020",
+      "workflow": "w00",
+      "work": 0.13715193273204326,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000114"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000021",
+      "workflow": "w00",
+      "work": 0.1456360572382672,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000115"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000022",
+      "workflow": "w00",
+      "work": 0.1465571907560858,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000116"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000023",
+      "workflow": "w00",
+      "work": 0.10389416466764534,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000117"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000013",
+      "workflow": "w00",
+      "work": 0.13787914340400528,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000107"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000025",
+      "workflow": "w00",
+      "work": 0.060310005061386285,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000119"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000024",
+      "workflow": "w00",
+      "work": 0.11548105470757407,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000118"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000026",
+      "workflow": "w00",
+      "work": 0.12391669850233387,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000120"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000027",
+      "workflow": "w00",
+      "work": 0.13875179621035977,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000121"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000028",
+      "workflow": "w00",
+      "work": 0.1312857666448827,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000122"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000029",
+      "workflow": "w00",
+      "work": 0.12289860356158701,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000123"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000030",
+      "workflow": "w00",
+      "work": 0.11785660956931678,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000124"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000031",
+      "workflow": "w00",
+      "work": 0.08416251510174164,
+      "parents": [
+        "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000125"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.fq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032",
+      "workflow": "w00",
+      "work": 0.3452311463361188,
+      "parents": [],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000034",
+      "workflow": "w00",
+      "work": 1.064297058772197,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000035",
+      "workflow": "w00",
+      "work": 1.0624063110250959,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000036",
+      "workflow": "w00",
+      "work": 1.0849013611444551,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000037",
+      "workflow": "w00",
+      "work": 0.94280439584307,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000038",
+      "workflow": "w00",
+      "work": 1.088295010946945,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000039",
+      "workflow": "w00",
+      "work": 1.100027343121266,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000040",
+      "workflow": "w00",
+      "work": 1.0854831296820249,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000041",
+      "workflow": "w00",
+      "work": 1.0602731597206738,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000042",
+      "workflow": "w00",
+      "work": 1.006944377110123,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000043",
+      "workflow": "w00",
+      "work": 1.0914462571921137,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000033",
+      "workflow": "w00",
+      "work": 0.10379720324471707,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000045",
+      "workflow": "w00",
+      "work": 0.07533902561526871,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000046",
+      "workflow": "w00",
+      "work": 0.06748515035807853,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000047",
+      "workflow": "w00",
+      "work": 0.07427244996305771,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000048",
+      "workflow": "w00",
+      "work": 0.7473786479311343,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000049",
+      "workflow": "w00",
+      "work": 0.6617132307740043,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000050",
+      "workflow": "w00",
+      "work": 0.993466739323093,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000051",
+      "workflow": "w00",
+      "work": 1.078501907231189,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000052",
+      "workflow": "w00",
+      "work": 0.7102424229496054,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000053",
+      "workflow": "w00",
+      "work": 0.7285196511715849,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000054",
+      "workflow": "w00",
+      "work": 0.6706821623948697,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000044",
+      "workflow": "w00",
+      "work": 0.09395561881749728,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000056",
+      "workflow": "w00",
+      "work": 0.260680785542664,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000055",
+      "workflow": "w00",
+      "work": 0.032772960949756534,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000057",
+      "workflow": "w00",
+      "work": 0.1384124312301108,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000058",
+      "workflow": "w00",
+      "work": 0.14098190893771007,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000059",
+      "workflow": "w00",
+      "work": 0.05803141162257185,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000060",
+      "workflow": "w00",
+      "work": 0.36418710451859626,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000061",
+      "workflow": "w00",
+      "work": 0.4147040058642269,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.sfq"
+      ]
+    },
+    {
+      "id": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000062",
+      "workflow": "w00",
+      "work": 0.5150590785949903,
+      "parents": [
+        "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.sfq"
+      ]
+    },
+    {
+      "id": "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_ID0000063",
+      "workflow": "w00",
+      "work": 0.20730352222064932,
+      "parents": [
+        "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000064"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000064",
+      "workflow": "w00",
+      "work": 0.20735200293211345,
+      "parents": [
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000066",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000067",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000068",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000069",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000070",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000071",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000072",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000073",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000074",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000075",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000065",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000077",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000078",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000079",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000080",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000081",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000082",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000083",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000084",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000085",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000086",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000076",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000088",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000087",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000089",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000090",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000091",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000092",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000093",
+        "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000094"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.map",
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.map",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000066",
+      "workflow": "w00",
+      "work": 3.037752899631353,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000003"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000067",
+      "workflow": "w00",
+      "work": 2.6393868935305402,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000004"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000068",
+      "workflow": "w00",
+      "work": 2.632648074637025,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000005"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000069",
+      "workflow": "w00",
+      "work": 2.8990980648439217,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000006"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000070",
+      "workflow": "w00",
+      "work": 2.6730809879981154,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000007"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000071",
+      "workflow": "w00",
+      "work": 2.742941693217937,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000008"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000072",
+      "workflow": "w00",
+      "work": 2.974921897573832,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000009"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000073",
+      "workflow": "w00",
+      "work": 2.864434356147064,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000010"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000074",
+      "workflow": "w00",
+      "work": 2.7003756285524245,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000011"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000075",
+      "workflow": "w00",
+      "work": 2.995574680657554,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000012"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000065",
+      "workflow": "w00",
+      "work": 3.8146078201326827,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000002"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000077",
+      "workflow": "w00",
+      "work": 2.5923121226988632,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000014"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000078",
+      "workflow": "w00",
+      "work": 2.7630611884755534,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000015"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000079",
+      "workflow": "w00",
+      "work": 2.605741279774429,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000016"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000080",
+      "workflow": "w00",
+      "work": 2.759667538673064,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000017"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000081",
+      "workflow": "w00",
+      "work": 2.751280375589768,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000018"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000082",
+      "workflow": "w00",
+      "work": 2.8874142133810645,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000019"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000083",
+      "workflow": "w00",
+      "work": 2.8952196079267907,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000020"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000084",
+      "workflow": "w00",
+      "work": 2.6907764476825253,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000021"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000085",
+      "workflow": "w00",
+      "work": 2.6852011658641497,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000022"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000086",
+      "workflow": "w00",
+      "work": 3.0481277718846784,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000023"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000076",
+      "workflow": "w00",
+      "work": 3.755025025743258,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000013"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000088",
+      "workflow": "w00",
+      "work": 2.2239556769943514,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000025"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000087",
+      "workflow": "w00",
+      "work": 2.7938464402552805,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000024"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000089",
+      "workflow": "w00",
+      "work": 3.372609173714147,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000026"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000090",
+      "workflow": "w00",
+      "work": 3.1348597646940197,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000027"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000091",
+      "workflow": "w00",
+      "work": 3.416290294743334,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000028"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000092",
+      "workflow": "w00",
+      "work": 3.4211868466012114,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000029"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000093",
+      "workflow": "w00",
+      "work": 2.903315886741302,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000030"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000094",
+      "workflow": "w00",
+      "work": 2.9295924323548634,
+      "parents": [
+        "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000031"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.bfq",
+        "w00::chr21.BS.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::pileup_pileup_ID0000095",
+      "workflow": "w00",
+      "work": 1.1204862033591316,
+      "parents": [
+        "w00::chr21_chr21_ID0000001"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1.nocontam.chr21.map",
+        "w00::chr21.BSnull.bfa",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000097",
+      "workflow": "w00",
+      "work": 0.5691150718775029,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000034"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000098",
+      "workflow": "w00",
+      "work": 0.5086111439702601,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000035"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000099",
+      "workflow": "w00",
+      "work": 0.4988665209659685,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000036"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000100",
+      "workflow": "w00",
+      "work": 0.42178218973799086,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000037"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000101",
+      "workflow": "w00",
+      "work": 0.34775214333225385,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000038"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000102",
+      "workflow": "w00",
+      "work": 0.5233977609668218,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000039"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000103",
+      "workflow": "w00",
+      "work": 0.46604507930474787,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000040"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000104",
+      "workflow": "w00",
+      "work": 0.5189860162235853,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000041"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000105",
+      "workflow": "w00",
+      "work": 0.4086439169312098,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000042"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000106",
+      "workflow": "w00",
+      "work": 0.5004179037328209,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000043"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000096",
+      "workflow": "w00",
+      "work": 0.36859884926183273,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000033"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000108",
+      "workflow": "w00",
+      "work": 0.3507094667315662,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000045"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000109",
+      "workflow": "w00",
+      "work": 0.37417413108020847,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000046"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000110",
+      "workflow": "w00",
+      "work": 0.35429703937991236,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000047"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000111",
+      "workflow": "w00",
+      "work": 0.4689539219925961,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000048"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000112",
+      "workflow": "w00",
+      "work": 0.45702766697241837,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000049"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000113",
+      "workflow": "w00",
+      "work": 0.5269853336151679,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000050"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000114",
+      "workflow": "w00",
+      "work": 0.5298941763030162,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000051"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000115",
+      "workflow": "w00",
+      "work": 0.6398969106151428,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000052"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000116",
+      "workflow": "w00",
+      "work": 0.513895541519851,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000053"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000117",
+      "workflow": "w00",
+      "work": 0.4434530677624601,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000054"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000107",
+      "workflow": "w00",
+      "work": 0.3779556265744112,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000044"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000119",
+      "workflow": "w00",
+      "work": 0.3330140070471562,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000056"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000118",
+      "workflow": "w00",
+      "work": 0.3922089557448674,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000055"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000120",
+      "workflow": "w00",
+      "work": 0.3831915434125379,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000057"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000121",
+      "workflow": "w00",
+      "work": 0.38905770949969853,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000058"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000122",
+      "workflow": "w00",
+      "work": 0.322299769813582,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000059"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000123",
+      "workflow": "w00",
+      "work": 0.3809129499737235,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000060"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000124",
+      "workflow": "w00",
+      "work": 0.3029559659393914,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000061"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000125",
+      "workflow": "w00",
+      "work": 0.3146398174022484,
+      "parents": [
+        "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000062"
+      ],
+      "inputs": [
+        "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.sfq",
+        "w00::maq",
+        "w00::maqindex"
+      ]
+    },
+    {
+      "id": "w01::bowtie2-build_ID0000001",
+      "workflow": "w01",
+      "work": 0.02754613598225319,
+      "parents": [],
+      "inputs": [
+        "w01::reference.fna"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000003",
+      "workflow": "w01",
+      "work": 0.05390065260585165,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000002"
+      ],
+      "inputs": [
+        "w01::SRR3150354_1.fastq",
+        "w01::SRR3150354_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000005",
+      "workflow": "w01",
+      "work": 0.04673041850470134,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000004"
+      ],
+      "inputs": [
+        "w01::SRR3152083_1.fastq",
+        "w01::SRR3152083_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000007",
+      "workflow": "w01",
+      "work": 0.038783658940692585,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000006"
+      ],
+      "inputs": [
+        "w01::SRR3177895_1.fastq",
+        "w01::SRR3177895_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000009",
+      "workflow": "w01",
+      "work": 0.0732790664940144,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000008"
+      ],
+      "inputs": [
+        "w01::SRR3150829_1.fastq",
+        "w01::SRR3150829_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000011",
+      "workflow": "w01",
+      "work": 0.06717103084104242,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000010"
+      ],
+      "inputs": [
+        "w01::SRR3152085_1.fastq",
+        "w01::SRR3152085_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000013",
+      "workflow": "w01",
+      "work": 0.05872237067299102,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000012"
+      ],
+      "inputs": [
+        "w01::SRR3150808_1.fastq",
+        "w01::SRR3150808_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000015",
+      "workflow": "w01",
+      "work": 0.09172154623690265,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000014"
+      ],
+      "inputs": [
+        "w01::SRR3151980_1.fastq",
+        "w01::SRR3151980_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000017",
+      "workflow": "w01",
+      "work": 0.09346872852833417,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000016"
+      ],
+      "inputs": [
+        "w01::SRR3150509_1.fastq",
+        "w01::SRR3150509_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000019",
+      "workflow": "w01",
+      "work": 0.05001960359534568,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000018"
+      ],
+      "inputs": [
+        "w01::SRR3152145_1.fastq",
+        "w01::SRR3152145_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000021",
+      "workflow": "w01",
+      "work": 0.0782317837754165,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000020"
+      ],
+      "inputs": [
+        "w01::SRR3152022_1.fastq",
+        "w01::SRR3152022_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000023",
+      "workflow": "w01",
+      "work": 0.07223107277991275,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000022"
+      ],
+      "inputs": [
+        "w01::SRR1518552_1.fastq",
+        "w01::SRR1518552_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000025",
+      "workflow": "w01",
+      "work": 0.11137458498388121,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000024"
+      ],
+      "inputs": [
+        "w01::SRR3150392_1.fastq",
+        "w01::SRR3150392_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000027",
+      "workflow": "w01",
+      "work": 0.10034697642901941,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000026"
+      ],
+      "inputs": [
+        "w01::SRR1922838_1.fastq",
+        "w01::SRR1922838_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000029",
+      "workflow": "w01",
+      "work": 0.07283556313006477,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000028"
+      ],
+      "inputs": [
+        "w01::SRR3177838_1.fastq",
+        "w01::SRR3177838_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000031",
+      "workflow": "w01",
+      "work": 0.05728769253124644,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000030"
+      ],
+      "inputs": [
+        "w01::SRR3152057_1.fastq",
+        "w01::SRR3152057_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000033",
+      "workflow": "w01",
+      "work": 0.0446596839370788,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000032"
+      ],
+      "inputs": [
+        "w01::SRR3098568_1.fastq",
+        "w01::SRR3098568_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000035",
+      "workflow": "w01",
+      "work": 0.10492405740928264,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000034"
+      ],
+      "inputs": [
+        "w01::SRR3150507_1.fastq",
+        "w01::SRR3150507_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000037",
+      "workflow": "w01",
+      "work": 0.03719588533167713,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000036"
+      ],
+      "inputs": [
+        "w01::SRR3150793_1.fastq",
+        "w01::SRR3150793_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000039",
+      "workflow": "w01",
+      "work": 0.006938223444564546,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000038"
+      ],
+      "inputs": [
+        "w01::SRR1103366_1.fastq",
+        "w01::SRR1103366_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000041",
+      "workflow": "w01",
+      "work": 0.08043667416487432,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000040"
+      ],
+      "inputs": [
+        "w01::SRR3150737_1.fastq",
+        "w01::SRR3150737_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000043",
+      "workflow": "w01",
+      "work": 0.04583552025787056,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000042"
+      ],
+      "inputs": [
+        "w01::SRR2088899_1.fastq",
+        "w01::SRR2088899_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000045",
+      "workflow": "w01",
+      "work": 0.044454504444860106,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000044"
+      ],
+      "inputs": [
+        "w01::SRR2089242_1.fastq",
+        "w01::SRR2089242_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000047",
+      "workflow": "w01",
+      "work": 0.054910767029082146,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000046"
+      ],
+      "inputs": [
+        "w01::SRR2143504_1.fastq",
+        "w01::SRR2143504_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000049",
+      "workflow": "w01",
+      "work": 0.06375873805506688,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000048"
+      ],
+      "inputs": [
+        "w01::SRR3177869_1.fastq",
+        "w01::SRR3177869_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000051",
+      "workflow": "w01",
+      "work": 0.04305770559398667,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000050"
+      ],
+      "inputs": [
+        "w01::SRR3177885_1.fastq",
+        "w01::SRR3177885_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000053",
+      "workflow": "w01",
+      "work": 0.12076549251235234,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000052"
+      ],
+      "inputs": [
+        "w01::SRR1763671_1.fastq",
+        "w01::SRR1763671_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000055",
+      "workflow": "w01",
+      "work": 0.08733701831856773,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000054"
+      ],
+      "inputs": [
+        "w01::SRR3150795_1.fastq",
+        "w01::SRR3150795_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000057",
+      "workflow": "w01",
+      "work": 0.05776276197092203,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000056"
+      ],
+      "inputs": [
+        "w01::SRR2088879_1.fastq",
+        "w01::SRR2088879_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000059",
+      "workflow": "w01",
+      "work": 0.07379043692077485,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000058"
+      ],
+      "inputs": [
+        "w01::SRR3150853_1.fastq",
+        "w01::SRR3150853_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000061",
+      "workflow": "w01",
+      "work": 0.07040971021052524,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000060"
+      ],
+      "inputs": [
+        "w01::SRR3178002_1.fastq",
+        "w01::SRR3178002_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000063",
+      "workflow": "w01",
+      "work": 0.07114362147115366,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000062"
+      ],
+      "inputs": [
+        "w01::SRR3177980_1.fastq",
+        "w01::SRR3177980_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000065",
+      "workflow": "w01",
+      "work": 0.101765871532901,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000064"
+      ],
+      "inputs": [
+        "w01::SRR3177997_1.fastq",
+        "w01::SRR3177997_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000067",
+      "workflow": "w01",
+      "work": 0.06371138894147794,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000066"
+      ],
+      "inputs": [
+        "w01::SRR3150858_1.fastq",
+        "w01::SRR3150858_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000069",
+      "workflow": "w01",
+      "work": 0.05962516043875328,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000068"
+      ],
+      "inputs": [
+        "w01::SRR3152104_1.fastq",
+        "w01::SRR3152104_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000071",
+      "workflow": "w01",
+      "work": 0.1034578131918121,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000070"
+      ],
+      "inputs": [
+        "w01::SRR1918768_1.fastq",
+        "w01::SRR1918768_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000073",
+      "workflow": "w01",
+      "work": 0.08761953469631502,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000072"
+      ],
+      "inputs": [
+        "w01::SRR1922858_1.fastq",
+        "w01::SRR1922858_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000075",
+      "workflow": "w01",
+      "work": 0.12696822639250216,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000074"
+      ],
+      "inputs": [
+        "w01::SRR1518655_1.fastq",
+        "w01::SRR1518655_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000077",
+      "workflow": "w01",
+      "work": 0.08694402067577962,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000076"
+      ],
+      "inputs": [
+        "w01::SRR3177783_1.fastq",
+        "w01::SRR3177783_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000079",
+      "workflow": "w01",
+      "work": 0.07289080376258518,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000078"
+      ],
+      "inputs": [
+        "w01::SRR1922828_1.fastq",
+        "w01::SRR1922828_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000081",
+      "workflow": "w01",
+      "work": 0.09990662967264236,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000080"
+      ],
+      "inputs": [
+        "w01::SRR3150713_1.fastq",
+        "w01::SRR3150713_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000083",
+      "workflow": "w01",
+      "work": 0.09510385125093855,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000082"
+      ],
+      "inputs": [
+        "w01::SRR1919632_1.fastq",
+        "w01::SRR1919632_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000085",
+      "workflow": "w01",
+      "work": 0.05232550542712657,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000084"
+      ],
+      "inputs": [
+        "w01::SRR3152051_1.fastq",
+        "w01::SRR3152051_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000087",
+      "workflow": "w01",
+      "work": 0.09873552826320948,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000086"
+      ],
+      "inputs": [
+        "w01::SRR3150500_1.fastq",
+        "w01::SRR3150500_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000089",
+      "workflow": "w01",
+      "work": 0.10114875475245863,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000088"
+      ],
+      "inputs": [
+        "w01::SRR3150353_1.fastq",
+        "w01::SRR3150353_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000091",
+      "workflow": "w01",
+      "work": 0.040238855031659033,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000090"
+      ],
+      "inputs": [
+        "w01::SRR2095937_1.fastq",
+        "w01::SRR2095937_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000093",
+      "workflow": "w01",
+      "work": 0.04727335500718774,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000092"
+      ],
+      "inputs": [
+        "w01::SRR3150741_1.fastq",
+        "w01::SRR3150741_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000095",
+      "workflow": "w01",
+      "work": 0.08954506531559817,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000094"
+      ],
+      "inputs": [
+        "w01::SRR3177850_1.fastq",
+        "w01::SRR3177850_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000097",
+      "workflow": "w01",
+      "work": 0.04715340391942912,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000096"
+      ],
+      "inputs": [
+        "w01::SRR3170551_1.fastq",
+        "w01::SRR3170551_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000099",
+      "workflow": "w01",
+      "work": 0.03845537175314267,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000098"
+      ],
+      "inputs": [
+        "w01::SRR2138595_1.fastq",
+        "w01::SRR2138595_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::bowtie2_ID0000101",
+      "workflow": "w01",
+      "work": 0.17712198580968314,
+      "parents": [
+        "w01::bowtie2-build_ID0000001",
+        "w01::fasterq-dump_ID0000100"
+      ],
+      "inputs": [
+        "w01::SRR1518429_1.fastq",
+        "w01::SRR1518429_2.fastq",
+        "w01::reference.1.bt2",
+        "w01::reference.2.bt2",
+        "w01::reference.3.bt2",
+        "w01::reference.4.bt2",
+        "w01::reference.rev.1.bt2",
+        "w01::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000002",
+      "workflow": "w01",
+      "work": 1.2624047051664031,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000004",
+      "workflow": "w01",
+      "work": 1.233671684736854,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000006",
+      "workflow": "w01",
+      "work": 1.0008355752708633,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000008",
+      "workflow": "w01",
+      "work": 2.0149746731564298,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000010",
+      "workflow": "w01",
+      "work": 1.1944824017230828,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000012",
+      "workflow": "w01",
+      "work": 2.2177803964805345,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000014",
+      "workflow": "w01",
+      "work": 3.002666134495006,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000016",
+      "workflow": "w01",
+      "work": 3.111539107977605,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000018",
+      "workflow": "w01",
+      "work": 1.6038801991546212,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000020",
+      "workflow": "w01",
+      "work": 0.9381090478920351,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000022",
+      "workflow": "w01",
+      "work": 1.5322693997627235,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000024",
+      "workflow": "w01",
+      "work": 1.292371959156837,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000026",
+      "workflow": "w01",
+      "work": 0.3634660006427035,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000028",
+      "workflow": "w01",
+      "work": 0.9197328569081713,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000030",
+      "workflow": "w01",
+      "work": 1.4506032269483233,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000032",
+      "workflow": "w01",
+      "work": 1.5120308103110285,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000034",
+      "workflow": "w01",
+      "work": 1.6428469413345244,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000036",
+      "workflow": "w01",
+      "work": 0.8866595010663036,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000038",
+      "workflow": "w01",
+      "work": 0.01207244566139086,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000040",
+      "workflow": "w01",
+      "work": 2.7930405605103084,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000042",
+      "workflow": "w01",
+      "work": 1.6871893862105574,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000044",
+      "workflow": "w01",
+      "work": 1.8649458501423322,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000046",
+      "workflow": "w01",
+      "work": 1.8742420594436253,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000048",
+      "workflow": "w01",
+      "work": 2.0178771738194308,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000050",
+      "workflow": "w01",
+      "work": 1.4470267905685728,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000052",
+      "workflow": "w01",
+      "work": 3.9196038153976436,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000054",
+      "workflow": "w01",
+      "work": 3.339209429151044,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000056",
+      "workflow": "w01",
+      "work": 2.333997217480777,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000058",
+      "workflow": "w01",
+      "work": 2.5125270502678374,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000060",
+      "workflow": "w01",
+      "work": 2.5946193651045384,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000062",
+      "workflow": "w01",
+      "work": 2.8417091360645834,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000064",
+      "workflow": "w01",
+      "work": 3.144342573872016,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000066",
+      "workflow": "w01",
+      "work": 1.5697951505857368,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000068",
+      "workflow": "w01",
+      "work": 1.7972918583426827,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000070",
+      "workflow": "w01",
+      "work": 3.806089050479543,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000072",
+      "workflow": "w01",
+      "work": 3.623993829439236,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000074",
+      "workflow": "w01",
+      "work": 4.340333834014799,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000076",
+      "workflow": "w01",
+      "work": 2.7867415500991943,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000078",
+      "workflow": "w01",
+      "work": 2.478864987113681,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000080",
+      "workflow": "w01",
+      "work": 0.35902149718048937,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000082",
+      "workflow": "w01",
+      "work": 2.3810338269200204,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000084",
+      "workflow": "w01",
+      "work": 1.737829263193918,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000086",
+      "workflow": "w01",
+      "work": 2.407296801924013,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000088",
+      "workflow": "w01",
+      "work": 2.927971329504682,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000090",
+      "workflow": "w01",
+      "work": 0.2977549008039865,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000092",
+      "workflow": "w01",
+      "work": 1.375876855882274,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000094",
+      "workflow": "w01",
+      "work": 2.7037480238005176,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000096",
+      "workflow": "w01",
+      "work": 1.1353591418883724,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000098",
+      "workflow": "w01",
+      "work": 0.7225553648860037,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::fasterq-dump_ID0000100",
+      "workflow": "w01",
+      "work": 4.293682330699412,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w01::merge_ID0000102",
+      "workflow": "w01",
+      "work": 0.00045297318666743055,
+      "parents": [
+        "w01::bowtie2_ID0000003",
+        "w01::bowtie2_ID0000005",
+        "w01::bowtie2_ID0000007",
+        "w01::bowtie2_ID0000009",
+        "w01::bowtie2_ID0000011",
+        "w01::bowtie2_ID0000013",
+        "w01::bowtie2_ID0000015",
+        "w01::bowtie2_ID0000017",
+        "w01::bowtie2_ID0000019",
+        "w01::bowtie2_ID0000021",
+        "w01::bowtie2_ID0000023",
+        "w01::bowtie2_ID0000025",
+        "w01::bowtie2_ID0000027",
+        "w01::bowtie2_ID0000029",
+        "w01::bowtie2_ID0000031",
+        "w01::bowtie2_ID0000033",
+        "w01::bowtie2_ID0000035",
+        "w01::bowtie2_ID0000037",
+        "w01::bowtie2_ID0000039",
+        "w01::bowtie2_ID0000041",
+        "w01::bowtie2_ID0000043",
+        "w01::bowtie2_ID0000045",
+        "w01::bowtie2_ID0000047",
+        "w01::bowtie2_ID0000049",
+        "w01::bowtie2_ID0000051"
+      ],
+      "inputs": [
+        "w01::SRR1103366.bam",
+        "w01::SRR1103366.bam.bai",
+        "w01::SRR1518552.bam",
+        "w01::SRR1518552.bam.bai",
+        "w01::SRR1922838.bam",
+        "w01::SRR1922838.bam.bai",
+        "w01::SRR2088899.bam",
+        "w01::SRR2088899.bam.bai",
+        "w01::SRR2089242.bam",
+        "w01::SRR2089242.bam.bai",
+        "w01::SRR2143504.bam",
+        "w01::SRR2143504.bam.bai",
+        "w01::SRR3098568.bam",
+        "w01::SRR3098568.bam.bai",
+        "w01::SRR3150354.bam",
+        "w01::SRR3150354.bam.bai",
+        "w01::SRR3150392.bam",
+        "w01::SRR3150392.bam.bai",
+        "w01::SRR3150507.bam",
+        "w01::SRR3150507.bam.bai",
+        "w01::SRR3150509.bam",
+        "w01::SRR3150509.bam.bai",
+        "w01::SRR3150737.bam",
+        "w01::SRR3150737.bam.bai",
+        "w01::SRR3150793.bam",
+        "w01::SRR3150793.bam.bai",
+        "w01::SRR3150808.bam",
+        "w01::SRR3150808.bam.bai",
+        "w01::SRR3150829.bam",
+        "w01::SRR3150829.bam.bai",
+        "w01::SRR3151980.bam",
+        "w01::SRR3151980.bam.bai",
+        "w01::SRR3152022.bam",
+        "w01::SRR3152022.bam.bai",
+        "w01::SRR3152057.bam",
+        "w01::SRR3152057.bam.bai",
+        "w01::SRR3152083.bam",
+        "w01::SRR3152083.bam.bai",
+        "w01::SRR3152085.bam",
+        "w01::SRR3152085.bam.bai",
+        "w01::SRR3152145.bam",
+        "w01::SRR3152145.bam.bai",
+        "w01::SRR3177838.bam",
+        "w01::SRR3177838.bam.bai",
+        "w01::SRR3177869.bam",
+        "w01::SRR3177869.bam.bai",
+        "w01::SRR3177885.bam",
+        "w01::SRR3177885.bam.bai",
+        "w01::SRR3177895.bam",
+        "w01::SRR3177895.bam.bai"
+      ]
+    },
+    {
+      "id": "w01::merge_ID0000103",
+      "workflow": "w01",
+      "work": 0.0004766477434618956,
+      "parents": [
+        "w01::bowtie2_ID0000053",
+        "w01::bowtie2_ID0000055",
+        "w01::bowtie2_ID0000057",
+        "w01::bowtie2_ID0000059",
+        "w01::bowtie2_ID0000061",
+        "w01::bowtie2_ID0000063",
+        "w01::bowtie2_ID0000065",
+        "w01::bowtie2_ID0000067",
+        "w01::bowtie2_ID0000069",
+        "w01::bowtie2_ID0000071",
+        "w01::bowtie2_ID0000073",
+        "w01::bowtie2_ID0000075",
+        "w01::bowtie2_ID0000077",
+        "w01::bowtie2_ID0000079",
+        "w01::bowtie2_ID0000081",
+        "w01::bowtie2_ID0000083",
+        "w01::bowtie2_ID0000085",
+        "w01::bowtie2_ID0000087",
+        "w01::bowtie2_ID0000089",
+        "w01::bowtie2_ID0000091",
+        "w01::bowtie2_ID0000093",
+        "w01::bowtie2_ID0000095",
+        "w01::bowtie2_ID0000097",
+        "w01::bowtie2_ID0000099",
+        "w01::bowtie2_ID0000101"
+      ],
+      "inputs": [
+        "w01::SRR1518429.bam",
+        "w01::SRR1518429.bam.bai",
+        "w01::SRR1518655.bam",
+        "w01::SRR1518655.bam.bai",
+        "w01::SRR1763671.bam",
+        "w01::SRR1763671.bam.bai",
+        "w01::SRR1918768.bam",
+        "w01::SRR1918768.bam.bai",
+        "w01::SRR1919632.bam",
+        "w01::SRR1919632.bam.bai",
+        "w01::SRR1922828.bam",
+        "w01::SRR1922828.bam.bai",
+        "w01::SRR1922858.bam",
+        "w01::SRR1922858.bam.bai",
+        "w01::SRR2088879.bam",
+        "w01::SRR2088879.bam.bai",
+        "w01::SRR2095937.bam",
+        "w01::SRR2095937.bam.bai",
+        "w01::SRR2138595.bam",
+        "w01::SRR2138595.bam.bai",
+        "w01::SRR3150353.bam",
+        "w01::SRR3150353.bam.bai",
+        "w01::SRR3150500.bam",
+        "w01::SRR3150500.bam.bai",
+        "w01::SRR3150713.bam",
+        "w01::SRR3150713.bam.bai",
+        "w01::SRR3150741.bam",
+        "w01::SRR3150741.bam.bai",
+        "w01::SRR3150795.bam",
+        "w01::SRR3150795.bam.bai",
+        "w01::SRR3150853.bam",
+        "w01::SRR3150853.bam.bai",
+        "w01::SRR3150858.bam",
+        "w01::SRR3150858.bam.bai",
+        "w01::SRR3152051.bam",
+        "w01::SRR3152051.bam.bai",
+        "w01::SRR3152104.bam",
+        "w01::SRR3152104.bam.bai",
+        "w01::SRR3170551.bam",
+        "w01::SRR3170551.bam.bai",
+        "w01::SRR3177783.bam",
+        "w01::SRR3177783.bam.bai",
+        "w01::SRR3177850.bam",
+        "w01::SRR3177850.bam.bai",
+        "w01::SRR3177980.bam",
+        "w01::SRR3177980.bam.bai",
+        "w01::SRR3177997.bam",
+        "w01::SRR3177997.bam.bai",
+        "w01::SRR3178002.bam",
+        "w01::SRR3178002.bam.bai"
+      ]
+    },
+    {
+      "id": "w01::merge_ID0000104",
+      "workflow": "w01",
+      "work": 8.049349310118104e-05,
+      "parents": [
+        "w01::merge_ID0000102",
+        "w01::merge_ID0000103"
+      ],
+      "inputs": [
+        "w01::results-l1-j1.tar.gz",
+        "w01::results-l1-j2.tar.gz"
+      ]
+    },
+    {
+      "id": "w02::bowtie2-build_ID0000001",
+      "workflow": "w02",
+      "work": 0.01997261882932132,
+      "parents": [],
+      "inputs": [
+        "w02::reference.fna"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000003",
+      "workflow": "w02",
+      "work": 0.17022318412515242,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000002"
+      ],
+      "inputs": [
+        "w02::SRR3152141_1.fastq",
+        "w02::SRR3152141_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000005",
+      "workflow": "w02",
+      "work": 0.1523603932609562,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000004"
+      ],
+      "inputs": [
+        "w02::SRR3152151_1.fastq",
+        "w02::SRR3152151_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000007",
+      "workflow": "w02",
+      "work": 0.17997995934986655,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000006"
+      ],
+      "inputs": [
+        "w02::SRR3152142_1.fastq",
+        "w02::SRR3152142_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000009",
+      "workflow": "w02",
+      "work": 0.1409402812351226,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000008"
+      ],
+      "inputs": [
+        "w02::SRR3152143_1.fastq",
+        "w02::SRR3152143_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000011",
+      "workflow": "w02",
+      "work": 0.1362961442686699,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000010"
+      ],
+      "inputs": [
+        "w02::SRR3177945_1.fastq",
+        "w02::SRR3177945_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000013",
+      "workflow": "w02",
+      "work": 0.149549385510104,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000012"
+      ],
+      "inputs": [
+        "w02::SRR3152147_1.fastq",
+        "w02::SRR3152147_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000015",
+      "workflow": "w02",
+      "work": 0.10031272961458407,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000014"
+      ],
+      "inputs": [
+        "w02::SRR3152152_1.fastq",
+        "w02::SRR3152152_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000017",
+      "workflow": "w02",
+      "work": 0.21273731812881325,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000016"
+      ],
+      "inputs": [
+        "w02::SRR3152148_1.fastq",
+        "w02::SRR3152148_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000019",
+      "workflow": "w02",
+      "work": 0.20397414295921018,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000018"
+      ],
+      "inputs": [
+        "w02::SRR3152150_1.fastq",
+        "w02::SRR3152150_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::bowtie2_ID0000021",
+      "workflow": "w02",
+      "work": 0.2657031185349716,
+      "parents": [
+        "w02::bowtie2-build_ID0000001",
+        "w02::fasterq-dump_ID0000020"
+      ],
+      "inputs": [
+        "w02::SRR3178075_1.fastq",
+        "w02::SRR3178075_2.fastq",
+        "w02::reference.1.bt2",
+        "w02::reference.2.bt2",
+        "w02::reference.3.bt2",
+        "w02::reference.4.bt2",
+        "w02::reference.rev.1.bt2",
+        "w02::reference.rev.2.bt2"
+      ]
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000002",
+      "workflow": "w02",
+      "work": 2.8200224703395658,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000004",
+      "workflow": "w02",
+      "work": 1.422731516887985,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000006",
+      "workflow": "w02",
+      "work": 1.9514179310222601,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000008",
+      "workflow": "w02",
+      "work": 1.3198561795363266,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000010",
+      "workflow": "w02",
+      "work": 2.037455520604552,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000012",
+      "workflow": "w02",
+      "work": 1.710133477132835,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000014",
+      "workflow": "w02",
+      "work": 1.2491627933367624,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000016",
+      "workflow": "w02",
+      "work": 2.639592875521722,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000018",
+      "workflow": "w02",
+      "work": 2.220557773798486,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::fasterq-dump_ID0000020",
+      "workflow": "w02",
+      "work": 2.8966585910459655,
+      "parents": [],
+      "inputs": []
+    },
+    {
+      "id": "w02::merge_ID0000022",
+      "workflow": "w02",
+      "work": 0.00036159495676510575,
+      "parents": [
+        "w02::bowtie2_ID0000003",
+        "w02::bowtie2_ID0000005",
+        "w02::bowtie2_ID0000007",
+        "w02::bowtie2_ID0000009",
+        "w02::bowtie2_ID0000011",
+        "w02::bowtie2_ID0000013",
+        "w02::bowtie2_ID0000015",
+        "w02::bowtie2_ID0000017",
+        "w02::bowtie2_ID0000019",
+        "w02::bowtie2_ID0000021"
+      ],
+      "inputs": [
+        "w02::SRR3152141.bam",
+        "w02::SRR3152141.bam.bai",
+        "w02::SRR3152142.bam",
+        "w02::SRR3152142.bam.bai",
+        "w02::SRR3152143.bam",
+        "w02::SRR3152143.bam.bai",
+        "w02::SRR3152147.bam",
+        "w02::SRR3152147.bam.bai",
+        "w02::SRR3152148.bam",
+        "w02::SRR3152148.bam.bai",
+        "w02::SRR3152150.bam",
+        "w02::SRR3152150.bam.bai",
+        "w02::SRR3152151.bam",
+        "w02::SRR3152151.bam.bai",
+        "w02::SRR3152152.bam",
+        "w02::SRR3152152.bam.bai",
+        "w02::SRR3177945.bam",
+        "w02::SRR3177945.bam.bai",
+        "w02::SRR3178075.bam",
+        "w02::SRR3178075.bam.bai"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1.nocontam.chr21.map",
+      "size": 31938708,
+      "producer": "w00::chr21_chr21_ID0000001"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1.nocontam.map",
+      "size": 31938708,
+      "producer": "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_ID0000063"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1.nocontam.pileup",
+      "size": 4595783,
+      "producer": "w00::pileup_pileup_ID0000095"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.bfq",
+      "size": 2779927,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000002"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.fq",
+      "size": 9631095,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000096"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.map",
+      "size": 1230706,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000065"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.nocontam.sfq",
+      "size": 13022382,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000033"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.1.sfq",
+      "size": 15029458,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.bfq",
+      "size": 2483359,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000003"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.fq",
+      "size": 9631735,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000097"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.map",
+      "size": 1029896,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000066"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.nocontam.sfq",
+      "size": 13087814,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000034"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.10.sfq",
+      "size": 15258146,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.bfq",
+      "size": 2490766,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000004"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.fq",
+      "size": 9771586,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000098"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.map",
+      "size": 1040528,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000067"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.nocontam.sfq",
+      "size": 13311212,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000035"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.11.sfq",
+      "size": 15379636,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.bfq",
+      "size": 2490816,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000005"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.fq",
+      "size": 9769891,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000099"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.map",
+      "size": 1039931,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000068"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.nocontam.sfq",
+      "size": 13308902,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000036"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.12.sfq",
+      "size": 15379352,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.bfq",
+      "size": 2541626,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000006"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.fq",
+      "size": 9839101,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000100"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.map",
+      "size": 1069202,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000069"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.nocontam.sfq",
+      "size": 13403258,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000037"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.13.sfq",
+      "size": 15379490,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.bfq",
+      "size": 2529461,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000007"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.fq",
+      "size": 9846445,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000101"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.map",
+      "size": 1047885,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000070"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.nocontam.sfq",
+      "size": 13413338,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000038"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.14.sfq",
+      "size": 15380234,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.bfq",
+      "size": 2567368,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000008"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.fq",
+      "size": 9864933,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000102"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.map",
+      "size": 1078452,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000071"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.nocontam.sfq",
+      "size": 13438578,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000039"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.15.sfq",
+      "size": 15379812,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.bfq",
+      "size": 2582702,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000009"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.fq",
+      "size": 9846905,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000103"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.map",
+      "size": 1093047,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000072"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.nocontam.sfq",
+      "size": 13414114,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000040"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.16.sfq",
+      "size": 15380424,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.bfq",
+      "size": 2586019,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000010"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.fq",
+      "size": 9815818,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000104"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.map",
+      "size": 1090252,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000073"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.nocontam.sfq",
+      "size": 13371596,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000041"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.17.sfq",
+      "size": 15380244,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.bfq",
+      "size": 2670128,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000011"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.fq",
+      "size": 9987831,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000105"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.map",
+      "size": 1132707,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000074"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.nocontam.sfq",
+      "size": 13605894,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000042"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.18.sfq",
+      "size": 15380598,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.bfq",
+      "size": 2660634,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000012"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.fq",
+      "size": 9871525,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000106"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.map",
+      "size": 1139159,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000075"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.nocontam.sfq",
+      "size": 13447586,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000043"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.19.sfq",
+      "size": 15380624,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.bfq",
+      "size": 2736994,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000013"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.fq",
+      "size": 9687326,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000107"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.map",
+      "size": 1200995,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000076"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.nocontam.sfq",
+      "size": 13144636,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000044"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.2.sfq",
+      "size": 15194364,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.bfq",
+      "size": 2700677,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000014"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.fq",
+      "size": 9847610,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000108"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.map",
+      "size": 1161790,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000077"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.nocontam.sfq",
+      "size": 13415020,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000045"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.20.sfq",
+      "size": 15380412,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.bfq",
+      "size": 2718692,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000015"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.fq",
+      "size": 9822615,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000109"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.map",
+      "size": 1170734,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000078"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.nocontam.sfq",
+      "size": 13380294,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000046"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.21.sfq",
+      "size": 15379282,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.bfq",
+      "size": 2752662,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000016"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.fq",
+      "size": 9816352,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000110"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.map",
+      "size": 1242403,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000079"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.nocontam.sfq",
+      "size": 13370576,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000047"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.22.sfq",
+      "size": 15375906,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.bfq",
+      "size": 2669935,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000017"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.fq",
+      "size": 9839884,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000111"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.map",
+      "size": 1172558,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000080"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.nocontam.sfq",
+      "size": 13402880,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000048"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.23.sfq",
+      "size": 15376586,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.bfq",
+      "size": 2629913,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000018"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.fq",
+      "size": 9815123,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000112"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.map",
+      "size": 1137947,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000081"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.nocontam.sfq",
+      "size": 13369270,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000049"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.24.sfq",
+      "size": 15376164,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.bfq",
+      "size": 2607837,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000019"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.fq",
+      "size": 9864813,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000113"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.map",
+      "size": 1150997,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000082"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.nocontam.sfq",
+      "size": 13436898,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000050"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.25.sfq",
+      "size": 15375896,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.bfq",
+      "size": 2580859,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000020"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.fq",
+      "size": 9834820,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000114"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.map",
+      "size": 1129402,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000083"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.nocontam.sfq",
+      "size": 13395776,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000051"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.26.sfq",
+      "size": 15375156,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.bfq",
+      "size": 2550072,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000021"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.fq",
+      "size": 9805635,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000115"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.map",
+      "size": 1117201,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000084"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.nocontam.sfq",
+      "size": 13355982,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000052"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.27.sfq",
+      "size": 15375562,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.bfq",
+      "size": 2510140,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000022"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.fq",
+      "size": 9781938,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000116"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.map",
+      "size": 1100776,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000085"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.nocontam.sfq",
+      "size": 13323636,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000053"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.28.sfq",
+      "size": 15374692,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.bfq",
+      "size": 2509930,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000023"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.fq",
+      "size": 9754812,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000117"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.map",
+      "size": 1098389,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000086"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.nocontam.sfq",
+      "size": 13286304,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000054"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.29.sfq",
+      "size": 15372808,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.bfq",
+      "size": 2691127,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000024"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.fq",
+      "size": 9680526,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000118"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.map",
+      "size": 1155509,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000087"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.nocontam.sfq",
+      "size": 13135428,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000055"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.3.sfq",
+      "size": 15192986,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.bfq",
+      "size": 1156634,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000025"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.fq",
+      "size": 4522580,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000119"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.map",
+      "size": 511282,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000088"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.nocontam.sfq",
+      "size": 6159904,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000056"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.30.sfq",
+      "size": 7138198,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.bfq",
+      "size": 2680879,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000026"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.fq",
+      "size": 9703968,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000120"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.map",
+      "size": 1170483,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000089"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.nocontam.sfq",
+      "size": 13166976,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000057"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.4.sfq",
+      "size": 15191776,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.bfq",
+      "size": 2629498,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000027"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.fq",
+      "size": 9712574,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000121"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.map",
+      "size": 1122838,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000090"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.nocontam.sfq",
+      "size": 13178572,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000058"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.5.sfq",
+      "size": 15190502,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.bfq",
+      "size": 2613912,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000028"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.fq",
+      "size": 9717913,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000122"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.map",
+      "size": 1104454,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000091"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.nocontam.sfq",
+      "size": 13185362,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000059"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.6.sfq",
+      "size": 15190142,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.bfq",
+      "size": 2574240,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000029"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.fq",
+      "size": 9657989,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000123"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.map",
+      "size": 1102636,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000092"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.nocontam.sfq",
+      "size": 13104322,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000060"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.7.sfq",
+      "size": 15190096,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.bfq",
+      "size": 2543774,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000030"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.fq",
+      "size": 9671632,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000124"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.map",
+      "size": 1063317,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000093"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.nocontam.sfq",
+      "size": 13122896,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000061"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.8.sfq",
+      "size": 15190826,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.bfq",
+      "size": 2507358,
+      "producer": "w00::fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000031"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.fq",
+      "size": 9535328,
+      "producer": "w00::sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000125"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.map",
+      "size": 1053308,
+      "producer": "w00::map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000094"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.nocontam.sfq",
+      "size": 12938056,
+      "producer": "w00::filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000062"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.9.sfq",
+      "size": 15190228,
+      "producer": "w00::fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.nocontam.map",
+      "size": 31938708,
+      "producer": "w00::mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000064"
+    },
+    {
+      "id": "w00::080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence.sfq",
+      "size": 451139600,
+      "producer": null
+    },
+    {
+      "id": "w00::chr21.BS.bfa",
+      "size": 46944392,
+      "producer": null
+    },
+    {
+      "id": "w00::chr21.BSnull.bfa",
+      "size": 46944392,
+      "producer": null
+    },
+    {
+      "id": "w00::maq",
+      "size": 171256,
+      "producer": null
+    },
+    {
+      "id": "w00::maqindex",
+      "size": 118456,
+      "producer": null
+    },
+    {
+      "id": "w01::SRR1103366.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000039"
+    },
+    {
+      "id": "w01::SRR1103366.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000039"
+    },
+    {
+      "id": "w01::SRR1103366_1.fastq",
+      "size": 1048302,
+      "producer": "w01::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w01::SRR1103366_2.fastq",
+      "size": 1048302,
+      "producer": "w01::fasterq-dump_ID0000038"
+    },
+    {
+      "id": "w01::SRR1518429.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000101"
+    },
+    {
+      "id": "w01::SRR1518429.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000101"
+    },
+    {
+      "id": "w01::SRR1518429_1.fastq",
+      "size": 1981081890,
+      "producer": "w01::fasterq-dump_ID0000100"
+    },
+    {
+      "id": "w01::SRR1518429_2.fastq",
+      "size": 1981081890,
+      "producer": "w01::fasterq-dump_ID0000100"
+    },
+    {
+      "id": "w01::SRR1518552.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000023"
+    },
+    {
+      "id": "w01::SRR1518552.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000023"
+    },
+    {
+      "id": "w01::SRR1518552_1.fastq",
+      "size": 753031454,
+      "producer": "w01::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w01::SRR1518552_2.fastq",
+      "size": 753031454,
+      "producer": "w01::fasterq-dump_ID0000022"
+    },
+    {
+      "id": "w01::SRR1518655.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000075"
+    },
+    {
+      "id": "w01::SRR1518655.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000075"
+    },
+    {
+      "id": "w01::SRR1518655_1.fastq",
+      "size": 1382743404,
+      "producer": "w01::fasterq-dump_ID0000074"
+    },
+    {
+      "id": "w01::SRR1518655_2.fastq",
+      "size": 1382743404,
+      "producer": "w01::fasterq-dump_ID0000074"
+    },
+    {
+      "id": "w01::SRR1763671.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000053"
+    },
+    {
+      "id": "w01::SRR1763671.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000053"
+    },
+    {
+      "id": "w01::SRR1763671_1.fastq",
+      "size": 1486074454,
+      "producer": "w01::fasterq-dump_ID0000052"
+    },
+    {
+      "id": "w01::SRR1763671_2.fastq",
+      "size": 1486074454,
+      "producer": "w01::fasterq-dump_ID0000052"
+    },
+    {
+      "id": "w01::SRR1918768.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000071"
+    },
+    {
+      "id": "w01::SRR1918768.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000071"
+    },
+    {
+      "id": "w01::SRR1918768_1.fastq",
+      "size": 1149810756,
+      "producer": "w01::fasterq-dump_ID0000070"
+    },
+    {
+      "id": "w01::SRR1918768_2.fastq",
+      "size": 1149810756,
+      "producer": "w01::fasterq-dump_ID0000070"
+    },
+    {
+      "id": "w01::SRR1919632.bam",
+      "size": 315,
+      "producer": "w01::bowtie2_ID0000083"
+    },
+    {
+      "id": "w01::SRR1919632.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000083"
+    },
+    {
+      "id": "w01::SRR1919632_1.fastq",
+      "size": 1046191966,
+      "producer": "w01::fasterq-dump_ID0000082"
+    },
+    {
+      "id": "w01::SRR1919632_2.fastq",
+      "size": 1046191966,
+      "producer": "w01::fasterq-dump_ID0000082"
+    },
+    {
+      "id": "w01::SRR1922828.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000079"
+    },
+    {
+      "id": "w01::SRR1922828.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000079"
+    },
+    {
+      "id": "w01::SRR1922828_1.fastq",
+      "size": 793464000,
+      "producer": "w01::fasterq-dump_ID0000078"
+    },
+    {
+      "id": "w01::SRR1922828_2.fastq",
+      "size": 793464000,
+      "producer": "w01::fasterq-dump_ID0000078"
+    },
+    {
+      "id": "w01::SRR1922838.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000027"
+    },
+    {
+      "id": "w01::SRR1922838.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000027"
+    },
+    {
+      "id": "w01::SRR1922838_1.fastq",
+      "size": 1124209642,
+      "producer": "w01::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w01::SRR1922838_2.fastq",
+      "size": 1124209642,
+      "producer": "w01::fasterq-dump_ID0000026"
+    },
+    {
+      "id": "w01::SRR1922858.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000073"
+    },
+    {
+      "id": "w01::SRR1922858.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000073"
+    },
+    {
+      "id": "w01::SRR1922858_1.fastq",
+      "size": 1090847652,
+      "producer": "w01::fasterq-dump_ID0000072"
+    },
+    {
+      "id": "w01::SRR1922858_2.fastq",
+      "size": 1090847652,
+      "producer": "w01::fasterq-dump_ID0000072"
+    },
+    {
+      "id": "w01::SRR2088879.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000057"
+    },
+    {
+      "id": "w01::SRR2088879.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000057"
+    },
+    {
+      "id": "w01::SRR2088879_1.fastq",
+      "size": 598973314,
+      "producer": "w01::fasterq-dump_ID0000056"
+    },
+    {
+      "id": "w01::SRR2088879_2.fastq",
+      "size": 598973314,
+      "producer": "w01::fasterq-dump_ID0000056"
+    },
+    {
+      "id": "w01::SRR2088899.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000043"
+    },
+    {
+      "id": "w01::SRR2088899.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000043"
+    },
+    {
+      "id": "w01::SRR2088899_1.fastq",
+      "size": 423683546,
+      "producer": "w01::fasterq-dump_ID0000042"
+    },
+    {
+      "id": "w01::SRR2088899_2.fastq",
+      "size": 423683546,
+      "producer": "w01::fasterq-dump_ID0000042"
+    },
+    {
+      "id": "w01::SRR2089242.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000045"
+    },
+    {
+      "id": "w01::SRR2089242.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000045"
+    },
+    {
+      "id": "w01::SRR2089242_1.fastq",
+      "size": 495951388,
+      "producer": "w01::fasterq-dump_ID0000044"
+    },
+    {
+      "id": "w01::SRR2089242_2.fastq",
+      "size": 495951388,
+      "producer": "w01::fasterq-dump_ID0000044"
+    },
+    {
+      "id": "w01::SRR2095937.bam",
+      "size": 315,
+      "producer": "w01::bowtie2_ID0000091"
+    },
+    {
+      "id": "w01::SRR2095937.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000091"
+    },
+    {
+      "id": "w01::SRR2095937_1.fastq",
+      "size": 360547086,
+      "producer": "w01::fasterq-dump_ID0000090"
+    },
+    {
+      "id": "w01::SRR2095937_2.fastq",
+      "size": 360547086,
+      "producer": "w01::fasterq-dump_ID0000090"
+    },
+    {
+      "id": "w01::SRR2138595.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000099"
+    },
+    {
+      "id": "w01::SRR2138595.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000099"
+    },
+    {
+      "id": "w01::SRR2138595_1.fastq",
+      "size": 363438634,
+      "producer": "w01::fasterq-dump_ID0000098"
+    },
+    {
+      "id": "w01::SRR2138595_2.fastq",
+      "size": 363438634,
+      "producer": "w01::fasterq-dump_ID0000098"
+    },
+    {
+      "id": "w01::SRR2143504.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000047"
+    },
+    {
+      "id": "w01::SRR2143504.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000047"
+    },
+    {
+      "id": "w01::SRR2143504_1.fastq",
+      "size": 497354442,
+      "producer": "w01::fasterq-dump_ID0000046"
+    },
+    {
+      "id": "w01::SRR2143504_2.fastq",
+      "size": 497354442,
+      "producer": "w01::fasterq-dump_ID0000046"
+    },
+    {
+      "id": "w01::SRR3098568.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000033"
+    },
+    {
+      "id": "w01::SRR3098568.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000033"
+    },
+    {
+      "id": "w01::SRR3098568_1.fastq",
+      "size": 369278024,
+      "producer": "w01::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w01::SRR3098568_2.fastq",
+      "size": 369278024,
+      "producer": "w01::fasterq-dump_ID0000032"
+    },
+    {
+      "id": "w01::SRR3150353.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000089"
+    },
+    {
+      "id": "w01::SRR3150353.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000089"
+    },
+    {
+      "id": "w01::SRR3150353_1.fastq",
+      "size": 861569264,
+      "producer": "w01::fasterq-dump_ID0000088"
+    },
+    {
+      "id": "w01::SRR3150353_2.fastq",
+      "size": 861569264,
+      "producer": "w01::fasterq-dump_ID0000088"
+    },
+    {
+      "id": "w01::SRR3150354.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000003"
+    },
+    {
+      "id": "w01::SRR3150354.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000003"
+    },
+    {
+      "id": "w01::SRR3150354_1.fastq",
+      "size": 436144824,
+      "producer": "w01::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w01::SRR3150354_2.fastq",
+      "size": 436144824,
+      "producer": "w01::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w01::SRR3150392.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000025"
+    },
+    {
+      "id": "w01::SRR3150392.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000025"
+    },
+    {
+      "id": "w01::SRR3150392_1.fastq",
+      "size": 1002252744,
+      "producer": "w01::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w01::SRR3150392_2.fastq",
+      "size": 1002252744,
+      "producer": "w01::fasterq-dump_ID0000024"
+    },
+    {
+      "id": "w01::SRR3150500.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000087"
+    },
+    {
+      "id": "w01::SRR3150500.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000087"
+    },
+    {
+      "id": "w01::SRR3150500_1.fastq",
+      "size": 904522664,
+      "producer": "w01::fasterq-dump_ID0000086"
+    },
+    {
+      "id": "w01::SRR3150500_2.fastq",
+      "size": 904522664,
+      "producer": "w01::fasterq-dump_ID0000086"
+    },
+    {
+      "id": "w01::SRR3150507.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000035"
+    },
+    {
+      "id": "w01::SRR3150507.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000035"
+    },
+    {
+      "id": "w01::SRR3150507_1.fastq",
+      "size": 797570224,
+      "producer": "w01::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w01::SRR3150507_2.fastq",
+      "size": 797570224,
+      "producer": "w01::fasterq-dump_ID0000034"
+    },
+    {
+      "id": "w01::SRR3150509.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000017"
+    },
+    {
+      "id": "w01::SRR3150509.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000017"
+    },
+    {
+      "id": "w01::SRR3150509_1.fastq",
+      "size": 800248984,
+      "producer": "w01::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w01::SRR3150509_2.fastq",
+      "size": 800248984,
+      "producer": "w01::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w01::SRR3150713.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000081"
+    },
+    {
+      "id": "w01::SRR3150713.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000081"
+    },
+    {
+      "id": "w01::SRR3150713_1.fastq",
+      "size": 838780624,
+      "producer": "w01::fasterq-dump_ID0000080"
+    },
+    {
+      "id": "w01::SRR3150713_2.fastq",
+      "size": 838780624,
+      "producer": "w01::fasterq-dump_ID0000080"
+    },
+    {
+      "id": "w01::SRR3150737.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000041"
+    },
+    {
+      "id": "w01::SRR3150737.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000041"
+    },
+    {
+      "id": "w01::SRR3150737_1.fastq",
+      "size": 738346304,
+      "producer": "w01::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w01::SRR3150737_2.fastq",
+      "size": 738346304,
+      "producer": "w01::fasterq-dump_ID0000040"
+    },
+    {
+      "id": "w01::SRR3150741.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000093"
+    },
+    {
+      "id": "w01::SRR3150741.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000093"
+    },
+    {
+      "id": "w01::SRR3150741_1.fastq",
+      "size": 387036744,
+      "producer": "w01::fasterq-dump_ID0000092"
+    },
+    {
+      "id": "w01::SRR3150741_2.fastq",
+      "size": 387036744,
+      "producer": "w01::fasterq-dump_ID0000092"
+    },
+    {
+      "id": "w01::SRR3150793.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000037"
+    },
+    {
+      "id": "w01::SRR3150793.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000037"
+    },
+    {
+      "id": "w01::SRR3150793_1.fastq",
+      "size": 248271876,
+      "producer": "w01::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w01::SRR3150793_2.fastq",
+      "size": 248271876,
+      "producer": "w01::fasterq-dump_ID0000036"
+    },
+    {
+      "id": "w01::SRR3150795.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000055"
+    },
+    {
+      "id": "w01::SRR3150795.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000055"
+    },
+    {
+      "id": "w01::SRR3150795_1.fastq",
+      "size": 874644704,
+      "producer": "w01::fasterq-dump_ID0000054"
+    },
+    {
+      "id": "w01::SRR3150795_2.fastq",
+      "size": 874644704,
+      "producer": "w01::fasterq-dump_ID0000054"
+    },
+    {
+      "id": "w01::SRR3150808.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000013"
+    },
+    {
+      "id": "w01::SRR3150808.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000013"
+    },
+    {
+      "id": "w01::SRR3150808_1.fastq",
+      "size": 517071264,
+      "producer": "w01::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w01::SRR3150808_2.fastq",
+      "size": 517071264,
+      "producer": "w01::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w01::SRR3150829.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000009"
+    },
+    {
+      "id": "w01::SRR3150829.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000009"
+    },
+    {
+      "id": "w01::SRR3150829_1.fastq",
+      "size": 632674304,
+      "producer": "w01::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w01::SRR3150829_2.fastq",
+      "size": 632674304,
+      "producer": "w01::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w01::SRR3150853.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000059"
+    },
+    {
+      "id": "w01::SRR3150853.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000059"
+    },
+    {
+      "id": "w01::SRR3150853_1.fastq",
+      "size": 631957504,
+      "producer": "w01::fasterq-dump_ID0000058"
+    },
+    {
+      "id": "w01::SRR3150853_2.fastq",
+      "size": 631957504,
+      "producer": "w01::fasterq-dump_ID0000058"
+    },
+    {
+      "id": "w01::SRR3150858.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000067"
+    },
+    {
+      "id": "w01::SRR3150858.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000067"
+    },
+    {
+      "id": "w01::SRR3150858_1.fastq",
+      "size": 554596304,
+      "producer": "w01::fasterq-dump_ID0000066"
+    },
+    {
+      "id": "w01::SRR3150858_2.fastq",
+      "size": 554596304,
+      "producer": "w01::fasterq-dump_ID0000066"
+    },
+    {
+      "id": "w01::SRR3151980.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000015"
+    },
+    {
+      "id": "w01::SRR3151980.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000015"
+    },
+    {
+      "id": "w01::SRR3151980_1.fastq",
+      "size": 778926144,
+      "producer": "w01::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w01::SRR3151980_2.fastq",
+      "size": 778926144,
+      "producer": "w01::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w01::SRR3152022.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000021"
+    },
+    {
+      "id": "w01::SRR3152022.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000021"
+    },
+    {
+      "id": "w01::SRR3152022_1.fastq",
+      "size": 708297824,
+      "producer": "w01::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w01::SRR3152022_2.fastq",
+      "size": 708297824,
+      "producer": "w01::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w01::SRR3152051.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000085"
+    },
+    {
+      "id": "w01::SRR3152051.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000085"
+    },
+    {
+      "id": "w01::SRR3152051_1.fastq",
+      "size": 456368384,
+      "producer": "w01::fasterq-dump_ID0000084"
+    },
+    {
+      "id": "w01::SRR3152051_2.fastq",
+      "size": 456368384,
+      "producer": "w01::fasterq-dump_ID0000084"
+    },
+    {
+      "id": "w01::SRR3152057.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000031"
+    },
+    {
+      "id": "w01::SRR3152057.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000031"
+    },
+    {
+      "id": "w01::SRR3152057_1.fastq",
+      "size": 500110264,
+      "producer": "w01::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w01::SRR3152057_2.fastq",
+      "size": 500110264,
+      "producer": "w01::fasterq-dump_ID0000030"
+    },
+    {
+      "id": "w01::SRR3152083.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000005"
+    },
+    {
+      "id": "w01::SRR3152083.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000005"
+    },
+    {
+      "id": "w01::SRR3152083_1.fastq",
+      "size": 425443504,
+      "producer": "w01::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w01::SRR3152083_2.fastq",
+      "size": 425443504,
+      "producer": "w01::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w01::SRR3152085.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000011"
+    },
+    {
+      "id": "w01::SRR3152085.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000011"
+    },
+    {
+      "id": "w01::SRR3152085_1.fastq",
+      "size": 590358184,
+      "producer": "w01::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w01::SRR3152085_2.fastq",
+      "size": 590358184,
+      "producer": "w01::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w01::SRR3152104.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000069"
+    },
+    {
+      "id": "w01::SRR3152104.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000069"
+    },
+    {
+      "id": "w01::SRR3152104_1.fastq",
+      "size": 511956504,
+      "producer": "w01::fasterq-dump_ID0000068"
+    },
+    {
+      "id": "w01::SRR3152104_2.fastq",
+      "size": 511956504,
+      "producer": "w01::fasterq-dump_ID0000068"
+    },
+    {
+      "id": "w01::SRR3152145.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000019"
+    },
+    {
+      "id": "w01::SRR3152145.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000019"
+    },
+    {
+      "id": "w01::SRR3152145_1.fastq",
+      "size": 397294824,
+      "producer": "w01::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w01::SRR3152145_2.fastq",
+      "size": 397294824,
+      "producer": "w01::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w01::SRR3170551.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000097"
+    },
+    {
+      "id": "w01::SRR3170551.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000097"
+    },
+    {
+      "id": "w01::SRR3170551_1.fastq",
+      "size": 377845184,
+      "producer": "w01::fasterq-dump_ID0000096"
+    },
+    {
+      "id": "w01::SRR3170551_2.fastq",
+      "size": 377845184,
+      "producer": "w01::fasterq-dump_ID0000096"
+    },
+    {
+      "id": "w01::SRR3177783.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000077"
+    },
+    {
+      "id": "w01::SRR3177783.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000077"
+    },
+    {
+      "id": "w01::SRR3177783_1.fastq",
+      "size": 817155104,
+      "producer": "w01::fasterq-dump_ID0000076"
+    },
+    {
+      "id": "w01::SRR3177783_2.fastq",
+      "size": 817155104,
+      "producer": "w01::fasterq-dump_ID0000076"
+    },
+    {
+      "id": "w01::SRR3177838.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000029"
+    },
+    {
+      "id": "w01::SRR3177838.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000029"
+    },
+    {
+      "id": "w01::SRR3177838_1.fastq",
+      "size": 685432744,
+      "producer": "w01::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w01::SRR3177838_2.fastq",
+      "size": 685432744,
+      "producer": "w01::fasterq-dump_ID0000028"
+    },
+    {
+      "id": "w01::SRR3177850.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000095"
+    },
+    {
+      "id": "w01::SRR3177850.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000095"
+    },
+    {
+      "id": "w01::SRR3177850_1.fastq",
+      "size": 721606504,
+      "producer": "w01::fasterq-dump_ID0000094"
+    },
+    {
+      "id": "w01::SRR3177850_2.fastq",
+      "size": 721606504,
+      "producer": "w01::fasterq-dump_ID0000094"
+    },
+    {
+      "id": "w01::SRR3177869.bam",
+      "size": 317,
+      "producer": "w01::bowtie2_ID0000049"
+    },
+    {
+      "id": "w01::SRR3177869.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000049"
+    },
+    {
+      "id": "w01::SRR3177869_1.fastq",
+      "size": 498060384,
+      "producer": "w01::fasterq-dump_ID0000048"
+    },
+    {
+      "id": "w01::SRR3177869_2.fastq",
+      "size": 498060384,
+      "producer": "w01::fasterq-dump_ID0000048"
+    },
+    {
+      "id": "w01::SRR3177885.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000051"
+    },
+    {
+      "id": "w01::SRR3177885.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000051"
+    },
+    {
+      "id": "w01::SRR3177885_1.fastq",
+      "size": 370727304,
+      "producer": "w01::fasterq-dump_ID0000050"
+    },
+    {
+      "id": "w01::SRR3177885_2.fastq",
+      "size": 370727304,
+      "producer": "w01::fasterq-dump_ID0000050"
+    },
+    {
+      "id": "w01::SRR3177895.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000007"
+    },
+    {
+      "id": "w01::SRR3177895.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000007"
+    },
+    {
+      "id": "w01::SRR3177895_1.fastq",
+      "size": 252756600,
+      "producer": "w01::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w01::SRR3177895_2.fastq",
+      "size": 252756600,
+      "producer": "w01::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w01::SRR3177980.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000063"
+    },
+    {
+      "id": "w01::SRR3177980.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000063"
+    },
+    {
+      "id": "w01::SRR3177980_1.fastq",
+      "size": 738572824,
+      "producer": "w01::fasterq-dump_ID0000062"
+    },
+    {
+      "id": "w01::SRR3177980_2.fastq",
+      "size": 738572824,
+      "producer": "w01::fasterq-dump_ID0000062"
+    },
+    {
+      "id": "w01::SRR3177997.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000065"
+    },
+    {
+      "id": "w01::SRR3177997.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000065"
+    },
+    {
+      "id": "w01::SRR3177997_1.fastq",
+      "size": 867024504,
+      "producer": "w01::fasterq-dump_ID0000064"
+    },
+    {
+      "id": "w01::SRR3177997_2.fastq",
+      "size": 867024504,
+      "producer": "w01::fasterq-dump_ID0000064"
+    },
+    {
+      "id": "w01::SRR3178002.bam",
+      "size": 316,
+      "producer": "w01::bowtie2_ID0000061"
+    },
+    {
+      "id": "w01::SRR3178002.bam.bai",
+      "size": 24,
+      "producer": "w01::bowtie2_ID0000061"
+    },
+    {
+      "id": "w01::SRR3178002_1.fastq",
+      "size": 679636744,
+      "producer": "w01::fasterq-dump_ID0000060"
+    },
+    {
+      "id": "w01::SRR3178002_2.fastq",
+      "size": 679636744,
+      "producer": "w01::fasterq-dump_ID0000060"
+    },
+    {
+      "id": "w01::reference.1.bt2",
+      "size": 4226858,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.2.bt2",
+      "size": 24280,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.3.bt2",
+      "size": 17,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.4.bt2",
+      "size": 24273,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.fna",
+      "size": 98721,
+      "producer": null
+    },
+    {
+      "id": "w01::reference.rev.1.bt2",
+      "size": 4226858,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::reference.rev.2.bt2",
+      "size": 24280,
+      "producer": "w01::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w01::results-l1-j1.tar.gz",
+      "size": 6175,
+      "producer": "w01::merge_ID0000102"
+    },
+    {
+      "id": "w01::results-l1-j2.tar.gz",
+      "size": 5721,
+      "producer": "w01::merge_ID0000103"
+    },
+    {
+      "id": "w01::results.tar.gz",
+      "size": 10415,
+      "producer": "w01::merge_ID0000104"
+    },
+    {
+      "id": "w02::SRR3152141.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000003"
+    },
+    {
+      "id": "w02::SRR3152141.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000003"
+    },
+    {
+      "id": "w02::SRR3152141_1.fastq",
+      "size": 734761744,
+      "producer": "w02::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w02::SRR3152141_2.fastq",
+      "size": 734761744,
+      "producer": "w02::fasterq-dump_ID0000002"
+    },
+    {
+      "id": "w02::SRR3152142.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000007"
+    },
+    {
+      "id": "w02::SRR3152142.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000007"
+    },
+    {
+      "id": "w02::SRR3152142_1.fastq",
+      "size": 489999184,
+      "producer": "w02::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w02::SRR3152142_2.fastq",
+      "size": 489999184,
+      "producer": "w02::fasterq-dump_ID0000006"
+    },
+    {
+      "id": "w02::SRR3152143.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000009"
+    },
+    {
+      "id": "w02::SRR3152143.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000009"
+    },
+    {
+      "id": "w02::SRR3152143_1.fastq",
+      "size": 277305024,
+      "producer": "w02::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w02::SRR3152143_2.fastq",
+      "size": 277305024,
+      "producer": "w02::fasterq-dump_ID0000008"
+    },
+    {
+      "id": "w02::SRR3152147.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000013"
+    },
+    {
+      "id": "w02::SRR3152147.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000013"
+    },
+    {
+      "id": "w02::SRR3152147_1.fastq",
+      "size": 418891784,
+      "producer": "w02::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w02::SRR3152147_2.fastq",
+      "size": 418891784,
+      "producer": "w02::fasterq-dump_ID0000012"
+    },
+    {
+      "id": "w02::SRR3152148.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000017"
+    },
+    {
+      "id": "w02::SRR3152148.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000017"
+    },
+    {
+      "id": "w02::SRR3152148_1.fastq",
+      "size": 704075704,
+      "producer": "w02::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w02::SRR3152148_2.fastq",
+      "size": 704075704,
+      "producer": "w02::fasterq-dump_ID0000016"
+    },
+    {
+      "id": "w02::SRR3152150.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000019"
+    },
+    {
+      "id": "w02::SRR3152150.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000019"
+    },
+    {
+      "id": "w02::SRR3152150_1.fastq",
+      "size": 581965744,
+      "producer": "w02::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w02::SRR3152150_2.fastq",
+      "size": 581965744,
+      "producer": "w02::fasterq-dump_ID0000018"
+    },
+    {
+      "id": "w02::SRR3152151.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000005"
+    },
+    {
+      "id": "w02::SRR3152151.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000005"
+    },
+    {
+      "id": "w02::SRR3152151_1.fastq",
+      "size": 345787144,
+      "producer": "w02::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w02::SRR3152151_2.fastq",
+      "size": 345787144,
+      "producer": "w02::fasterq-dump_ID0000004"
+    },
+    {
+      "id": "w02::SRR3152152.bam",
+      "size": 315,
+      "producer": "w02::bowtie2_ID0000015"
+    },
+    {
+      "id": "w02::SRR3152152.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000015"
+    },
+    {
+      "id": "w02::SRR3152152_1.fastq",
+      "size": 247705800,
+      "producer": "w02::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w02::SRR3152152_2.fastq",
+      "size": 247705800,
+      "producer": "w02::fasterq-dump_ID0000014"
+    },
+    {
+      "id": "w02::SRR3177945.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000011"
+    },
+    {
+      "id": "w02::SRR3177945.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000011"
+    },
+    {
+      "id": "w02::SRR3177945_1.fastq",
+      "size": 646024704,
+      "producer": "w02::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w02::SRR3177945_2.fastq",
+      "size": 646024704,
+      "producer": "w02::fasterq-dump_ID0000010"
+    },
+    {
+      "id": "w02::SRR3178075.bam",
+      "size": 316,
+      "producer": "w02::bowtie2_ID0000021"
+    },
+    {
+      "id": "w02::SRR3178075.bam.bai",
+      "size": 24,
+      "producer": "w02::bowtie2_ID0000021"
+    },
+    {
+      "id": "w02::SRR3178075_1.fastq",
+      "size": 892578704,
+      "producer": "w02::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w02::SRR3178075_2.fastq",
+      "size": 892578704,
+      "producer": "w02::fasterq-dump_ID0000020"
+    },
+    {
+      "id": "w02::reference.1.bt2",
+      "size": 4226858,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.2.bt2",
+      "size": 24280,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.3.bt2",
+      "size": 17,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.4.bt2",
+      "size": 24273,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.fna",
+      "size": 98721,
+      "producer": null
+    },
+    {
+      "id": "w02::reference.rev.1.bt2",
+      "size": 4226858,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::reference.rev.2.bt2",
+      "size": 24280,
+      "producer": "w02::bowtie2-build_ID0000001"
+    },
+    {
+      "id": "w02::results.tar.gz",
+      "size": 2412,
+      "producer": "w02::merge_ID0000022"
+    }
+  ]
+}

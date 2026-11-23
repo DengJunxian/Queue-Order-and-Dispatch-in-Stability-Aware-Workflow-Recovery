@@ -1,0 +1,209 @@
+{
+  "figure": "r7_worst_timeline",
+  "data": {
+    "case": {
+      "case_id": "BWA_SRA_new-repeat005-r94001",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94001,
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "ConditionalRatioGuard",
+      "workflow": "w01",
+      "increase_pct": 97.28806365738927,
+      "source_event_file": "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94001.json.gz",
+      "source_event_sha256": "21968d3db2d4530f0ee25eb15824684528716a676da4eadffe77c33078714608"
+    },
+    "fault_time": 36.86502748113557,
+    "tasks": [
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000005",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000005",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.77641086234549,
+        "cpu_finish": 65.86040087436159
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000009",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000009",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.5707162535156,
+        "cpu_finish": 65.63494768496406
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000011",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000011",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 163.64917224268183,
+          "remote_bytes": 1292049408.0,
+          "node": 2
+        },
+        "cpu_start": 163.64917224268183,
+        "cpu_finish": 163.76764924380055
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000013",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000013",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.69922655263194,
+        "cpu_finish": 65.77641086234549
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000015",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000015",
+          "stage_start": 39.730648991092906,
+          "stage_finish": 40.10167685525659,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.63494768496406,
+        "cpu_finish": 65.69922655263194
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::bowtie2_ID0000017",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000017",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 193.96178138812132,
+          "remote_bytes": 1408151408.0,
+          "node": 2
+        },
+        "cpu_start": 193.96178138812132,
+        "cpu_finish": 194.06706945648088
+      },
+      {
+        "method": "DispatchMinAWCT",
+        "task": "w01::merge_ID0000022",
+        "input_stage": {
+          "task": "w01::merge_ID0000022",
+          "stage_start": 194.06706945648088,
+          "stage_finish": 194.0676020719626,
+          "remote_bytes": 2040.0,
+          "node": 1
+        },
+        "cpu_start": 194.0676020719626,
+        "cpu_finish": 194.0677848409256
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000005",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000005",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 66.0591348037629,
+        "cpu_finish": 66.143124815779
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000009",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000009",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.78848921443631,
+        "cpu_finish": 65.85272064588477
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000011",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000011",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 364.54689915892135,
+          "remote_bytes": 1292049408.0,
+          "node": 2
+        },
+        "cpu_start": 364.54689915892135,
+        "cpu_finish": 364.66537616004007
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000013",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000013",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 38.302252182326235,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.91699951355265,
+        "cpu_finish": 65.9941838232662
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000015",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000015",
+          "stage_start": 39.730648991092906,
+          "stage_finish": 43.91552014981072,
+          "remote_bytes": 8526566.0,
+          "node": 1
+        },
+        "cpu_start": 65.85272064588477,
+        "cpu_finish": 65.91699951355265
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::bowtie2_ID0000017",
+        "input_stage": {
+          "task": "w01::bowtie2_ID0000017",
+          "stage_start": 37.55507564594253,
+          "stage_finish": 382.7668081606381,
+          "remote_bytes": 1408151408.0,
+          "node": 2
+        },
+        "cpu_start": 382.7668081606381,
+        "cpu_finish": 382.8720962289977
+      },
+      {
+        "method": "ConditionalRatioGuard",
+        "task": "w01::merge_ID0000022",
+        "input_stage": {
+          "task": "w01::merge_ID0000022",
+          "stage_start": 382.8720962289977,
+          "stage_finish": 382.8723921264875,
+          "remote_bytes": 2040.0,
+          "node": 1
+        },
+        "cpu_start": 382.8723921264875,
+        "cpu_finish": 382.87257489545055
+      }
+    ]
+  },
+  "caption": "Observed staging and CPU intervals for workflow w01 in the deterministically selected worst case. Include every task with a nonzero post-fault remote-input stage in either plan. Both panels share task and time axes, with zero at the common failure. Outlined bars show staging; solid bars show actual CPU durations and ticks keep short tasks visible without inflating their duration. The dotted line marks whole-workflow completion. These are logged interleavings and placements, not an isolated causal decomposition.",
+  "alt_text": "The two plans produce different remote-input stages in the same workflow; CRG retains long stages for bowtie2 tasks and completes near 383, whereas the reference completes near 194, in original normalized time.",
+  "sources": {
+    "revision_r7/reports/post_analysis_diagnostics.json": "8de2ecd7ad1512cb5310ab3db29dbd9a3c37857b48208c2993a76bd099386075",
+    "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94001.json.gz": "21968d3db2d4530f0ee25eb15824684528716a676da4eadffe77c33078714608"
+  }
+}

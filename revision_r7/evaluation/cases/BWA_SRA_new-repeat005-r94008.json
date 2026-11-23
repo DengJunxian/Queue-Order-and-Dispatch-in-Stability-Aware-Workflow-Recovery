@@ -1,0 +1,5630 @@
+{
+  "status": "PASS",
+  "case_id": "BWA_SRA_new-repeat005-r94008",
+  "composition": "BWA_SRA_new",
+  "repeat": 5,
+  "root": 94008,
+  "event_file": "revision_r7/evaluation/events/BWA_SRA_new-repeat005-r94008.json.gz",
+  "event_sha256": "6a1b5153e0900b725ebfb090e1d1998b85e7771a552c4c227dbb261ad71e6f58",
+  "rows": [
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "B0",
+      "awct": 86.979276804115,
+      "cdi": 5.55153133216352,
+      "signed": 5.55153133216352,
+      "absolute": 5.55153133216352,
+      "max_positive": 8.805134765919037,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6038964642261,
+        "w01": 68.4079864615177,
+        "w02": 124.9259474866012
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "B0AssignmentReorder",
+      "awct": 76.83972689511887,
+      "cdi": 4.010794114304652,
+      "signed": 1.1705222046478692,
+      "absolute": 6.851066023961434,
+      "max_positive": 8.682225277558702,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.34403460346735,
+        "w01": 68.34425279747067,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "QueueRepair0",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "BudgetSelect10",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "PoolMinAWCT10",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "ProtectedFirst",
+      "awct": 107.2434945010593,
+      "cdi": 0.009138977432792078,
+      "signed": -0.04391395781482416,
+      "absolute": 0.06219191268040832,
+      "max_positive": 1.0144264950399207,
+      "late_fraction": 0.009009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 85.97878386813827,
+        "w01": 117.8758127845509,
+        "w02": 117.87588685048875
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "WorkflowGuard",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "ProtectedSubsequence",
+      "awct": 93.30637209694206,
+      "cdi": 0.0,
+      "signed": -0.044257096148688675,
+      "absolute": 0.044257096148688675,
+      "max_positive": 0.0,
+      "late_fraction": 0,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 77.33536401987608,
+        "w01": 86.26635492455505,
+        "w02": 116.31739734639503
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "DispatchMinAWCT",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "DispatchMatchedGuard",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "CalibratedGuard",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "PairedRatioGuard",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "strict",
+      "method": "ConditionalRatioGuard",
+      "awct": 77.0138239926021,
+      "cdi": 4.017368622104725,
+      "signed": 1.1770967124479426,
+      "absolute": 6.857640531761508,
+      "max_positive": 8.943373389595957,
+      "late_fraction": 0.7927927927927928,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 68.60518271550461,
+        "w01": 68.60540090950794,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "QueueRepair0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": false,
+        "calibration_eta": 0.12482030445589154,
+        "tightened_gamma": 0.8169648757948331,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "QueueRepair0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04764605936573405,
+                  "w01": 0.05957855563911909,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04758622873355028,
+                  "w01": 0.05629085130192878,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.04833545973377564,
+                  "w01": 0.36327366610899153,
+                  "w02": 0.3391134092191073
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "QueueRepair0",
+            "reference_name": "QueueRepair0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.007398137389745632,
+                  "w01": -0.001779108892186779,
+                  "w02": 0.34414017454423856
+                },
+                "admitted": false
+              },
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": -0.013771435797755591,
+                  "w01": -0.005066813229377082,
+                  "w02": 0.32182163937379393
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.039631398040805066,
+                  "w01": 0.35923227702290145,
+                  "w02": 0.31597738878578857
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "B0",
+      "awct": 76.36811944050179,
+      "cdi": 4.138231088510459,
+      "signed": 4.137239624726688,
+      "absolute": 4.139222552294228,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.66635215720098,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "B0AssignmentReorder",
+      "awct": 76.42706127334417,
+      "cdi": 4.146929724922574,
+      "signed": 4.138624956299204,
+      "absolute": 4.155234493545944,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.84317765572808,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "QueueRepair0",
+      "awct": 76.42314440764149,
+      "cdi": 4.153360452998647,
+      "signed": 4.145055684375277,
+      "absolute": 4.161665221622016,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.8314319902449,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "BudgetSelect10",
+      "awct": 76.42314440764149,
+      "cdi": 4.153360452998647,
+      "signed": 4.145055684375277,
+      "absolute": 4.161665221622016,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.8314319902449,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "PoolMinAWCT10",
+      "awct": 76.42314440764149,
+      "cdi": 4.153360452998647,
+      "signed": 4.145055684375277,
+      "absolute": 4.161665221622016,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.8314319902449,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "ProtectedFirst",
+      "awct": 76.42453449700885,
+      "cdi": 0.19874630088939935,
+      "signed": 0.13504513879338798,
+      "absolute": 0.2624474629854107,
+      "max_positive": 21.046412903683407,
+      "late_fraction": 0.018018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.60711287988582,
+        "w01": 67.8431776557281,
+        "w02": 93.82331295541262
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "WorkflowGuard",
+      "awct": 76.42314440764149,
+      "cdi": 4.153360452998647,
+      "signed": 4.145055684375277,
+      "absolute": 4.161665221622016,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8018018018018018,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.8314319902449,
+        "w02": 93.83088835279376
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "ProtectedSubsequence",
+      "awct": 76.36559266416647,
+      "cdi": 0.18960732345660727,
+      "signed": 0.13470200045952346,
+      "absolute": 0.24451264645369108,
+      "max_positive": 21.046412903683407,
+      "late_fraction": 0.009009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.60711287988582,
+        "w01": 67.66635215720099,
+        "w02": 93.82331295541262
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "DispatchMinAWCT",
+      "awct": 76.36811944050179,
+      "cdi": 4.138231088510459,
+      "signed": 4.137239624726688,
+      "absolute": 4.139222552294228,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.66635215720098,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "DispatchMatchedGuard",
+      "awct": 76.55015167924553,
+      "cdi": 4.128364317149899,
+      "signed": 4.127372853366128,
+      "absolute": 4.129355780933668,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.023391812865497075,
+      "workflow_completion": {
+        "w00": 67.60397806064745,
+        "w01": 67.9429175461361,
+        "w02": 94.10355943095304
+      },
+      "optional_moves": 4,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "CalibratedGuard",
+      "awct": 76.36811944050179,
+      "cdi": 4.138231088510459,
+      "signed": 4.137239624726688,
+      "absolute": 4.139222552294228,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.66635215720098,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "PairedRatioGuard",
+      "awct": 76.36811944050179,
+      "cdi": 4.138231088510459,
+      "signed": 4.137239624726688,
+      "absolute": 4.139222552294228,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.6071128798858,
+        "w01": 67.66635215720098,
+        "w02": 93.8308932844186
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "method": "ConditionalRatioGuard",
+      "awct": 76.55015167924553,
+      "cdi": 4.128364317149899,
+      "signed": 4.127372853366128,
+      "absolute": 4.129355780933668,
+      "max_positive": 29.65496304388957,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.023391812865497075,
+      "workflow_completion": {
+        "w00": 67.60397806064745,
+        "w01": 67.9429175461361,
+        "w02": 94.10355943095304
+      },
+      "optional_moves": 4,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "v1_H1",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12268153770340717,
+        "tightened_gamma": 0.8205215410380993,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.057256489037243535,
+                  "w01": 0.054845761603239646,
+                  "w02": 0.06084457631226677
+                },
+                "admitted": false
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.07012876047554303,
+                  "w01": 0.060480704160097716,
+                  "w02": 0.05731622294274704
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.05725718153608697,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.06489017166251054
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "v1_H1",
+            "reference_name": "v1_H0",
+            "admissible_count": 4,
+            "admitted_nonreference_count": 2,
+            "candidate_admission": [
+              {
+                "name": "v1_H1",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.018071694812999296,
+                  "w01": 0.011097546366662115,
+                  "w02": 0.0035283014836654347
+                },
+                "admitted": true
+              },
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.019017369261702513,
+                  "w01": 0.016732488923520184,
+                  "w02": -5.25024687519042e-08
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.03993084525427632,
+                  "w01": 0.3625564175091935,
+                  "w02": 0.04579556654378835
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "B0",
+      "awct": 334.5001749186589,
+      "cdi": 74.27824784866313,
+      "signed": 74.27714668923167,
+      "absolute": 74.27934900809457,
+      "max_positive": 281.9054021361471,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 238.65245591709933,
+        "w01": 345.9487564950961,
+        "w02": 418.89931234378116
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "B0AssignmentReorder",
+      "awct": 375.4472236914734,
+      "cdi": 61.17889155035498,
+      "signed": 58.31580983046727,
+      "absolute": 64.04197327024269,
+      "max_positive": 318.3143950550747,
+      "late_fraction": 0.8288288288288288,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 325.08481644485846,
+        "w01": 382.3575422857809,
+        "w02": 418.899312343781
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "QueueRepair0",
+      "awct": 389.17607555294455,
+      "cdi": 60.73562324576198,
+      "signed": 57.872541525874276,
+      "absolute": 63.59870496564969,
+      "max_positive": 308.0726380295925,
+      "late_fraction": 0.8288288288288288,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 365.7562486810085,
+        "w01": 382.3779815416585,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "BudgetSelect10",
+      "awct": 389.17607555294455,
+      "cdi": 60.73562324576198,
+      "signed": 57.872541525874276,
+      "absolute": 63.59870496564969,
+      "max_positive": 308.0726380295925,
+      "late_fraction": 0.8288288288288288,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 365.7562486810085,
+        "w01": 382.3779815416585,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "PoolMinAWCT10",
+      "awct": 389.17607555294455,
+      "cdi": 60.73562324576198,
+      "signed": 57.872541525874276,
+      "absolute": 63.59870496564969,
+      "max_positive": 308.0726380295925,
+      "late_fraction": 0.8288288288288288,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 365.7562486810085,
+        "w01": 382.3779815416585,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "ProtectedFirst",
+      "awct": 412.1571814400093,
+      "cdi": 0.008863632038614266,
+      "signed": -0.06367161559508977,
+      "absolute": 0.08139887967231829,
+      "max_positive": 0.9838631562861836,
+      "late_fraction": 0.009009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 350.5873290534455,
+        "w01": 442.94207060032227,
+        "w02": 442.9421446662601
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "WorkflowGuard",
+      "awct": 389.17607555294455,
+      "cdi": 60.73562324576198,
+      "signed": 57.872541525874276,
+      "absolute": 63.59870496564969,
+      "max_positive": 308.0726380295925,
+      "late_fraction": 0.8288288288288288,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 365.7562486810085,
+        "w01": 382.3779815416585,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "ProtectedSubsequence",
+      "awct": 397.6494389221617,
+      "cdi": 0.10814352295085027,
+      "signed": 0.06675055939424586,
+      "absolute": 0.14953648650745466,
+      "max_positive": 0.7315516345389882,
+      "late_fraction": 0.1981981981981982,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 347.03469537682446,
+        "w01": 404.52982319586954,
+        "w02": 441.3837981937912
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "DispatchMinAWCT",
+      "awct": 316.1116253093898,
+      "cdi": 6.840247233676313,
+      "signed": 6.789277985698413,
+      "absolute": 6.8912164816542125,
+      "max_positive": 154.34146890929597,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.09941520467836257,
+      "workflow_completion": {
+        "w00": 73.25644049418491,
+        "w01": 418.84536292926964,
+        "w02": 456.23307250471487
+      },
+      "optional_moves": 17,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "DispatchMatchedGuard",
+      "awct": 316.1116253093898,
+      "cdi": 6.840247233676313,
+      "signed": 6.789277985698413,
+      "absolute": 6.8912164816542125,
+      "max_positive": 154.34146890929597,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.09941520467836257,
+      "workflow_completion": {
+        "w00": 73.25644049418491,
+        "w01": 418.84536292926964,
+        "w02": 456.23307250471487
+      },
+      "optional_moves": 17,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "CalibratedGuard",
+      "awct": 316.1116253093898,
+      "cdi": 6.840247233676313,
+      "signed": 6.789277985698413,
+      "absolute": 6.8912164816542125,
+      "max_positive": 154.34146890929597,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.09941520467836257,
+      "workflow_completion": {
+        "w00": 73.25644049418491,
+        "w01": 418.84536292926964,
+        "w02": 456.23307250471487
+      },
+      "optional_moves": 17,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "PairedRatioGuard",
+      "awct": 316.1116253093898,
+      "cdi": 6.840247233676313,
+      "signed": 6.789277985698413,
+      "absolute": 6.8912164816542125,
+      "max_positive": 154.34146890929597,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.09941520467836257,
+      "workflow_completion": {
+        "w00": 73.25644049418491,
+        "w01": 418.84536292926964,
+        "w02": 456.23307250471487
+      },
+      "optional_moves": 17,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "method": "ConditionalRatioGuard",
+      "awct": 316.1116253093898,
+      "cdi": 6.840247233676313,
+      "signed": 6.789277985698413,
+      "absolute": 6.8912164816542125,
+      "max_positive": 154.34146890929597,
+      "late_fraction": 0.9009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.09941520467836257,
+      "workflow_completion": {
+        "w00": 73.25644049418491,
+        "w01": 418.84536292926964,
+        "w02": 456.23307250471487
+      },
+      "optional_moves": 17,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "BudgetHEFT10",
+        "guard_selected_name": "BudgetHEFT10",
+        "nonreference_selected": false,
+        "calibration_eta": 0.1145779145386997,
+        "tightened_gamma": 0.8341213096072748,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "BudgetHEFT10",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "BudgetHEFT10",
+            "reference_name": "BudgetHEFT10",
+            "admissible_count": 1,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": []
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "B0",
+      "awct": 289.5458948459641,
+      "cdi": 3.9202241229339583,
+      "signed": 3.9184570052967405,
+      "absolute": 3.9219912405711765,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.8703035847317,
+        "w02": 418.89931234378105
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "B0AssignmentReorder",
+      "awct": 289.5458948459641,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.8703035847317,
+        "w02": 418.89931234378105
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "QueueRepair0",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "BudgetSelect10",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "PoolMinAWCT10",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "ProtectedFirst",
+      "awct": 289.5643709907001,
+      "cdi": 0.009138977432792078,
+      "signed": -0.032976211745945526,
+      "absolute": 0.05125416661152968,
+      "max_positive": 1.0144264950399207,
+      "late_fraction": 0.009009009009009009,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.93278343370616,
+        "w02": 418.89226092901475
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "WorkflowGuard",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "ProtectedSubsequence",
+      "awct": 289.5643709907001,
+      "cdi": 0.0,
+      "signed": -0.03331935007981003,
+      "absolute": 0.03331935007981003,
+      "max_positive": 0.0,
+      "late_fraction": 0,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.93278343370616,
+        "w02": 418.89226092901475
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "DispatchMinAWCT",
+      "awct": 289.5458948459641,
+      "cdi": 3.9202241229339583,
+      "signed": 3.9184570052967405,
+      "absolute": 3.9219912405711765,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.8703035847317,
+        "w02": 418.89931234378105
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "DispatchMatchedGuard",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "CalibratedGuard",
+      "awct": 289.5458948459641,
+      "cdi": 3.9202241229339583,
+      "signed": 3.9184570052967405,
+      "absolute": 3.9219912405711765,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.8703035847317,
+        "w02": 418.89931234378105
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "PairedRatioGuard",
+      "awct": 289.5458948459641,
+      "cdi": 3.9202241229339583,
+      "signed": 3.9184570052967405,
+      "absolute": 3.9219912405711765,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 381.8703035847317,
+        "w02": 418.89931234378105
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "method": "ConditionalRatioGuard",
+      "awct": 289.78432582695996,
+      "cdi": 3.921609454506474,
+      "signed": 3.919842336869256,
+      "absolute": 3.9233765721436917,
+      "max_positive": 8.58052532170183,
+      "late_fraction": 0.8918918918918919,
+      "P": 111,
+      "F": 51,
+      "Q": 171,
+      "churn": 0.0,
+      "workflow_completion": {
+        "w00": 67.86806860937952,
+        "w01": 382.09091243533373,
+        "w02": 419.3939964361666
+      },
+      "optional_moves": 0,
+      "guard_metadata": {
+        "mean_quality_fallback": false,
+        "pool_size": 4,
+        "reference_name": "v1_H0",
+        "guard_selected_name": "QueueRepair0",
+        "nonreference_selected": true,
+        "calibration_eta": 0.12390559290426217,
+        "tightened_gamma": 0.8184843400177693,
+        "calibrated_reference_fallback": true,
+        "calibrated_selected_name": "v1_H0",
+        "paired_guards": {
+          "PairedRatioGuard": {
+            "reference_fallback": true,
+            "nonreference_selected": false,
+            "selected_name": "v1_H0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 0,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.06170108308544933,
+                  "w01": 0.05779468193926472,
+                  "w02": 0.058435013024420605
+                },
+                "admitted": false
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.07749191929068308,
+                  "w02": 0.07628367380301801
+                },
+                "admitted": false
+              }
+            ]
+          },
+          "ConditionalRatioGuard": {
+            "reference_fallback": false,
+            "nonreference_selected": true,
+            "selected_name": "QueueRepair0",
+            "reference_name": "v1_H0",
+            "admissible_count": 3,
+            "admitted_nonreference_count": 1,
+            "candidate_admission": [
+              {
+                "name": "QueueRepair0",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.011221196623601035,
+                  "w01": 0.0005396469336297327,
+                  "w02": 0.0053435571403141965
+                },
+                "admitted": true
+              },
+              {
+                "name": "BudgetHEFT10",
+                "covered": true,
+                "log_ratio_upper": {
+                  "w00": 0.054075159894736824,
+                  "w01": 0.050185122010442826,
+                  "w02": 0.0299333755734734
+                },
+                "admitted": false
+              }
+            ]
+          }
+        }
+      },
+      "case_id": "BWA_SRA_new-repeat005-r94008",
+      "composition": "BWA_SRA_new",
+      "repeat": 5,
+      "root": 94008,
+      "stage": "evaluation"
+    }
+  ],
+  "checks": {
+    "original_events": 26291,
+    "clock_events": 61889,
+    "cross_implementation_fields": 12964,
+    "cross_implementation_max_abs_difference": 0.0,
+    "metric_fields": 260,
+    "budget_checks": 52,
+    "reference_executions": 4,
+    "repair_executions": 52,
+    "clock_validation_executions": 28,
+    "dispatch_choices": 12880,
+    "plan_applications": 52
+  },
+  "candidate_samples": [
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.23583359853404,
+      "realized": 67.6038964642261,
+      "reference_predicted": 68.1640942301186,
+      "reference_realized": 68.60518271550461
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 68.04313686512486,
+      "realized": 68.4079864615177,
+      "reference_predicted": 68.16430076490036,
+      "reference_realized": 68.60540090950794
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 124.62959330818418,
+      "realized": 124.9259474866012,
+      "reference_predicted": 93.9312916046191,
+      "reference_realized": 93.83088835279376
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H1",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.23181095644425,
+      "realized": 67.60031172125063,
+      "reference_predicted": 68.1640942301186,
+      "reference_realized": 68.60518271550461
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H1",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 67.81979848538923,
+      "realized": 68.23551955997358,
+      "reference_predicted": 68.16430076490036,
+      "reference_realized": 68.60540090950794
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "v1_H1",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 124.62959330818418,
+      "realized": 124.9259474866012,
+      "reference_predicted": 93.9312916046191,
+      "reference_realized": 93.83088835279376
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 68.1640942301186,
+      "realized": 68.60518271550461,
+      "reference_predicted": 68.1640942301186,
+      "reference_realized": 68.60518271550461
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 68.16430076490036,
+      "realized": 68.60540090950794,
+      "reference_predicted": 68.16430076490036,
+      "reference_realized": 68.60540090950794
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 93.9312916046191,
+      "realized": 93.83088835279376,
+      "reference_predicted": 93.9312916046191,
+      "reference_realized": 93.83088835279376
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.28220198831848,
+      "realized": 68.23339379371453,
+      "reference_predicted": 68.1640942301186,
+      "reference_realized": 68.60518271550461
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 92.18864623429033,
+      "realized": 92.46006846711838,
+      "reference_predicted": 68.16430076490036,
+      "reference_realized": 68.60540090950794
+    },
+    {
+      "condition": "independent/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 124.00468154831484,
+      "realized": 124.33367578824415,
+      "reference_predicted": 93.9312916046191,
+      "reference_realized": 93.83088835279376
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.28556668796001,
+      "realized": 67.6071128798858,
+      "reference_predicted": 67.28556668796001,
+      "reference_realized": 67.6071128798858
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 67.93808924075229,
+      "realized": 67.66635215720098,
+      "reference_predicted": 67.93808924075229,
+      "reference_realized": 67.66635215720098
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 93.93129653624393,
+      "realized": 93.8308932844186,
+      "reference_predicted": 93.93129653624393,
+      "reference_realized": 93.8308932844186
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.28154404587022,
+      "realized": 67.60397806064745,
+      "reference_predicted": 67.28556668796001,
+      "reference_realized": 67.6071128798858
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 67.77045440823507,
+      "realized": 67.9429175461361,
+      "reference_predicted": 67.93808924075229,
+      "reference_realized": 67.66635215720098
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 94.26329977048255,
+      "realized": 94.10355943095304,
+      "reference_predicted": 93.93129653624393,
+      "reference_realized": 93.8308932844186
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 68.1532084582126,
+      "realized": 67.6071128798858,
+      "reference_predicted": 67.28556668796001,
+      "reference_realized": 67.6071128798858
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 68.15341499299437,
+      "realized": 67.8314319902449,
+      "reference_predicted": 67.93808924075229,
+      "reference_realized": 67.66635215720098
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 93.9312916046191,
+      "realized": 93.83088835279376,
+      "reference_predicted": 93.93129653624393,
+      "reference_realized": 93.8308932844186
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.28159063827779,
+      "realized": 67.52120910475641,
+      "reference_predicted": 67.28556668796001,
+      "reference_realized": 67.6071128798858
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 92.18864623429033,
+      "realized": 92.46006846711838,
+      "reference_predicted": 67.93808924075229,
+      "reference_realized": 67.66635215720098
+    },
+    {
+      "condition": "independent/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 94.64542337529251,
+      "realized": 94.11774768400116,
+      "reference_predicted": 93.93129653624393,
+      "reference_realized": 93.8308932844186
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 239.99460367526333,
+      "realized": 238.65245591709933,
+      "reference_predicted": 72.80762622953166,
+      "reference_realized": 73.25644049418491
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 346.86294118235065,
+      "realized": 345.9487564950961,
+      "reference_predicted": 418.74269885334536,
+      "reference_realized": 418.84536292926964
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 418.9843232117622,
+      "realized": 418.89931234378116,
+      "reference_predicted": 456.1071382290621,
+      "reference_realized": 456.23307250471487
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H1",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 409.9310073060645,
+      "realized": 409.57686892270857,
+      "reference_predicted": 72.80762622953166,
+      "reference_realized": 73.25644049418491
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H1",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 409.92509519268947,
+      "realized": 409.5716635163273,
+      "reference_predicted": 418.74269885334536,
+      "reference_realized": 418.84536292926964
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "v1_H1",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 459.2661198758917,
+      "realized": 459.18110900791066,
+      "reference_predicted": 456.1071382290621,
+      "reference_realized": 456.23307250471487
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 365.6102344667926,
+      "realized": 365.7562486810085,
+      "reference_predicted": 72.80762622953166,
+      "reference_realized": 73.25644049418491
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 382.4053175250584,
+      "realized": 382.3779815416585,
+      "reference_predicted": 418.74269885334536,
+      "reference_realized": 418.84536292926964
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "QueueRepair0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 419.4790073041479,
+      "realized": 419.3939964361666,
+      "reference_predicted": 456.1071382290621,
+      "reference_realized": 456.23307250471487
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 72.80762622953166,
+      "realized": 73.25644049418491,
+      "reference_predicted": 72.80762622953166,
+      "reference_realized": 73.25644049418491
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 418.74269885334536,
+      "realized": 418.84536292926964,
+      "reference_predicted": 418.74269885334536,
+      "reference_realized": 418.84536292926964
+    },
+    {
+      "condition": "shared/strict",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 456.1071382290621,
+      "realized": 456.23307250471487,
+      "reference_predicted": 456.1071382290621,
+      "reference_realized": 456.23307250471487
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.49587821707335,
+      "realized": 67.86806860937952,
+      "reference_predicted": 67.49587821707335,
+      "reference_realized": 67.86806860937952
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 381.92832942132077,
+      "realized": 381.8703035847317,
+      "reference_predicted": 381.92832942132077,
+      "reference_realized": 381.8703035847317
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 418.9843232117622,
+      "realized": 418.89931234378105,
+      "reference_predicted": 418.9843232117622,
+      "reference_realized": 418.89931234378105
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.54917369234064,
+      "realized": 67.86942120902276,
+      "reference_predicted": 67.49587821707335,
+      "reference_realized": 67.86806860937952
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 422.09947803819387,
+      "realized": 422.0612312308396,
+      "reference_predicted": 381.92832942132077,
+      "reference_realized": 381.8703035847317
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "v1_H1",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 459.2661198758918,
+      "realized": 459.1811090079106,
+      "reference_predicted": 418.9843232117622,
+      "reference_realized": 418.89931234378105
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.7966362336848,
+      "realized": 67.86806860937952,
+      "reference_predicted": 67.49587821707335,
+      "reference_realized": 67.86806860937952
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 382.1344914955217,
+      "realized": 382.09091243533373,
+      "reference_predicted": 381.92832942132077,
+      "reference_realized": 381.8703035847317
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "QueueRepair0",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 419.4790073041478,
+      "realized": 419.3939964361666,
+      "reference_predicted": 418.9843232117622,
+      "reference_realized": 418.89931234378105
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w00",
+      "root": 94008,
+      "predicted": 67.28159063827779,
+      "realized": 67.52953922539075,
+      "reference_predicted": 67.49587821707335,
+      "reference_realized": 67.86806860937952
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w01",
+      "root": 94008,
+      "predicted": 389.73610489438244,
+      "realized": 392.63045341006324,
+      "reference_predicted": 381.92832942132077,
+      "reference_realized": 381.8703035847317
+    },
+    {
+      "condition": "shared/skip-unready",
+      "candidate": "BudgetHEFT10",
+      "workflow": "w02",
+      "root": 94008,
+      "predicted": 427.0333628226458,
+      "realized": 426.5210795151986,
+      "reference_predicted": 418.9843232117622,
+      "reference_realized": 418.89931234378105
+    }
+  ],
+  "offline_candidate_continuations": 16,
+  "seconds": 6.7133870830293745
+}

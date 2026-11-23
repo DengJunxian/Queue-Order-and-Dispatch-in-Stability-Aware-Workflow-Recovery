@@ -1,0 +1,251 @@
+{
+  "status": "FROZEN_G2",
+  "purpose": "FORMAL_MAIN",
+  "version": "g2_v1_20261025",
+  "created_at": "2026-10-25T08:14:15.693616+00:00",
+  "selected_lambda": 3,
+  "selected_mu": 0,
+  "root_seeds": [
+    60000,
+    60001,
+    60002,
+    60003,
+    60004,
+    60005,
+    60006,
+    60007,
+    60008,
+    60009,
+    60010,
+    60011,
+    60012,
+    60013,
+    60014,
+    60015,
+    60016,
+    60017,
+    60018,
+    60019,
+    60020,
+    60021,
+    60022,
+    60023,
+    60024,
+    60025,
+    60026,
+    60027,
+    60028,
+    60029
+  ],
+  "methods": [
+    "B0",
+    "B1",
+    "B2",
+    "SAIL",
+    "NoStability",
+    "NoChurn",
+    "Fixed_H1",
+    "Fixed_H2"
+  ],
+  "method_aliases": {
+    "Fixed_H0": "B0",
+    "NoChurn": "SAIL"
+  },
+  "nominal_jobs": 6960,
+  "reference_jobs": 480,
+  "failure_scenarios": 900,
+  "statistical_rule": {
+    "cluster": "root_seed, shared across all mixes and axes",
+    "repetitions": 5000,
+    "seed": 73000,
+    "CI": "percentile two-sided95%; one-sided upper95% for AWCT budget",
+    "primary_comparator": "B2",
+    "mechanism_comparators": [
+      "NoStability",
+      "NoChurn",
+      "B0",
+      "Fixed_H1",
+      "Fixed_H2"
+    ],
+    "NA": "undefined if any mix has no applicable cell; no CI unless all draws defined"
+  },
+  "candidate_coverage_note": "73.75% single-plan development cases retained; all three mixes include effective protected nondegenerate cases",
+  "mu_zero_note": "NoChurn is a configuration alias; no independent churn-effect claim",
+  "protocol_sha256": "124e0b6b56580daa2d102eb4f5c0073a4c593a5f30a6caa58265ab499f921f06",
+  "manifest_sha256": "98e2dc97e9dc3c1cbd3bdc9d1aac51f4b43aa0e0bc32d7ebbf5c25baf8163672",
+  "formal_runs_completed": 0,
+  "code_files": [
+    {
+      "path": "configs/p3_execution_spec.json",
+      "sha256": "79bf977343fc812e4b15dc1fb9ca496220c51e40e926440c9535ea6626cf7050"
+    },
+    {
+      "path": "configs/protocol_v1.json",
+      "sha256": "98c2a79f0bf4aeddca4a3bdaf5afc0407d77d9573bcfbcb17b22baf499a977cf"
+    },
+    {
+      "path": "data/manifest_v1.json",
+      "sha256": "98e2dc97e9dc3c1cbd3bdc9d1aac51f4b43aa0e0bc32d7ebbf5c25baf8163672"
+    },
+    {
+      "path": "docs/protocol_v1.md",
+      "sha256": "124e0b6b56580daa2d102eb4f5c0073a4c593a5f30a6caa58265ab499f921f06"
+    },
+    {
+      "path": "reports/p3/parameter_selection.json",
+      "sha256": "99561195e64c8dc7f3c6e44b52c4ff21bc9f3d2ee16f53082d81662717714e77"
+    },
+    {
+      "path": "reports/p3/profiling_summary.json",
+      "sha256": "c1f8a49c15afeb3bd3168d82a917893e176e22b39d1bc68ae240f362fd1b197b"
+    },
+    {
+      "path": "reports/p3/selection_source_manifest.json",
+      "sha256": "3c0e3a7f1d8dfd059c45d04375927a6b294639d3db6809917d0a85240bc68a51"
+    },
+    {
+      "path": "requirements-p3.txt",
+      "sha256": "a9f4a4f8e193ade26ca72199f2230f400ec449823934af3e56066e3569900302"
+    },
+    {
+      "path": "sail/__init__.py",
+      "sha256": "8123ce66c6e855b039cf26af2db8589f17865806d528561bc21fcab14b7c84b2"
+    },
+    {
+      "path": "sail/audit.py",
+      "sha256": "90c49307c6daf677de96f6635cde0d5f42da2c25ff46a8b7f80c51cb18965d65"
+    },
+    {
+      "path": "sail/data.py",
+      "sha256": "2ee7c76fc0eddedaf6d3b81b64d677742725d7086522c27ab1efca9997712591"
+    },
+    {
+      "path": "sail/development.py",
+      "sha256": "7cc4cc9d35fb6bfbba0a08ea5c17a9c622aea4dbfcdcdb578490b68e80939633"
+    },
+    {
+      "path": "sail/experiment.py",
+      "sha256": "7a614f12592dd5e4fd7f1fa5a62976c5b57ff4b35e0b2bd0b46722934b46cbc8"
+    },
+    {
+      "path": "sail/forecast.py",
+      "sha256": "97016554367ef1183b8ea978eefa77cdf324ae6b6055b979a8b994d8029595e7"
+    },
+    {
+      "path": "sail/frozen.py",
+      "sha256": "2032388f47725fae13544e5dc2e69703f4626c44a930197a111c22bed10e3946"
+    },
+    {
+      "path": "sail/metrics.py",
+      "sha256": "f6e1bd356b4f3df6ced8c84189400a4a3c712bd2fc7a2b5f92a63504e5e8ef5e"
+    },
+    {
+      "path": "sail/model.py",
+      "sha256": "2c81aef0da00d06b50d390b9fee7d5a9037a24c2e52727aa2cb743f7c0019348"
+    },
+    {
+      "path": "sail/policy.py",
+      "sha256": "214db46fc662be8121bf034bcb217c38899db9ea35b18f49a72ba25bf082be91"
+    },
+    {
+      "path": "sail/scheduling.py",
+      "sha256": "4559a5a72ce865db56a124174292194bbb47b0577b39106268ebf05f8cacdd99"
+    },
+    {
+      "path": "sail/simulator.py",
+      "sha256": "2e9048b184ef3eee90dc9c34706d48f869f11197222d8b0845acf44011b8f922"
+    },
+    {
+      "path": "sail/statistics.py",
+      "sha256": "40f06c332aba9d1a0448d4806823641ecc0a2cfbe34768efe46c5bd794c5f8f7"
+    },
+    {
+      "path": "scripts/analyze_frozen_experiments.py",
+      "sha256": "83daf2783062353b7149b5b4615f0e0eef25f4eab5276aa0996d61c8d377ecaf"
+    },
+    {
+      "path": "scripts/check_p3_bundle.py",
+      "sha256": "0604da1b93c2781e3d4544c9e37889e408cb7e8abb16ec70eb80e70cccf7aef2"
+    },
+    {
+      "path": "scripts/make_g2_freeze.py",
+      "sha256": "b4d3c4b75c387338960ec6836d4f1384529de6ab6fe389bf2a11b1b46b8a4430"
+    },
+    {
+      "path": "scripts/profile_p3.py",
+      "sha256": "842f7534b1e8967b51e6e4f267409eee22a3f154c64801a7ab2159fa17eb71d4"
+    },
+    {
+      "path": "scripts/run_frozen_experiments.py",
+      "sha256": "d1f961923aadb7919207d99ee0885f024cb196abd1206fb571e43e918d13a47c"
+    },
+    {
+      "path": "scripts/run_p3_development.py",
+      "sha256": "496f387728d35e8b9a1d55d54f1812e5a4f56859bec3044873bcd88460cb1936"
+    },
+    {
+      "path": "scripts/validate_p3.py",
+      "sha256": "b3312ca8ea8bb83fd90496119d34be3c7ac3ea3123bb62b108b453926fd13a17"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "0a1c527f63517d610928c3ed96fdd851105f1303cb3420180dab36c47751b447"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "0a1c527f63517d610928c3ed96fdd851105f1303cb3420180dab36c47751b447"
+    },
+    {
+      "path": "tests/helpers.py",
+      "sha256": "1064d226c3887bf8e08b580ecbeab74667cf75d2d2266e0bf27f2cfbd4ffb3b6"
+    },
+    {
+      "path": "tests/p2_oracles.py",
+      "sha256": "9432fdf2ab175c74e2d6c71f44b8a85ba29adc990a59af662f6038d532a29440"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "sha256": "8f5f7052c007b4242a8b8977edfaf8dec9fa8a604d90b1ec649c927e94bf5d42"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "3b8f5c861ed8314b8a493f69b6d814267a305697610f9f584f216fc11e782c9e"
+    },
+    {
+      "path": "tests/test_execution.py",
+      "sha256": "d499ecfdb43dec326333391d36826bfa9ee9b45012558e1d5f5c2b9f860e8529"
+    },
+    {
+      "path": "tests/test_p2_scheduling.py",
+      "sha256": "54ed816961aa4b1de33ba27ab0904940d96ee8d4b475ab2f7d6636004a3352f8"
+    },
+    {
+      "path": "tests/test_p2_systematic.py",
+      "sha256": "cf3635b5fc1ccbbda5757db519e1deb0c64ea8094fec8f55e4dd7db43ac8fdfa"
+    },
+    {
+      "path": "tests/test_p3_frozen.py",
+      "sha256": "5f5578694e8223dd67385aaf736e8fb4d6376026d24467d9aa25cb85f7ddf1ff"
+    },
+    {
+      "path": "tests/test_p3_policy.py",
+      "sha256": "d41d1c2b52cac99abd2bc0242db8e3d3222bf1541a67c77955c9b9cac475d24f"
+    },
+    {
+      "path": "tests/test_p3_selection_statistics.py",
+      "sha256": "39d1211437002072f604471359a0a463486c260a03fb23e4b368c924763946b4"
+    },
+    {
+      "path": "tests/test_p3_systematic.py",
+      "sha256": "b5565d4c446ff1227d7ef610a2497d9bf5bc722cadc55ce80a0d9516ae5479d9"
+    },
+    {
+      "path": "tests/test_systematic.py",
+      "sha256": "16c9c6915d70e6a8dd9cf9fe70f775f96645caa20a4b0649bc6fed0fdbb0f33c"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "figure": "r7_order_summary",
+  "data": [
+    {
+      "network": "independent",
+      "rule": "strict",
+      "point": -0.6574814946912465,
+      "ci95": [
+        -1.0280137929477924,
+        -0.3797262190175478
+      ],
+      "defined_bootstrap_draws": 5000,
+      "defined_graphs": 12,
+      "defined_graph_roots": 48
+    },
+    {
+      "network": "independent",
+      "rule": "skip-unready",
+      "point": 0.03663441829541633,
+      "ci95": [
+        -0.0421273655291158,
+        0.1340333291524727
+      ],
+      "defined_bootstrap_draws": 5000,
+      "defined_graphs": 12,
+      "defined_graph_roots": 48
+    },
+    {
+      "network": "shared",
+      "rule": "strict",
+      "point": -4.546365930450083,
+      "ci95": [
+        -7.409103192607181,
+        -2.1569160908933216
+      ],
+      "defined_bootstrap_draws": 5000,
+      "defined_graphs": 12,
+      "defined_graph_roots": 48
+    },
+    {
+      "network": "shared",
+      "rule": "skip-unready",
+      "point": -0.10093530642070461,
+      "ci95": [
+        -0.3220115157702117,
+        0.09607604025129285
+      ],
+      "defined_bootstrap_draws": 5000,
+      "defined_graphs": 12,
+      "defined_graph_roots": 48
+    }
+  ],
+  "caption": "Structural holdout: AL\u2212B0 CDI differences and pointwise 95% family-stratified graph/root bootstrap intervals. Twelve source DAGs, four keyed environments per graph; independent transfers average four node/CCR cells, shared transfers use the registered four-node CCR-2 cells. Negative favors AL.",
+  "alt_text": "Four horizontal confidence intervals show a strict ordering benefit under both networks; bypass intervals cross zero.",
+  "sources": {
+    "revision_r6/analysis/results.json": "8c4d9a8ea88f3b9431663b2f50c24406f01daa76754edb2d5f3e4f9f28028f95"
+  }
+}

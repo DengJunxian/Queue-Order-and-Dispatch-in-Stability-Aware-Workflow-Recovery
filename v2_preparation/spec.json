@@ -1,0 +1,19 @@
+{
+  "version": "v2_preparation_v1_20261025",
+  "purpose": "PREFREEZE_DEVELOPMENT_AND_EXPLORATORY_CONTROLS",
+  "same_pool_control": "PoolMinAWCT10",
+  "same_pool_rule": "same BudgetSelect candidate generation, plan dedup, integer budget, predicted quality flag and fallback eligibility; minimize predicted AWCT, then Churn, name, queues; CDI is never a tie breaker",
+  "seen_scenario_control": "all900 v1 fault scenarios, no filtering; explicitly exploratory",
+  "order_disturbance": "inverted pairs among original Q\\F tasks remaining on each original healthy node; report inversion numerator, comparable-pair denominator and NA for zero denominator",
+  "timing": "same20 predeclared main scenarios as v1; seven physical configurations B0,B2,QueueRepair0,BudgetHEFT10,BudgetSelect10,PoolMinAWCT10,B0AssignmentReorder; three repeats; entire Simulator._apply; one process",
+  "development_roots": [71000,71020],
+  "validation_roots": [72000,72010],
+  "synthetic_design": "independent L/R/F graph generator using new seed namespace, original structural and work/file rules",
+  "precision_target_halfwidth_CDI": 0.05,
+  "precision_rule": "ceil((1.96*s_root/0.05)^2), round up to tens; select30 if requirement<=30, otherwise60 if<=60; beyond60 blocks confirmation freeze",
+  "runtime_rule": "2 * max(1,Nmax_new_mix/192)^2 * sum(n_method * profiled_p95_full_run) + 600seconds; <=12hours required",
+  "new_data_selection": "official pinned WfInstances catalogue; exclude v1 raw identities; one lexicographic representative per filename parameter prefix; acquire increasing byte-size candidates until two unseen isomorphism groups per family; no scheduling outcomes used",
+  "primary_budget": 0.1,
+  "original_v1_G3": "NOT_SUPPORTED",
+  "new_test_outcomes_allowed_in_this_stage": false
+}

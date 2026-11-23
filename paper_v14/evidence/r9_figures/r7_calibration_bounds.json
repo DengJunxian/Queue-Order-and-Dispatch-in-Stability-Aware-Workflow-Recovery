@@ -1,0 +1,106 @@
+{
+  "figure": "r7_calibration_bounds",
+  "data": [
+    {
+      "composition": "BLAST_new",
+      "condition": "independent/strict",
+      "eta": 2.5838791506416214e-07,
+      "global_delta": 0.0,
+      "uniform_ratio_inflation_pct": 5.1677596357713185e-05,
+      "paired_ratio_inflation_pct": 0.0
+    },
+    {
+      "composition": "BLAST_new",
+      "condition": "independent/skip-unready",
+      "eta": 2.5838791506416214e-07,
+      "global_delta": 0.0,
+      "uniform_ratio_inflation_pct": 5.1677596357713185e-05,
+      "paired_ratio_inflation_pct": 0.0
+    },
+    {
+      "composition": "BLAST_new",
+      "condition": "shared/strict",
+      "eta": 2.5838791506416214e-07,
+      "global_delta": 0.0,
+      "uniform_ratio_inflation_pct": 5.1677596357713185e-05,
+      "paired_ratio_inflation_pct": 0.0
+    },
+    {
+      "composition": "BLAST_new",
+      "condition": "shared/skip-unready",
+      "eta": 2.5838791506416214e-07,
+      "global_delta": 0.0,
+      "uniform_ratio_inflation_pct": 5.1677596357713185e-05,
+      "paired_ratio_inflation_pct": 0.0
+    },
+    {
+      "composition": "BWA_SRA_new",
+      "condition": "independent/strict",
+      "eta": 0.12482030445589154,
+      "global_delta": 0.06135766453130587,
+      "uniform_ratio_inflation_pct": 28.524497332696797,
+      "paired_ratio_inflation_pct": 6.327914342236577
+    },
+    {
+      "composition": "BWA_SRA_new",
+      "condition": "independent/skip-unready",
+      "eta": 0.12268153770340717,
+      "global_delta": 0.057316275445215795,
+      "uniform_ratio_inflation_pct": 27.967389944640765,
+      "paired_ratio_inflation_pct": 5.8990690187599375
+    },
+    {
+      "composition": "BWA_SRA_new",
+      "condition": "shared/strict",
+      "eta": 0.1145779145386997,
+      "global_delta": 0.05643722842185629,
+      "uniform_ratio_inflation_pct": 25.88097053825016,
+      "paired_ratio_inflation_pct": 5.806019660734839
+    },
+    {
+      "composition": "BWA_SRA_new",
+      "condition": "shared/skip-unready",
+      "eta": 0.12390559290426217,
+      "global_delta": 0.05725503500563499,
+      "uniform_ratio_inflation_pct": 28.285899761650256,
+      "paired_ratio_inflation_pct": 5.892583911799458
+    },
+    {
+      "composition": "SRA_seen",
+      "condition": "independent/strict",
+      "eta": 0.24473551638749436,
+      "global_delta": 0.143640699560578,
+      "uniform_ratio_inflation_pct": 64.80789755051104,
+      "paired_ratio_inflation_pct": 15.446923269423657
+    },
+    {
+      "composition": "SRA_seen",
+      "condition": "independent/skip-unready",
+      "eta": 0.24473551638749436,
+      "global_delta": 0.2314618165172987,
+      "uniform_ratio_inflation_pct": 64.80789755051104,
+      "paired_ratio_inflation_pct": 26.044119762408613
+    },
+    {
+      "composition": "SRA_seen",
+      "condition": "shared/strict",
+      "eta": 0.13090497928607814,
+      "global_delta": 0.114258377716871,
+      "uniform_ratio_inflation_pct": 30.124434306054514,
+      "paired_ratio_inflation_pct": 12.104173967275164
+    },
+    {
+      "composition": "SRA_seen",
+      "condition": "shared/skip-unready",
+      "eta": 0.17129548467751987,
+      "global_delta": 0.114258377716871,
+      "uniform_ratio_inflation_pct": 41.34054575794421,
+      "paired_ratio_inflation_pct": 12.104173967275164
+    }
+  ],
+  "caption": "Calibration envelopes for repeat 003, using every original cap-feasible candidate in twelve environments per cell. The separate-error factor is (1+\u03b7)/(1\u2212\u03b7), while the paired factor is exp(\u03b4). The dashed 5% line is the nonempty-set boundary for a uniform factor against the minimum-mean reference. Both are empirical envelopes. BLAST has singleton pools, so its near-zero paired residual does not demonstrate useful admission.",
+  "alt_text": "Dumbbell plots show that paired completion errors reduce the empirical inflation envelope, but the global envelope remains above five percent in every BWA\u2013SRA and SRA cell.",
+  "sources": {
+    "revision_r7/analysis/results.json": "3002cdcd0903cc00fbfde9c715d18f9265688a19253157de676f11922ec6a498"
+  }
+}

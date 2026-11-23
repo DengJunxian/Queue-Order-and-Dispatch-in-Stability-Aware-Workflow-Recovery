@@ -1,0 +1,962 @@
+{
+  "status": "PASS",
+  "kind": "constructive_correctness_witness",
+  "benchmark_samples_added": 0,
+  "validation_executions": 4,
+  "audited_events": 69,
+  "claim": "The strict protected-start guarantee need not hold under skip-unready.",
+  "baseline_note": "An explicit valid B0-style plan, not an EFT optimality claim.",
+  "workload": {
+    "r": 2.0,
+    "p": 1.0,
+    "f": 10.0,
+    "edge": [
+      "r",
+      "p"
+    ]
+  },
+  "platform_speeds": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fault_time": 0.5,
+  "failed_node": 2,
+  "initial_queues": [
+    [
+      "p"
+    ],
+    [
+      "r"
+    ],
+    [
+      "f"
+    ]
+  ],
+  "repaired_queues": [
+    [
+      "p",
+      "f"
+    ],
+    [
+      "r"
+    ],
+    []
+  ],
+  "rows": [
+    {
+      "dispatcher": "strict",
+      "reference_p_start": 2.0,
+      "recovery_p_start": 2.0,
+      "delay": 0.0,
+      "cdi": 0.0,
+      "optional_churn": 0.0,
+      "recovery_events": [
+        {
+          "seq": 0,
+          "time": 0.0,
+          "kind": "RUN_START",
+          "task": null,
+          "node": null,
+          "details": {
+            "queues": [
+              [
+                "p"
+              ],
+              [
+                "r"
+              ],
+              [
+                "f"
+              ]
+            ],
+            "case_key": "1b844927b185c25e89e18b717373e8ac1d1aa144dfed9db6c8d4ad7d513c6ad9"
+          }
+        },
+        {
+          "seq": 1,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 2,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 3,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 4,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 5,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 6,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 7,
+          "time": 0.5,
+          "kind": "FAILURE",
+          "task": null,
+          "node": 2,
+          "details": {
+            "context": {
+              "time": 0.5,
+              "failed_node": 2,
+              "Q": [
+                "f",
+                "p"
+              ],
+              "F": [
+                "f"
+              ],
+              "P": [
+                "p"
+              ],
+              "old_assignment": [
+                [
+                  "f",
+                  2
+                ],
+                [
+                  "p",
+                  0
+                ],
+                [
+                  "r",
+                  1
+                ]
+              ],
+              "original_queues": [
+                [
+                  "p"
+                ],
+                [
+                  "r"
+                ],
+                [
+                  "f"
+                ]
+              ]
+            },
+            "control_delay": 0.0
+          }
+        },
+        {
+          "seq": 8,
+          "time": 0.5,
+          "kind": "CPU_ABORT",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1,
+            "elapsed": 0.5
+          }
+        },
+        {
+          "seq": 9,
+          "time": 0.5,
+          "kind": "INPUT_DISCARD",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "reason": "node_failure"
+          }
+        },
+        {
+          "seq": 10,
+          "time": 0.5,
+          "kind": "PLAN_APPLIED",
+          "task": null,
+          "node": null,
+          "details": {
+            "scope": [
+              "f",
+              "p"
+            ],
+            "queues": [
+              [
+                "p",
+                "f"
+              ],
+              [
+                "r"
+              ],
+              []
+            ],
+            "churn": 0.0
+          }
+        },
+        {
+          "seq": 11,
+          "time": 0.5,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "token": 4,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 12,
+          "time": 0.5,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "token": 4,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 13,
+          "time": 2.0,
+          "kind": "CPU_DONE",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 14,
+          "time": 2.0,
+          "kind": "INPUT_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 15,
+          "time": 2.0,
+          "kind": "INPUT_READY",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 16,
+          "time": 2.0,
+          "kind": "CPU_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 17,
+          "time": 3.0,
+          "kind": "CPU_DONE",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 18,
+          "time": 3.0,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "attempt": 2
+          }
+        },
+        {
+          "seq": 19,
+          "time": 10.0,
+          "kind": "STALE_EVENT",
+          "task": "f",
+          "node": null,
+          "details": {
+            "event": "CPU_DONE",
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 20,
+          "time": 13.0,
+          "kind": "CPU_DONE",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "attempt": 2
+          }
+        }
+      ],
+      "reference_events": [
+        {
+          "seq": 0,
+          "time": 0.0,
+          "kind": "RUN_START",
+          "task": null,
+          "node": null,
+          "details": {
+            "queues": [
+              [
+                "p"
+              ],
+              [
+                "r"
+              ],
+              [
+                "f"
+              ]
+            ],
+            "case_key": "1b844927b185c25e89e18b717373e8ac1d1aa144dfed9db6c8d4ad7d513c6ad9"
+          }
+        },
+        {
+          "seq": 1,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 2,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 3,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 4,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 5,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 6,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 7,
+          "time": 2.0,
+          "kind": "CPU_DONE",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 8,
+          "time": 2.0,
+          "kind": "INPUT_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 9,
+          "time": 2.0,
+          "kind": "INPUT_READY",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 10,
+          "time": 2.0,
+          "kind": "CPU_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 11,
+          "time": 3.0,
+          "kind": "CPU_DONE",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 12,
+          "time": 10.0,
+          "kind": "CPU_DONE",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        }
+      ]
+    },
+    {
+      "dispatcher": "skip-unready",
+      "reference_p_start": 2.0,
+      "recovery_p_start": 10.5,
+      "delay": 8.5,
+      "cdi": 1.9615384615384617,
+      "optional_churn": 0.0,
+      "recovery_events": [
+        {
+          "seq": 0,
+          "time": 0.0,
+          "kind": "RUN_START",
+          "task": null,
+          "node": null,
+          "details": {
+            "queues": [
+              [
+                "p"
+              ],
+              [
+                "r"
+              ],
+              [
+                "f"
+              ]
+            ],
+            "case_key": "1b844927b185c25e89e18b717373e8ac1d1aa144dfed9db6c8d4ad7d513c6ad9"
+          }
+        },
+        {
+          "seq": 1,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 2,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 3,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 4,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 5,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 6,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 7,
+          "time": 0.5,
+          "kind": "FAILURE",
+          "task": null,
+          "node": 2,
+          "details": {
+            "context": {
+              "time": 0.5,
+              "failed_node": 2,
+              "Q": [
+                "f",
+                "p"
+              ],
+              "F": [
+                "f"
+              ],
+              "P": [
+                "p"
+              ],
+              "old_assignment": [
+                [
+                  "f",
+                  2
+                ],
+                [
+                  "p",
+                  0
+                ],
+                [
+                  "r",
+                  1
+                ]
+              ],
+              "original_queues": [
+                [
+                  "p"
+                ],
+                [
+                  "r"
+                ],
+                [
+                  "f"
+                ]
+              ]
+            },
+            "control_delay": 0.0
+          }
+        },
+        {
+          "seq": 8,
+          "time": 0.5,
+          "kind": "CPU_ABORT",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1,
+            "elapsed": 0.5
+          }
+        },
+        {
+          "seq": 9,
+          "time": 0.5,
+          "kind": "INPUT_DISCARD",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "reason": "node_failure"
+          }
+        },
+        {
+          "seq": 10,
+          "time": 0.5,
+          "kind": "PLAN_APPLIED",
+          "task": null,
+          "node": null,
+          "details": {
+            "scope": [
+              "f",
+              "p"
+            ],
+            "queues": [
+              [
+                "p",
+                "f"
+              ],
+              [
+                "r"
+              ],
+              []
+            ],
+            "churn": 0.0
+          }
+        },
+        {
+          "seq": 11,
+          "time": 0.5,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "token": 4,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 12,
+          "time": 0.5,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "token": 4,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 13,
+          "time": 0.5,
+          "kind": "QUEUE_SKIP",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "skipped": [
+              "p"
+            ]
+          }
+        },
+        {
+          "seq": 14,
+          "time": 0.5,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "attempt": 2
+          }
+        },
+        {
+          "seq": 15,
+          "time": 2.0,
+          "kind": "CPU_DONE",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 16,
+          "time": 2.0,
+          "kind": "INPUT_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 17,
+          "time": 2.0,
+          "kind": "INPUT_READY",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 18,
+          "time": 10.0,
+          "kind": "STALE_EVENT",
+          "task": "f",
+          "node": null,
+          "details": {
+            "event": "CPU_DONE",
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 19,
+          "time": 10.5,
+          "kind": "CPU_DONE",
+          "task": "f",
+          "node": 0,
+          "details": {
+            "attempt": 2
+          }
+        },
+        {
+          "seq": 20,
+          "time": 10.5,
+          "kind": "CPU_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 21,
+          "time": 11.5,
+          "kind": "CPU_DONE",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        }
+      ],
+      "reference_events": [
+        {
+          "seq": 0,
+          "time": 0.0,
+          "kind": "RUN_START",
+          "task": null,
+          "node": null,
+          "details": {
+            "queues": [
+              [
+                "p"
+              ],
+              [
+                "r"
+              ],
+              [
+                "f"
+              ]
+            ],
+            "case_key": "1b844927b185c25e89e18b717373e8ac1d1aa144dfed9db6c8d4ad7d513c6ad9"
+          }
+        },
+        {
+          "seq": 1,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 2,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 3,
+          "time": 0.0,
+          "kind": "INPUT_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 4,
+          "time": 0.0,
+          "kind": "INPUT_READY",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 5,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 6,
+          "time": 0.0,
+          "kind": "CPU_START",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 7,
+          "time": 2.0,
+          "kind": "CPU_DONE",
+          "task": "r",
+          "node": 1,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 8,
+          "time": 2.0,
+          "kind": "INPUT_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "remote_files": [],
+            "bytes_total": 0
+          }
+        },
+        {
+          "seq": 9,
+          "time": 2.0,
+          "kind": "INPUT_READY",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "token": 1,
+            "bytes": 0
+          }
+        },
+        {
+          "seq": 10,
+          "time": 2.0,
+          "kind": "CPU_START",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 11,
+          "time": 3.0,
+          "kind": "CPU_DONE",
+          "task": "p",
+          "node": 0,
+          "details": {
+            "attempt": 1
+          }
+        },
+        {
+          "seq": 12,
+          "time": 10.0,
+          "kind": "CPU_DONE",
+          "task": "f",
+          "node": 2,
+          "details": {
+            "attempt": 1
+          }
+        }
+      ]
+    }
+  ]
+}

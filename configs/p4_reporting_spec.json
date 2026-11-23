@@ -1,0 +1,20 @@
+{
+  "created_before_formal_outcome_inspection": true,
+  "frozen_experiment": "freeze/g2_v1_20261025",
+  "primary_analysis": "unchanged frozen analyze_frozen_experiments.py",
+  "robustness_variants": ["main_subset", "cv0.1", "cv0.3", "control_delay"],
+  "main_subset": "roots60000-60009, nodes4, failure_fraction0.6, all3mixes and both CCR",
+  "robustness_comparator": "B2",
+  "bootstrap": "reuse frozen root-block function, 5000 draws and seed73000",
+  "strata": ["mix", "nodes", "ccr", "failure_fraction"],
+  "mechanism_comparators": ["NoStability", "NoChurn", "B0", "Fixed_H1", "Fixed_H2"],
+  "candidate_diagnostics": "all720 main SAIL scenarios, exact deterministic replay; not additional independent observations",
+  "full_application_timing": "20 main scenarios selected by index before outcomes; 3 repeats for seven physical method configurations",
+  "timing_selection": "i0..19: root60000+i, mixA/B/C cyclic, nodes8 if even otherwise4, CCR2, failure_fraction0.3 if even otherwise0.6",
+  "timing_boundary": "entire Simulator._apply including snapshot, policy, validation, input cancellation and plan application",
+  "timing_alias": "NoChurn has no independent timing sample",
+  "timing_statistics": "descriptive p50/p95; repeats do not increase scientific cluster count",
+  "plots": ["primary effects overall and by Mix", "all mechanism contrasts", "all robustness contrasts", "candidate coverage, selected hops and full application time"],
+  "original_rows_immutable": true,
+  "G3": "evaluate frozen necessary primary gates; interpret mechanism evidence without changing weights, metrics, seeds or test events"
+}

@@ -1,0 +1,69 @@
+{
+  "identity": "R7_PAIRED_RATIO_ERROR_AND_MEASURED_SERIES_EXTENSION",
+  "registered_on": "2026-10-31",
+  "classification": "PROSPECTIVELY_SPECIFIED_EXPLORATORY_EXTENSION",
+  "original_protocol_changed": false,
+  "new_confirmatory_samples": 0,
+  "prior_knowledge": "All R6 results and the uniform-error admission boundary were known. New source byte identities, schema and exact repeated-task alignment were validated. No R7 calibration or recovery outcome was computed before this protocol. The SRA_seen comparison reuses previously studied traces; the six new series are separately identified.",
+  "question": "Does calibrating the candidate/reference completion ratio retain useful temporal protection when separate completion-error bounds force fallback, and how does conditioning calibration by candidate generator affect coverage and admission?",
+  "data": {
+    "selection": "revision_r7/data/selection_protocol.json",
+    "manifest": "revision_r7/data/manifest.json",
+    "compositions": {
+      "BLAST_new": ["blast-chameleon-small", "blast-chameleon-medium", "blast-chameleon-large"],
+      "BWA_SRA_new": ["bwa-chameleon-small", "srasearch-chameleon-10a", "srasearch-chameleon-50a"],
+      "SRA_seen": ["srasearch-chameleon-20a", "srasearch-chameleon-30a", "srasearch-chameleon-40a"]
+    },
+    "prediction": "Arithmetic per-task mean of repeats001/002. Normalize each workflow by its predicted mean, retaining this fixed scale for all realized repeats. Keep repeat001 file bytes and incidence fixed. Three measured workflows are composed on a synthetic platform; not a measured joint deployment.",
+    "calibration_repeat": 3,
+    "evaluation_repeats": [4,5],
+    "sampling_unit": "Two observed evaluation runtime vectors per composition. Twelve environment roots and both execution interventions do not create additional independent source repetitions. New source groups share family and source platform; inference is conditional on this suite."
+  },
+  "design": {
+    "roots": [94000,94001,94002,94003,94004,94005,94006,94007,94008,94009,94010,94011],
+    "nodes": 4,
+    "ccr": 2,
+    "failure_fraction": 0.6,
+    "failure": "Keyed uniform failed node and .6 times strict realized no-fault makespan; fixed within a case across all methods, dispatchers and networks.",
+    "dispatchers": ["strict","skip-unready"],
+    "networks": ["independent","shared"],
+    "shared_link": "R6 aggregate equal processor sharing begins at fault time in recovery and matched no-fault reference; retains transferred bytes. Stronger contention, not capacity-equated deployment.",
+    "calibration_cases": 36,
+    "evaluation_cases": 72,
+    "base_methods": ["B0","B0AssignmentReorder","QueueRepair0","BudgetSelect10","PoolMinAWCT10","ProtectedFirst","WorkflowGuard","ProtectedSubsequence","DispatchMinAWCT","DispatchMatchedGuard"],
+    "calibration_repairs": 1440,
+    "evaluation_methods_added": ["CalibratedGuard","PairedRatioGuard","ConditionalRatioGuard"],
+    "evaluation_repairs": 3744,
+    "total_exploratory_repairs": 5184
+  },
+  "calibration": {
+    "scope": "Separate calibration for each composition/network/dispatcher, using all original deduplicated cap-feasible candidate plans in all twelve calibration environments and all three workflows, including candidates outside the mean-quality filter. No added candidates or changed tie rules.",
+    "reference": "DPM minimizes target-model predicted AWCT over the same R6 mean-quality set, or all cap-feasible candidates when that set is empty.",
+    "absolute_margin_eta": "max abs(Chat_g(p)/C_g(p)-1), across calibration candidates/workflows/environments. Same sufficient uniform-error rule as R6, now fitted separately per composition/network/dispatcher.",
+    "paired_residual": "z_g(p)=log(C_g(p)/C_g(r))-log(Chat_g(p)/Chat_g(r)), with candidate and DPM reference continued from the identical observed snapshot and identical realized pending work.",
+    "global_log_margin": "delta=max(0,max z_g(p)) over all calibration candidates, workflows and environments in the composition/network/dispatcher cell.",
+    "conditional_log_margin": "delta_name,g=max(0,max z_g(p)) for a candidate's canonical deduplicated generator name and workflow index, over calibration environments in that cell. Require presence in at least three distinct calibration roots; an unseen or under-covered group cannot admit a nonreference plan.",
+    "truth_boundary": "Latent pending work and actual running residuals enter offline calibration continuation only. Online candidate generation and selection receive predicted work, the observed public snapshot and previously frozen margins. Runtime evaluation outcomes cannot alter margins.",
+    "freeze": "Freeze all margins, source and calibration-result hashes before computing any evaluation repair. Empirical envelopes do not establish distribution-free or future deterministic coverage."
+  },
+  "selectors": {
+    "shared": "Use exactly DPM's admissible set, minimize predicted CDI then predicted AWCT/churn/name/queue tuple among admitted nonreference candidates; explicitly return DPM when none qualifies. Predictions match the target network and dispatcher. PS remains outside the original pool.",
+    "CalibratedGuard": "Admit when every predicted workflow ratio <=1.05(1-eta)/(1+eta), only for eta<1; else return DPM.",
+    "PairedRatioGuard": "Admit when every log predicted workflow ratio plus the cell's global delta <=log(1.05).",
+    "ConditionalRatioGuard": "Admit when every log predicted workflow ratio plus the covered delta_name,g <=log(1.05). Candidate identity uses its canonical deduplicated generator name, not an outcome-tuned partition.",
+    "hypothesis": "Paired errors can cancel common completion error; conditional envelopes may admit more plans but their held-out violations must be reported. No preferred method will be declared by changing tolerances or censoring outcomes."
+  },
+  "evaluation": {
+    "required": ["All-method CDI and signed displacement", "Paired AWCT cost versus same-case DPM", "Nonreference selection count", "Explicit reference fallback count", "Workflow count exceeding 5% plus worst ratio", "Case-level any-workflow violation", "Calibration-envelope misses on selected candidates", "Zero/undefined protected population and all mean-quality fallbacks"],
+    "grouping": "Report each composition, source repeat, network and dispatcher separately; roots equally weighted. A descriptive aggregate over the selected suite may be supplied but no confidence interval may imply more than two independent runtime vectors per composition.",
+    "candidate_diagnostic": "Continue every unique evaluation candidate offline after all online choices have been fixed, to inspect ratio-error coverage and separate forecast failure from selection. These diagnostics never alter a decision and are not new repair-method samples.",
+    "statistics": "Store every case and workflow value. Use exact paired arithmetic for descriptive means/counts and separately implemented verification. No significance claim based on environment pseudo-replication. Existing R6 graph/root intervals remain unchanged.",
+    "verification": "Run every independent-transfer reference and named repair in both the original event engine and R6 clock engine. Audit shared-link byte/CPU/dependency events and both dispatch rules. Reconstruct metric/count results from saved logs. Stop invariant failures, preserve attempted outputs, amend source registration and rerun affected cases before analysis."
+  },
+  "figures": {
+    "primary": "Evidence-linked vector panels showing calibration-error cancellation and held-out admission/violation/benefit together; preserve all methods and adverse/null values in the main figure or linked full companion panels.",
+    "replication": "Explicitly label source runtime vectors and environment roots; no invented confidence bands.",
+    "exports": "PDF and editable SVG at manuscript dimensions plus 600dpi PNG, source CSV/JSON, captions, alt descriptions and checksums. Use stable semantic colors plus markers/line styles and inspect at print size and grayscale.",
+    "existing": "Preserve the author-approved FigGenie mechanism structure. Integrate a readable mechanism figure and data figures into the six-page manuscript; move full results to the companion without discarding them."
+  }
+}

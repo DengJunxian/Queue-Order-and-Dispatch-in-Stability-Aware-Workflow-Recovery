@@ -1,0 +1,285 @@
+{
+  "version": "1.0",
+  "date": "2026-10-25",
+  "design_status": "FINAL_V1",
+  "user_authorized_to_start": true,
+  "authorized_current_stage": "P0",
+  "formal_experiment_status": "NOT_READY_NOT_RUN",
+  "formal_experiment_frozen": false,
+  "scheduler_implemented": false,
+  "formal_runs_completed": 0,
+  "protocol_markdown": "docs/protocol_v1.md",
+  "protocol_sha256": "124e0b6b56580daa2d102eb4f5c0073a4c593a5f30a6caa58265ab499f921f06",
+  "data_manifest": "data/manifest_v1.json",
+  "data_manifest_sha256": "98e2dc97e9dc3c1cbd3bdc9d1aac51f4b43aa0e0bc32d7ebbf5c25baf8163672",
+  "data_split": {
+    "real_development": 0,
+    "real_validation": 0,
+    "real_test_core": 19,
+    "real_test_scale_holdout": 1,
+    "distinct_real_topologies": 7,
+    "development_and_validation": "independent synthetic DAGs"
+  },
+  "source_revision": "249866063b3bd7d6a36a5a55d4202c1f683099c0",
+  "scenario": {
+    "mixes": {
+      "A": [
+        "M",
+        "E",
+        "S"
+      ],
+      "B": [
+        "M",
+        "M",
+        "E"
+      ],
+      "C": [
+        "E",
+        "S",
+        "S"
+      ]
+    },
+    "arrival_times": [
+      0,
+      0,
+      0
+    ],
+    "nodes": [
+      4,
+      8
+    ],
+    "ccr": [
+      0.5,
+      2.0
+    ],
+    "failure_fractions": [
+      0.3,
+      0.6
+    ],
+    "failure_node": "uniform over all nodes, no resampling",
+    "failure_type": "single permanent, immediate detection",
+    "restart": "from scratch",
+    "completed_outputs": "durable at completion, zero write overhead in main model",
+    "healthy_running_preemption": false,
+    "runtime_normalization": "per-workflow arithmetic mean",
+    "speed_distribution": "8 Uniform(0.5,1.5), first m, normalize mean=1"
+  },
+  "randomness": {
+    "generator": "numpy.random.PCG64",
+    "seed_derivation": "SHA256(protocol_v1|root_seed|mix|stream|stable_id), first 16 bytes little-endian",
+    "streams": [
+      "platform",
+      "failure",
+      "runtime",
+      "synthetic"
+    ],
+    "method_in_key": false,
+    "development_seeds": [
+      10000,
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009,
+      10010,
+      10011,
+      10012,
+      10013,
+      10014,
+      10015,
+      10016,
+      10017,
+      10018,
+      10019
+    ],
+    "validation_seeds": [
+      20000,
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007,
+      20008,
+      20009
+    ],
+    "planned_test_seeds": [
+      60000,
+      60001,
+      60002,
+      60003,
+      60004,
+      60005,
+      60006,
+      60007,
+      60008,
+      60009,
+      60010,
+      60011,
+      60012,
+      60013,
+      60014,
+      60015,
+      60016,
+      60017,
+      60018,
+      60019,
+      60020,
+      60021,
+      60022,
+      60023,
+      60024,
+      60025,
+      60026,
+      60027,
+      60028,
+      60029
+    ],
+    "minimum_test_seeds": [
+      60000,
+      60001,
+      60002,
+      60003,
+      60004,
+      60005,
+      60006,
+      60007,
+      60008,
+      60009
+    ],
+    "selected_test_seeds": null,
+    "selection_requires_development_profiling": true
+  },
+  "sets": {
+    "Q": "all pending at shared post-failure snapshot including interrupted attempts",
+    "F": "Q assigned to failed node before failure",
+    "P": "healthy-assigned Q minus F and strict logical descendants of F",
+    "protection_set_shared_across_methods": true,
+    "empty_P_actual_CDI": null
+  },
+  "communication": {
+    "input_start": "all logical parents completed",
+    "within_task_transfer": "serial remote files",
+    "cross_task_contention": false,
+    "same_healthy_producer_node_cost": 0,
+    "failed_source": "durable storage at same effective B",
+    "destination_change": "cancel and restart input preparation",
+    "external_inputs": "pre-staged",
+    "cpu_queue": "strict head order; no ready backfilling"
+  },
+  "methods": [
+    "B0_Requeue_EFT",
+    "B1_Dependency_Repair",
+    "B2_Global_Dynamic_HEFT",
+    "SAIL",
+    "NoStability",
+    "NoChurn",
+    "Fixed_H1",
+    "Fixed_H2"
+  ],
+  "aliases": {
+    "Fixed_H0": "B0_Requeue_EFT"
+  },
+  "faithful_DaTR_replication": false,
+  "candidate_hops": [
+    0,
+    1,
+    2
+  ],
+  "outside_H": "fixed assignment and relative queue order, flexible times",
+  "objective": "predicted_AWCT/fixed_predicted_no_fault_AWCT + lambda*predicted_CDI + mu*Churn",
+  "metrics": {
+    "CDI": "mean over fixed P of max(0,actual_start - matched_actual_no_fault_start)/pbar",
+    "Churn": "optional node changes in Q minus F / max(1,len(Q))",
+    "same_fault_signed_delay": "mean_P(actual_start_method - actual_start_B0)/pbar",
+    "actual_reference_visible_to_scheduler": false
+  },
+  "parameter_selection": {
+    "lambda_grid": [
+      0,
+      0.1,
+      0.3,
+      1,
+      3
+    ],
+    "mu_grid": [
+      0,
+      0.01,
+      0.1
+    ],
+    "selected_lambda": null,
+    "selected_mu": null,
+    "development_shortlist": 3,
+    "awct_relative_budget": 0.05,
+    "selection_order": [
+      "CDI",
+      "AWCT",
+      "Churn",
+      "lambda",
+      "mu"
+    ],
+    "selection_scope": "development shortlist then independent validation only"
+  },
+  "statistics": {
+    "cluster": "root_seed, preserving all mixes/axes/methods in block",
+    "bootstrap_repetitions": 5000,
+    "ci": "percentile two-sided 95%; AWCT budget one-sided upper 95%",
+    "inference_population": "fixed benchmark corpus under simulated environmental variation",
+    "primary": [
+      "CDI SAIL minus B2",
+      "AWCT relative difference SAIL vs B2"
+    ],
+    "mechanism_comparisons": [
+      "NoStability",
+      "NoChurn",
+      "Fixed_H0",
+      "Fixed_H1",
+      "Fixed_H2"
+    ],
+    "mechanism_pvalues": "not required; Holm correction if reported"
+  },
+  "robustness": {
+    "subset": "3 mixes x 2 CCR x first 10 test seeds; nodes=4, failure_fraction=0.6",
+    "scenario_count": 60,
+    "runtime_cv": [
+      0.1,
+      0.3
+    ],
+    "error_model": "mean-corrected lognormal task work",
+    "control_delay_pbar_units": 0.1,
+    "primary_methods_only": true
+  },
+  "nominal_run_budget": {
+    "30_seeds_core": 6120,
+    "10_seeds_core": 2040,
+    "required_robustness": 840,
+    "30_seeds_total": 6960,
+    "10_seeds_total": 2880,
+    "excluded": [
+      "development",
+      "validation",
+      "tests",
+      "timing repetitions",
+      "scale holdout"
+    ]
+  },
+  "profiling_budget_hours": 12,
+  "code_revision": null,
+  "scenario_manifest": null,
+  "literature_access_limits": [
+    "DaTR fulltext not obtained",
+    "ReadyFS manuscript access failed",
+    "FSCD direct fulltext 403"
+  ],
+  "gates_remaining": [
+    "P1 simulator correctness",
+    "P2 baseline specification",
+    "P3 development/validation and profiling",
+    "G2 full freeze"
+  ]
+}
